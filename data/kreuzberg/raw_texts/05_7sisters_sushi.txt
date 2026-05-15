@@ -1,0 +1,423 @@
+Scan for english menu
+Bergmannstr. 93
+10961 Berlin
+030 61671888
+
+vorspeisen
+Suppen
+300. Miso Shiruf 3,50€
+Sojabohnenpaste, Algen und Lauch
+Dashi-Brühe, Tofu
+302. Miso Spezialf,d,n 6,50€
+Sojabohnenpaste, Dashi-Brühe, Algen, versch.
+Fischsorten, Lauch und Shiitakepilzen
+303. Miso Spicy Ebif,b 5,50€ 301. Miso Sakef,d 4,50€
+Sojabohnenpaste, Dashi-Brühe, Garnelen, Sojabohnenpaste, Dashi-Brühe,
+Algen, Lauch, Shiitakepilze und Togarashi Lachs, Algen und Lauch
+Sticks
+290.Sake Samuraif,d,k 7,90€
+2 Stk Lachs- und Butter�schspieße mit Kimchi-Sesam,
+Teriyaki-Miso-Wasabi-Soße
+292.Tori no Taref,k 7,90€
+2 Stk Maishähnchenspieße mit Miso-Teriyaki-Soße
+& Kimchi-Sesam
+381.Ebi Samuraik,b,n,f 8,50€
+2 Stk gebratene Großgarnelen-Jakobsmuscheln
+-Spieße mit Saucen-Mix und Sesam
+Gyoza
+363.Gyoza Chickenk 6,50€
+5 Stk frittierte Gyoza-Teigtaschen mit
+Hähnchen�eisch und Kimchi-Mayo
+366.Gyoza Veggiek 5,50€ 368.Gyoza Garnelenk,b 7,50€
+5 Stk frittierte Gyoza-Teigtaschen 5 Stk gebratene Gyoza-Teigtaschen mit
+mit Gemüsefüllung und MisoSoße Garnelenfüllung und Ponzu-Soße
+Kindermenü
+Chicken Schnitzela,g,k,f 9,90€
+Reis mit knusprigem Hühnerbrust�let & Salat
+Kids Sushia,g,k 9,90€
+6 Stk Kappa Maki, 5 Stk Tori Futo Maki
+2
+
+vorspeisen
+Otsumami
+309.Spicy Edamamef,k 6,00€
+gegarte Sojabohnen mit Kimchi-Sesam, Ingwer
+und Spicy-Vegan-Mayo verfeinert
+311.Edamamef 5,00€
+gegarte und gesalzene Sojabohnen
+360.Yakitorik,f 6,50€ 1220.Karaagek,f 6,90€
+3 Stk japanische Hähnchenspieße ummantelt Hausgemachtes, frittiertes Hähnchen�eisch
+von würziger Sauce mit Miso Aioli japanischer Art mit Miso Aioli
+364.Frühlingsrollenk 5,50€ 380.Ebi Greenf,b,k 7,50€
+3 Stk knusprige Teigblätterrollen mit 2 Stk Tempura-Großgarnelen mit
+Hähnchen�eisch und Miso-Teriyaki-Soße Junger Reispanade und Miso-Teriyaki-Soße
+Salate
+315.Yuzu Gyu Salat f,k,b 14,50€
+Rind�eisch, Garnelen, Edamame, Avocado, Rucola,
+Salat, Rettich, Pilze, Tomaten, Brokkoli, Kimchi-Sesam,
+Ponzu-Dressing
+316.Citrine Chicken Salatf,k,c 13,50€
+Maishähnchen, Ei, Edamame, Avocado, Salat, Rettich,
+Pilze, Tomaten, Brokkoli, Kimchi-Sesam, Miso-Aioli
+318.Leaves and Beans Salatf,k 12,50€
+Tofu, Edamame, Avocado, Salat, Rettich, Pilze,
+Tomaten, Karotten, Zwiebeln, Gurke, Brokkoli, Rucola,
+Kimchi-Sesam, Miso-Kimchi-Soße
+310.Kimchi k 5,00€
+Scharfes, eingelegtes Chinakohl
+312.Seetang Salat k 5,00€
+Wakame-Salat mit Sesam
+313.Wakame-Gurkensalat k 6,50€ 314.Kimchi Kyuri Salat k 6,50€
+Yuzu-Soße, Togarashi, Kimchi-Sesam, gewürzte Gurken mit Kimchipaste, scharfer Sesam,
+marinierte Gurken, Ingwer ingwer
+3
+
+Miso ramen
+Ramen-Nudelsuppe mit Gemüse, Naruto, Seetang
+Ramen Aki Ryuf,22,k,c 17,50 €
+Mit Maishähnchen
+Ramen Beef k,f,c,22 16,00 €
+Mit gebratenem Rind�eisch
+Ramen Ebi Tempura b,k,22,c,a,f 16,00 €
+Mit Tempura-Garnelen
+Ramen Spezial f,22,k,d,n,c 19,50 €
+Mit verschiedenen Fischsorten,
+Jakobsmuscheln, Garnelen
+Ramen Karaage f,22,c,a,k 15,50 €
+Mit hausgemachtem Karaage
+Ramen Sake d,k,22,f,c 16,00 €
+Mit frischem Lachs
+Ramen Gyoza Tori Katsu f,22,c,a,k 13,50 €
+Mit Hähnchen-Teigtaschen und
+Hähnchenschnitzel Ramen Veggie f,k,a 12,50 €
+Mit Tofu und Gemüse-Teigtaschen
+Japanisches Curry
+Cremiges japanisches Curry mit Jasmin-Reis, Kartoffeln,
+Karotten, aromatischen Seidlingen, Brokkoli und Zwiebeln
+Kare Classic f,k,a 13,50 €
+mit frittiertem Hühnchenbrust�let
+Kare Karaage f,k,a 14,50 €
+mit hausgemachten japanischen
+Hähnchenbites
+Kare Umi f,k,a,b 18,50 € Kare Tofu f,k,a 12,50 €
+mit Ebi Tempura mit hausgemachtem, frittiertem
+Sesam-Tofu
+4
+
+udon
+Maishähnchen Curry Udon a,k 16,50 € Tofu Miso Kimchi Udon k,f,a 14,50 €
+Udon-Nudeln in Curry-Soße Udon-Nudeln, Tofu, Edamame,
+mit verschiedenem Gemüse, Avocado, Pak Choi, Salat, Pilze,
+Maishähnchen Tomaten, Karotten,Brokkoli,
+Kimchi-Sesam, Miso-Kimchi-Soße
+Karaage Curry Udon a,k,f 14,50 €
+Udon-Nudeln in Curry-Soße
+mit verschiedenem Gemüse,
+Hausgemachtem Karaage
+Beef Miso Teriyaki Udon k,f 16,50 €
+Udon-Nudeln, Rind�eisch,
+Edamame, Pak Choi, Salat,
+Pilze, Tomaten, Karotten,Brokkoli,
+Kimchi-Sesam, Miso-Teriyaki-Soße
+Ebi Kimchi Udon b,k,c,a,f 18,50 €
+Udon-Nudeln mit Pilzen, Karotten,
+Pak Choi, Edamame, Salat, Brokkoli,
+Kimchi-Sesam, Black Tiger Garnelen,
+Ei und Miso-Kimchi-Soße
+reisgerichte
+Würziger Reis mit Pak Choi, Pilze, Salat, Tomaten,
+Karotten, Edamame, Brokkoli, Kimchi-Sesam, Nori
+Torikara a,g,f,k 17,50 €
+Mit gebratenem Maishähnchen,
+Ei & Spicy-Miso-Soße
+Salmon Miso Shoyu g,f,k,d 19,50 €
+Mit gebratenem Lachs
+& Miso-Shoyu-Soße
+5
+
+Sushi menüs
+Set B a,d,k,22,1,g,f 16,00 €
+6 Sake Maki
+5 Toronto Roll
+4 California I-O
+2 Nigiri (Sake/Maguro)
+Menu for 2 Deluxe a,d,k,1,g,f 46,50 €
+10 Toronto Rolls
+2 �ambierte Sake Nigiri
+4 Nigiri (Sake, Maguro)
+18 Maki (Avocado, Sake, Tekka)
+4 Aki Hot Rolls, 4 Rainbow Rolls
+Set C a,d,k,22,1,g,f 15,00 € Menü for 2 Superior a,d,f,g,k 40.50 €
+6 Sake Maki 10 Toronto Rolls
+4 California I-O 8 Sake Avocado I-O
+4 Sake Tempura I-O 6 Nigiri (Maguro, Sake)
+2 Nigiri (Sake/Maguro) 18 Maki (Avo, Sake, Tekka)
+Midori d,k,g,b 35,50 €
+Hikari d,1,22,k,a, 18,50 €
+6 Nigiri (Ebi, Sake, Maguro)
+8 California Rolls
+8 Sake I-O, 8 Philadelphia I-O
+10 Toronto Rolls
+18 Maki (Avocado, Sake, Tekka)
+Set D a,k,2,f,g 15,00 € Menu for 2 a,d,k,22,f,g 33,00 €
+6 Shiitake Maki 10 Toronto Roll,
+6 Avocado Maki 8 Lachs Tempura I-O
+5 Buddha Rolls 4 verschiedene Nigiri
+2 Nigiri (Inari, Avocado) 18 Maki (Kappa, California, Sake)
+Yoikoto d,1,22 18,00 € Azura d 18,00 €
+4 Nigiri Sake 6 Tekka Maki
+6 Sake Maki 6 Sake Avo Maki
+8 Sake Avocado I-O 6 Nigiri (Tai, Sake, Maguro)
+Zen a,k,2,f,g 14,50 €
+10 Mini Avo Roll
+12 Maki (Kappa, Kampyo)
+2 Nigiri (veganer Lachs, veganer Thun�sch)
+Yamatod 14,50 €
+6 Sake Maki
+6
+6 verschiedene Nigiri
+
+Sushi menüs
+Menu for 2 Veggie a,k,2,f,g 30,50 €
+4 Nigiri (Inari, Tamago)
+8 Avocado I-O, 10 Buddha Rolls
+18 Maki (Kappa, Oshinko, Shiitake)
+Menu for 2 Veggie Supreme a,d,k,f,g 37,00 €
+8 Veggie Sake I-O
+10 Ginkgo Rolls
+18 Maki (Kappa,Avocado,Shiitake)
+6 Nigiri (Vegan Sake, vegan Maguro, Inari)
+sashimi
+Sashimi Zen d,n 38,50 €
+3 Lachs, 3 Tai, 3 Mutzu,
+3 Hamachi, 3 Thun�sch
+2 Tako, 2 Hokkigai
+Lachs Sashimi d 13,50 €
+6 Stk frische Lachs-Scheiben
+Thun�sch Sashimi d 16,50 €
+6 Stk frische Thun�sch-Scheiben
+Gemischtes Sashimi d 19,50 €
+4 Stk Lachs�let-Scheiben
+4 Stk Thun�sch-Scheiben
+donburi
+204.Grilled Salmon DON g,k,d,f 17,50 € 201.Sake DON d,1,k,g,f,g 16,00 €
+Jasmin-Reis mit gebratenem Lachs, Spargel Jasmin-Reis mit frischem Lachs, Tobiko
+Gurke, Avocado, Edamame, Daikon-Kresse, Gurke, Avocado, Edamame, Daikon-Kresse
+Kimchi-Sesam & Cocktail-Teriyaki-Soße Kimchi-Sesam & Cocktail-Mix-Soße
+202.Ebi Tempura DON a,g,k,b,f 16,00 €
+Jasmin-Reis mit 3 Stk Tempura-Garnelen
+Gurke, Avocado, Edamame, Daikon-Kresse,
+Kimchi-Sesam & Cocktail-Mix-Soße
+203.Tori DON g,a,k,f 15,50 €
+Jasmin-Reis mit 3 Stk. Yakitori, 2 Stk. Karaage,
+Gurke, Avocado, Edamame, Daikon-Kresse,
+Kimchi-Sesam, Miso-Teriyaki-Soße
+7
+
+Maki
+8 Stk
+40.Saked 4,10 € 41.Sake Avocadod 4,30 € 56.Tuna gek.d,a1,g 4,30 € 51.Salmonskind,k 4,30 €
+Lachs Lachs, Avocado Gekochter Thun�sch Sesam, Lachshaut,
+Mayo, Chili Lauch Gurke
+43.Tekkad 4,50 € 49.California22,1 3,90 € 66.Mutzu Negid 4,30 € 73.Spicy Ebib,1,g 4,60 €
+Thun�sch Surimi, Avocado Butter�sch, Lauch spicy Mayo, tobiko
+Garnele, Avocado
+64.Rucolag,k 3,80 € 45.Tekka Avocadod4,60 € 50.Cali Spezial1,g,b4,50 € 47.Ebi Avocadob 4,30 €
+Rucola, Sesam Thun�sch. Avocado Flusskrebs, Lauch Avocado
+Frischkäse Mayo, Avocado Garnele
+63.Spargelg,k 4,00 € 53.Unagid,2,k 4,60 € 55.Spicy Tuna d 4,40 € 60.Shiitakek 3,90 €
+Spargel, Sesam Aal, Gurke, Sesam Lauch,Chili, Thun�sch Pilze, Sesam
+Frischkäse
+57.Avocadok 3,80 € 58.Kappak 3,80 € 59.Oshinkok,2 3,80 € 67.Mutzu Avocadod 4,30 €
+Avocado, Sesam Gurke, Sesam Eingelegter Rettich, Butter�sch
+Sesam Avocado
+61.Kampyo2,k 3,90 € 62.Tamagoc,k 3,90 €
+Kürbis, Sesam Sesam, Japanisches
+Omelett
+nigiri
+2 Stk
+1.Saked 4,00 € 2.Magurod 4,20 € 23.Sake Ikurad,f 6,00 € 9.Taid 4,00 €
+Lachs Thun�sch Lachsstückchen Tapilla
+Lachskaviar
+6.Mutzud 4,00 € 17.Shiitake 3,80 € 8.Ebib 4,20 € 5.Unagid 4,60 €
+Butter�sch Japanischer Pilz Garnele Aal
+10.Hokkigain 4,40 € 11.Hotategain 4,60 € 12.Hamachid 4,60 € 30.Lachs Fl.D,g,1 5,00 €
+Hornmuschel Jakobmuschel Yellowtail Flambierter Lachs
+Mayo, Tobiko
+14.Ikan 4,00 € 13.Takon 4,00 € 16.Avocado 3,80 € 31.Lachs Rucola Fl. 5,50 €
+Sepia Oktopus Avocado Mayo, Tobiko, Rucola
+Flambierter Lachs
+D,g,1
+18.Inarif,2 3,80 € 19.Tamagoc,g 3,80 € 20.Ikurad 6,00 € 32. Jakobsmuschel Fl. 6,00 €
+Tofutasche Japan Omelett Lachskaviar Mayo, Tobiko,Flambierte
+Jakobsmuscheln
+n,g,1
+24.Tuna Negid 5,00 € 25.Green Eyes 6,50 € 26.Salmon Rosed 6,50 € 33.Butter�sch Fl. 5,50 €
+Thun�sch, Lauch Tobiko, Mayo, Lauch Lachs, Avocado Flambierter Butter�sch
+Garnelen, Gurke Lachskaviar spicy Mayo, Tobiko
+g,b,1 D,g,1
+8
+
+Inside out
+8 Stk
+80.Sake IO 7,50 € 81.Maguro IO 8,00 € 82.Spicy Tuna IO 8,00 € 87.Spicy Salmon IO7,50 €
+Lachs, Avocado, Thun�sch, Avocado, Chili, Lauch, Tobiko, gurke Avocado, Sesam, lauch
+Tobiko Tobiko Gehackter Thun�sch Lachs, scharfe Soße
+1,d d,1 d,1 d,k,g
+84.Ebi Negi IO 8,00 € 85.Cali Special IO 8,00 € 86.Unagi IO 8,50 € 95.Philadelphia IO 7,50 €
+MisoSoße, Lauch, Tobiko Krebs�eisch, Avocado, Gurke, Sesam, Aal Lachs, Frischkäse,
+Garnelen, Avocado, Tobiko, Lauch, MisoSoße d,k Avocado, Sesam
+b,g,1 b,1,g d,k,g
+88.Veggie Sake IO 7,50 € 89.Veggie Tuna IO 7,50 € 90.Avocado IO 7,00 € 99.Spicy Ebi IO 8,00 €
+Avocado, veganer lachs. Veganer Thun�sch Avocado, Frischkäse, spicy MisoSoße, Garnelen
+Sesam, MisoSoße Avocado, Sesam, Sesam Tobiko, Avocado
+k,2,f scharfe MisoSoße k,g g,b,1
+k,2,f,k
+92.California IO 7,00 € 97.Tuna Gek. IO 7,50 € 98.Rucola Lachs IO 7,50 € 91.Tori IO 7,50 €
+Surimi, Avocado, Gekochter Thun�sch, Frischkäse, Sesam MisoSoße, avocado, Sesam
+Tobiko Gurke, MisoSoße, chili Lachs, Rucola Frittierte Hähnchenbrust
+22,1 d,g,k,2 d,k,g g,k,a
+96.Salmonskin IO 7,50 €
+Lachshaut gegrillt,
+Gurke, Sesam
+d,k
+Crunchy rolls
+6 Stk
+120.Toronto Roll 6,50 € 122.Fuji Roll 6,50 € 124.Orchidee Roll 7,00 € 134.Tori Roll 6,50 €
+Gurke,Frischkäse Avocado,MisoSoße, Krebs�eisch,Avocado Hähnchen,Avocado
+Lachs,Avocado Gurke,Garnelen,Lauch Lauch,Gurke,MisoSoße MisoSoße,Gurke
+d,g,k,a,f b,g,k,a,f b,g,k,a,f g,k,a,f
+156.Spicy Roll 6,50 € 130.Nina Roll 7,00 € 174.Spicy Ebi Roll 7,00 € 132.Mini Sake Roll7,50 €
+Lauch,Gurke,MisoSoße Gehackter Thun�sch, Garnelen,Lauch,Gurke Lachs,Frischkäse
+Butter�sch,Chili Chili,Lauch,Gurke, Avo,Chili,MisoSoße, 10 stk
+d,g,k,a,f MisoSoßed,g,k,a,f Tobikob,g,k,a,1,f d,g,k,a,f
+176.Spicy Lachs Roll 6,50 € 160.Atlantic Roll 6,50 € 166.Tokio Roll 7,50 € 133.Mini Avo Roll 7,50 €
+Lauch,Avocado,Gurke Gurke,Chili,MisoSoße Avo,Gurke,Aal,Lauch Avocado,Frischkäse
+Lachs,Chili,MisoSoße Thun�sch,Lauch Frischkäse,Lachs 10 stk
+d,g,k,a,f d,g,k,a,f,2 d,g,k,a g,k,a,f
+136.Buddha Roll 6,50 € 138.Veggie Rolls 6,50 € 140.Hokkaido Roll 6,00 € 135.Mini Ebi Roll 7,50 €
+Kürbis,Sesam,MisoSoße Gurke,MisoSoße,Sesam Rucola,Kürbis,Sesam Garnele,Frischkäse
+Gurke,Avocado Avocado,Spargel Avocado,Frischkäse 10 stk
+g,k,a,f g,k,a,f g,k,a,f g,b,k,a,f
+128.Ginkgo Roll 7,00 € 142.Ryu Roll 7,00 € 126.Chicago Roll 6,50 €
+Seitlinge,veganer lachs, Seitlinge,avocado Spicy MisoSoße,Gurke,
+avo,miso-teriyaki-Soße veganer Tuna, Tobiko,Surimi,Avocado
+k,a,f,g miso-kimchi-Soße,Sesam 1,g,k,a,22
+9
+g,k,a,f
+
+Special rolls
+4 Stk
+144.Caterpillar 7,00 € 150.Aki Hot 7,50 € 148.Rainbow Roll 8,00 € 146.Dragon Roll 8,00 €
+Avocado-Mantel Avocado, Lachs, Lauch Krebs�eisch, Avocado, Tempura Ebi, Aalmantel
+Aal, Gurke Lachsmantel, spicy Mayo Mayo, Lauch,Tobiko, bedeckt Gurke,Tobiko, Mayo
+d,g,k,f Mit versch. Fischsorten
+d,g,k,f d,g,k,1,f d,g,k,a,f,1
+152.Ebi Tempura Roll 6,50 € 182.Hawaii Roll 8,00 € 184.Aki Ryu Roll 8,50 € 178.Sake Unagi Roll 8,00 €
+panierte Garnele Frischkäse Mayo, Ebi-Tempura, Lachs, Avocado
+Gurke, Mayo, Tobiko Avocado, Lachs, Spargel, Avo, Tobiko, Mayo, Aalmantel,Frischkäse
+Garnelenmantel �ambierter Lachsmantel d,g,k,f
+b,1,g,k,a,f d,g,k,b,f d,1,b,g,k,a,f
+168.Tiger Roll 7,50 € 154.Volcano 8,00 € 172.Osaka Roll 7,00 € 188.Alaska Roll 8,00 €
+Garnelen, Lachsmantel Thun�schmantel Lauch, Chili, Mayo, UnagiSoße, Tobiko
+Gurke, Chili,Lauch, Mayo Lauch, Gurke,Spicy tuna, gekochter Thun�sch, lachsmantel, Avocado
+d,g,k.b,f d,g,k,f Gurkenmantel Panierte Garnele, Mayo
+d,g,k,f g,b,k,a,1,f
+170.Chikara Roll 7,00 € 162.Kombu Leaf 7,50 € 164.Spicy Vegan Roll 7,50 € 180.Hotategai Roll 8,50 €
+Mayo TeriyakiSoße Veganer lachs Gurkenmantel Jakobsmuschel-Mantel
+Avo-Tempura, Pilze Avocadomantel veganer Thun�sch Krebs�eisch, Mayo, Avo,Tobiko
+Gebackene Karotte Rucola, Avo, Miso Teriyaki MisoSoße, Kimchi-Sesam b,g,k,n,1,f
+g,k,a,f k,f,g g,k,f
+Temaki / Futo Maki
+110.Sake Temaki 1 Stk 4,50 € 112.Maguro Temaki 1 Stk 5,00 € 78.Sakana Futo 5 Stk 8,00 €
+Lachs, Avo, Tobiko Thun�sch, Gurke, Versch. Fishsorten
+d,k,1 Tobiko Mayo, Gurke, Avo
+d,k,1 d,g,k,f
+Nachspeisen
+Mochi k,2 5,50 €
+2 Stk japanische Reiskuchen mit rote Bohnenfüllung
+Mochi Eis k,2,1 6,00 €
+2 Stk japanische Reiskuchen mit Eiscremefüllung
+(Mango, Schokolade, Matcha)
+10
+
+getränke
+AfG. Getränke 0,2l 0,4l Flasche Wein 0,2l Flasche
+Still/Mineral 2,20 € 3,90 € 7,00 € Sake Ozeki 7,00 € 25,00 €
+P�aumenwein 5,90 €
+Cola/Zero 1,22,12 2,60 € 3,90 €
+Fanta/Sprite 1,22 2,60 € 3,90 € Bordeaux 6,50 € 24,00 €
+Ginger ale 1,13 2,60 € 3,90 € Chardonnay 5,90 € 28,00 €
+Riesling 5,90 € 28,00 €
+Prosecco 5,90 €
+Säfte (Nektar) 0,2l 0,4l
+Weinschorle 5,00 €
+Apfelsaft trüb 2,60 € 4,00 €
+Mangonektar 2,60 € 4,00 €
+Tee Tasse Kännchen
+Saftschorle 2,60 € 4,00 €
+Lycheesaft 3,90 € Sencha / Jasmin 3,00 € 3,90 €
+Genmaicha & Sencha 3,90 € 5,50 €
+Ingwer & Zitronengras 3,90 € 5,50 €
+Aperitif Glas Pfefferminz & Ingwer 3,90 € 5,50 €
+Aperol Spritz 6,90 €
+Hono 6,00 €
+Ingwer, Roter Apfel, Gojibeeren
+Sake Yuzu Spritz 6,90 €
+Sake, Yuzupüree, Prosecco, Limette
+Raku 6,00 €
+Zimt, Orange, Lychee
+Ume Spritz 6.90 €
+Sweet-Sour-Sirup, Prosecco,
+P�aumenwein
+Cocktails Glas
+alkoholisch
+Sake Punch 7,90 €
+Hausgemachtes Glas
+Jap. Reiswein, Lycheesaft
+Mango Lassi 1,13,g 5,00 € Erbeersirup, Aperol
+Joghurt, Milch
+Mangopulp Mojito 7,90 €
+Brauner Rum, Limetten,
+Limetten Limonade 6,00 € Minze, Rohrzucker
+Frischer Limettensaft
+Eis, Rohrzucker Kyoto Night 7,90 €
+P�rsichsirup, Cranberrysaft
+P�aumenwein, jap. Reiswein
+Ananas Minze 6,00 €
+Frische Minze, Ananassaft
+alkoholfrei
+Eis, Rohrzucker
+Red Breeze 1,13 6,90 €
+Erdbeersirup, Soda,
+Bier 0,3l 0,5l
+Sweet & Sour-Sirup
+Warsteiner Pilsa 3,90 € 5,00 €
+Spicy Ginger Maracuja 1,13 7,50 €
+König Ludwig Hella 4,50 €
+Maracujasaft, Ginger Ale, Minze,
+König Ludwig Kristalla 4,50 €
+Limetten, Ingwer
+König Ludwig alk-freia 4,50 €
+Warsteiner alk-freia 3,50 € Minze Johannisbeere 1,13 7,50 €
+Cranberrysaft, Johannisbeerensirup
+Asahi a 4,00 € Ginger Ale, Minze, Limetten
+Kirin a 4,00 €
+Strawberry Mojito1,13 7,90 €
+Limettensaft, Erdbeerpüree,
+Kaffee Tasse Sirup, Ginger Ale
+Ca Phe Vietnam g,13 5,00 €
+Sweet Passion 1,13 7,50 €
+Vietnamesischer Kaffee mit
+Ginger Ale, Minze, Limette
+Kondensmilch 11
+Maracuja- & Mangosaft
+
+Zusätzliche leistungen
+Leitungswasser 1 € halbes ei 1 €
+Verpackung 0,5 € miso aioli 1 €
+Ingwer 1 € miso wasabi 1 €
+Wasabi 1 € miso kimchi 1 €
+unagisauce 1 € teriyaki 1 €
+re
+...[gekürzt]

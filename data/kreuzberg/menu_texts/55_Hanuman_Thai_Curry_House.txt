@@ -1,0 +1,35 @@
+# Hanuman Thai Curry House
+
+### SMALL BITES
+Yam Hua Pli | 7,50 EUR | a, f, i
+Yam Kai Dao | 5,00 EUR | a, c, d, f, i
+Miang Kam | 6,00 EUR | a, f, b, d, n
+Nam Tok Muh | 7,00 EUR | a, d, f, n
+Muh Grob | 6,50 EUR | a, d, f, g, l
+
+### CURRY
+Gaeng Daeng Galam | 13,50 EUR | a, f
+Kiew Wan Jeh | 14,00 EUR | a, f
+Kiew Wan Hoi | 15,00 EUR | a, d
+Panaeng Muh | 13,50 EUR | d
+Massaman Gai | 15,00 EUR | d
+Kiew Wan Gai | 15,00 EUR | d
+
+### SIDES
+Ajad | 4,00 EUR | -
+Yam Taeng Kwa | 4,00 EUR | a, f, l
+Som Tam | 7,00 EUR | a, d
+Kai Luk Kaeui | 5,00 EUR | a, c, d, f
+Reis | 2,00 EUR | -
+Seafood Sauce | 2,00 EUR | a, d
+Spiegelei | 3,00 EUR | -
+
+### DRINKS
+Cha Manao | 4,00 EUR | 2, 8
+Cha Nom Yen | 4,00 EUR | 2, 8, g
+Pepsi | 3,00 EUR | 2, 3, 4, 5, 8
+Spritzer | 3,50 EUR | -
+Gerolsteiner | 3,00 EUR | -
+Reistee | 4,00 EUR | -
+Benediktiner Hell | 4,00 EUR | a
+Bitburger | 4,00 EUR | a

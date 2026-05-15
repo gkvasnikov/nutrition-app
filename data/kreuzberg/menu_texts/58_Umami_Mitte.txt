@@ -1,0 +1,18 @@
+# Umami Mitte
+
+### GETRÄNKE
+Cucumber Cooler | 5,90 EUR | -
+Limoncello Spritz | 7,50 EUR | -
+
+### VORSPEISEN
+C'est la vie | 6,20 EUR | B, D, F
+
+### HAUPTSPEISEN
+Rising Phoenix mit Hähnchen | 8,90 EUR | A, E, F, G
+Rising Phoenix mit Tofu | 8,90 EUR | A, E, F, G
+Mom's Stew | 13,90 EUR | A, C, F
+Vitamin Sea | 18,90 EUR | A, D, R
+
+### DESSERTS
+Blueberry Bliss | 5,90 EUR | A, C, G
+Pistachio Dream | 5,90 EUR | A, C, G, H

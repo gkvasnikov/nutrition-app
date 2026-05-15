@@ -1,0 +1,214 @@
+# Mokja Restaurant
+
+### MITTAGSMENÜ (12:00-15:00)
+Fried Chicken Bento Box | 12,90 EUR | O, G
+Bibimbap Classic | 10,00 EUR | S, O, G, E
+Pho mit Rind | 9,00 EUR | F
+Pho mit Huhn | 9,00 EUR | F
+Tofu Teriyaki | 7,90 EUR | O, G, F
+
+### VORSPEISEN
+Mandu mit Glasnudeln (6 Stk) | 6,50 EUR | S, O, G
+Mandu mit Huhn (6 Stk) | 6,50 EUR | S, O, G
+Mandu mit Garnelen (6 Stk) | 6,50 EUR | S, O, G, F, A
+Mandu mit Rind (6 Stk) | 6,50 EUR | S, O, G
+Mandu mit Kimchi (6 Stk) | 6,50 EUR | O, G, F, C, U
+Fried Chicken (4 Stk) | 5,90 EUR | S, O, G, U
+Fried Chicken (6 Stk) | 7,90 EUR | S, O, G, U
+Fried Chicken (9 Stk) | 9,90 EUR | S, O, G, U
+Süßkartoffel Pommes | 4,50 EUR | -
+Tteokbokki | 7,90 EUR | S, F, G
+Tteokbokki mit Käse | 8,90 EUR | S, F, G
+Kleine Miso Suppe | 4,50 EUR | S, A, O
+Kleine Kimchi Suppe | 4,50 EUR | O, C, G, U
+Kleine Wan Tan Suppe | 4,50 EUR | G, S
+Ebi Katsu | 6,50 EUR | G, A
+Nasu Dengaku | 4,50 EUR | O
+Goma-ae | 4,00 EUR | O, G, S
+Onigiri | 4,00 EUR | O, G
+Baozi mit Taro (2 Stk) | 5,50 EUR | -
+Baozi mit Huhn (2 Stk) | 5,50 EUR | -
+Baozi mit Char Siu (2 Stk) | 5,50 EUR | -
+Gua Bao mit Bulgogi (2 Stk) | 5,50 EUR | O, G
+Gua Bao mit Fried Chicken (2 Stk) | 5,50 EUR | O, G
+Gua Bao mit Tofu & Pilzen (2 Stk) | 5,50 EUR | O, G
+Edamame | 5,00 EUR | -
+Goi Ngo Sen mit Garnelen (3 Stk) | 6,00 EUR | F, A, N
+Goi Ngo Sen mit Garnelen (6 Stk) | 9,50 EUR | F, A, N
+Nem Chua Ran | 10,00 EUR | E, G
+Doi Sun | 10,00 EUR | N
+Dau Ran | 10,00 EUR | O
+
+### EXTRAS
+Reis | 2,00 EUR | -
+Kimchi | 4,50 EUR | -
+
+### HAUPTGERICHTE
+Dobbab Vegan | 9,90 EUR | S, O, G
+Dobbab Bulgogi | 11,90 EUR | S, O, G
+Dobbab Jeyuk | 11,90 EUR | S, O, G
+Bibimbap Classic | 9,90 EUR | S, O, G, E
+Bibimbap Tofu | 9,90 EUR | S, O, G
+Bibimbap mit Rind | 10,90 EUR | S, O, G, E
+Bibimbap mit Thunfisch | 10,90 EUR | S, O, G, E
+Bibimbap mit Fried Chicken | 10,90 EUR | S, O, G, E
+Jjajangmyeon Vegan | 10,90 EUR | C, E, G, S
+Jjajangmyeon mit Schwein | 11,90 EUR | C, E, G, S
+Japchae Vegan | 10,90 EUR | S, O, G
+Japchae mit Rind | 12,90 EUR | S, O, G
+Miso Suppe Vegan | 9,90 EUR | S, A, O
+Miso Suppe mit Rind | 10,90 EUR | S, A, O
+Teriyaki Tofu | 10,90 EUR | O, G, F
+Teriyaki Huhn | 12,90 EUR | O, G, F
+Teriyaki Lachs | 14,90 EUR | O, G, F
+Kimchi Jjigae Vegan | 10,90 EUR | O, G, C, U
+Kimchi Jjigae mit Rind | 11,90 EUR | O, G, C, U
+Kimchi Jjigae mit Schwein | 11,90 EUR | O, G, C, U
+Kare Raisu Tofu | 10,90 EUR | G, A
+Kare Raisu mit Rind | 12,90 EUR | G, A
+Kare Raisu mit Huhn | 12,90 EUR | G, A
+Kare Raisu mit Garnelen-Tempura | 12,90 EUR | G, A
+
+### BENTO BOX
+Fried Chicken Bento Box | 16,00 EUR | O, G
+Unagi Bento Box | 18,00 EUR | E, O, G, F
+Vegan Bento Box | 15,00 EUR | O, G
+Kare Raisu Rind Bento Box | 16,00 EUR | G, A
+Lachs Bento Box | 17,00 EUR | O, G, F
+
+### VIETNAM SPECIALS
+Pho mit Rind | 12,90 EUR | F
+Pho mit Huhn | 12,90 EUR | F
+Pho mit Rind & Huhn | 13,90 EUR | F
+Bun Ga Mang Moc | 12,90 EUR | F
+Bun Bo Nam Bo | 12,90 EUR | F, N, O, G
+Pho Tron | 12,90 EUR | G, F
+Bun Dau Mam Tom (2 Personen) | 25,00 EUR | E, G, N, F
+Lau Ech Mang Cay (2 Personen) | 50,00 EUR | F
+Lau Bo Nhung Dam (2 Personen) | 50,00 EUR | F
+Doi Sun Extra | 5,00 EUR | -
+Cha Com Extra | 5,00 EUR | -
+Thit Chan Gio Extra | 3,00 EUR | -
+Dau Extra | 3,00 EUR | -
+Bun Extra | 3,00 EUR | -
+
+### SCHNECKEN
+Oc Nhoi mit Hap Sa | 15,00 EUR | A
+Oc Nhoi mit Bo Cay | 15,00 EUR | A, M
+Oc Nhoi mit Om Me | 15,00 EUR | A
+Oc Bong mit Hap Sa | 15,00 EUR | A
+Oc Bong mit Xao Me | 15,00 EUR | -
+Oc Bong mit Om Me | 15,00 EUR | A
+Oc Bong mit Trung Muoi | 15,00 EUR | A, E, M
+Oc Bong mit Sua Dua | 15,00 EUR | A, M
+Oc Mo mit Xao Me | 15,00 EUR | -
+Oc Mo mit Bo Cay | 15,00 EUR | A, M
+Oc Mo mit Trung Muoi | 15,00 EUR | A, E, M
+Oc Mo mit Sua Dua | 15,00 EUR | A, M
+Oc Mo mit Om Me | 15,00 EUR | A
+Oc Ca Na mit Xao Me | 15,00 EUR | -
+Oc Ca Na mit Bo Cay | 15,00 EUR | A, M
+Oc Ca Na mit Trung Muoi | 15,00 EUR | A, E, M
+Oc Ca Na mit Sua Dua | 15,00 EUR | A, M
+
+### MUSCHELN
+Ngao mit Hap Thai | 10,00 EUR | -
+Ngao mit Bo Toi | 10,00 EUR | G, O
+Vem mit Hap Thai | 10,00 EUR | -
+Vem mit Bo Toi | 10,00 EUR | G, O
+
+### DESSERT
+Mochi Ice Cream Matcha | 6,50 EUR | N
+Mochi Ice Cream Tropical | 6,50 EUR | N
+Mochi Ice Cream Lychee & Raspberry | 6,50 EUR | N
+Mochi Ice Cream Yuzu & Lemon | 6,50 EUR | N
+Yuzu Panna Cotta | 4,50 EUR | M
+Croffle Zimt & Zucker | 4,50 EUR | G, E, M
+Croffle Lotus Biscoff | 4,50 EUR | G, E, M
+Croffle Schokolade | 4,50 EUR | G, E, M
+Croffle Honig & Obst | 4,50 EUR | G, E, M
+
+### KAFFEE
+Espresso | 2,50 EUR | -
+Doppio | 3,30 EUR | -
+Espresso Macchiato | 3,00 EUR | -
+Americano | 3,20 EUR | -
+Cappuccino | 3,80 EUR | -
+Kaffee Latte | 3,80 EUR | -
+Milch Kaffee | 3,80 EUR | -
+Flat White | 4,20 EUR | -
+Vietnamesischer Kaffee | 4,50 EUR | -
+
+### WARMER TEE
+Frische Ingwer-Orange-Minze-Gojibeere | 3,90 EUR | -
+Zitronengras-Limette-Minze-Gojibeere | 3,90 EUR | -
+Grüntee-Jasminblüten-Gojibeere | 3,90 EUR | -
+Earl Grey | 3,90 EUR | -
+Genmaicha | 3,90 EUR | -
+Hojicha | 3,90 EUR | -
+
+### HAUSGEMACHTE GETRÄNKE
+Yuzu Limonade | 4,50 EUR | -
+Black Lychee Lemonade | 4,50 EUR | -
+Drachenfrucht-Limette | 4,50 EUR | -
+Drachenfrucht-Maracuja | 4,50 EUR | -
+Maracuja Saft | 4,50 EUR | -
+Mango Lassi | 4,50 EUR | -
+Matcha Latte | 4,50 EUR | -
+Earl Grey Latte | 4,50 EUR | -
+
+### SOFTDRINKS
+Wasser Still (0,4L) | 2,00 EUR | -
+Wasser Sprudel (0,4L) | 2,00 EUR | -
+Wasser Still (0,75L) | 3,50 EUR | -
+Wasser Sprudel (0,75L) | 3,50 EUR | -
+Asiatischer Red Bull | 3,90 EUR | -
+Kokoswasser (0,5L) | 5,50 EUR | -
+Birnensaft (0,24L) | 3,50 EUR | -
+Weintraubensaft (0,24L) | 3,50 EUR | -
+Sprite | 3,00 EUR | -
+Fanta | 3,00 EUR | -
+Coca Cola | 3,00 EUR | -
+Fritz-Kola (0,33L) | 3,50 EUR | -
+Fritz-Kola Zuckerfrei (0,33L) | 3,50 EUR | -
+Fritz-Apfelschorle (0,33L) | 3,50 EUR | -
+
+### BIER
+Warsteiner (0,5L) | 4,20 EUR | -
+Warsteiner Alkoholfrei (0,5L) | 4,20 EUR | -
+Erdinger Hefeweizen (0,5L) | 4,90 EUR | -
+Erdinger Hefeweizen Alkoholfrei (0,5L) | 4,90 EUR | -
+Cass Bier (0,33L) | 3,90 EUR | -
+Kirin Bier (0,33L) | 3,90 EUR | -
+
+### WHITE WINE
+Grauburgunder (0,2L) | 4,90 EUR | -
+Grauburgunder (0,75L) | 16,00 EUR | -
+
+### RED WINE
+Spätburgunder (0,2L) | 4,90 EUR | -
+Spätburgunder (0,75L) | 16,00 EUR | -
+
+### KOREAN LIQUOR
+Makgeolli (0,75L) | 8,50 EUR | -
+Makgeolli Pfirsich (0,35L) | 5,50 EUR | -
+Soju Classic (0,35L) | 10,50 EUR | -
+Soju Shot | 2,00 EUR | -
+Vodka Absolut (0,7L) | 40,00 EUR | -
+Vodka Absolut Shot | 3,50 EUR | -
+
+### LONGDRINKS
+Aperol Spritz | 7,90 EUR | -
+Yuzu Spritz | 7,90 EUR | -
+Hugo | 7,90 EUR | -
+Gin Tonic | 7,90 EUR | -
+Moscow Mule | 7,90 EUR | -
+Mojito | 7,90 EUR | -
+Somaek | 7,90 EUR | -
+Soju Cuba Libre | 7,90 EUR | -
+Umeshu Soda Fizz | 7,90 EUR | -
+Soju Sour | 7,90 EUR | -
+Yuzu Gin Fizz | 9,00 EUR | -
+Espresso Martini | 9,00 EUR | -
+Pina Colada | 9,00 EUR | -
+Strawberry Margarita | 9,00 EUR | -

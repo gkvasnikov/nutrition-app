@@ -1,0 +1,30 @@
+# Golda delux
+
+### FINE STREET FOOD
+Sabich The King Pita | 8,00 EUR | -
+Sabich The King Half Pita | 5,50 EUR | -
+Sabich The King Bowl | 9,50 EUR | -
+Vegan Pita | 8,00 EUR | -
+Vegan Half Pita | 5,50 EUR | -
+Vegan Bowl | 9,50 EUR | -
+Vegan Booster Pita | 9,00 EUR | -
+Vegan Booster Half Pita | 6,50 EUR | -
+Vegan Booster Bowl | 10,50 EUR | -
+Sabich Kids | 4,50 EUR | -
+Sabich Extra | 1,00 EUR | -
+
+### HAUSGEMACHTE DESSERTS
+French Golda | 6,50 EUR | -
+Not Kunefa | 6,00 EUR | -
+Not Kunefa | 3,50 EUR | -
+
+### HAUSGEMACHTE DRINKS
+Gazoz | 4,50 EUR | -
+Chai-Delux | 4,00 EUR | -
+
+### DRINKS
+Cola | 2,50 EUR | -
+Cola Zero | 2,50 EUR | -
+Wasser still | 2,50 EUR | -
+Wasser sprudel | 2,50 EUR | -
+Berliner Berg Pilsener | 3,50 EUR | -

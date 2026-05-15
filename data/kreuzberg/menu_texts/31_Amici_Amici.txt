@@ -1,0 +1,157 @@
+# Amici Amici
+
+### Antipasti
+Mozzarella di Bufala D.O.P. alla Caprese | 13,50 EUR | 8, G
+Insalata Mista | 7,50 EUR | 8
+Insalata di Rucola con Funghi Parmigiano e Pomodori | 9,50 EUR | 8, G, H1
+Insalata Mista con Tonno e Cipolle Rosse | 9,00 EUR | 8
+Carpaccio di Manzo | 13,50 EUR | 6, G
+Antipasto Rustico della Casa | 15,50 EUR | 2, 3, 4, 23, A, A1, G
+
+### Pizze Vegetariane
+Pizza Marinara | 9,00 EUR | 2, 3, A, A1, O
+Pizza Margherita | 10,00 EUR | 2, 3, A, A1, G, O
+Pizza Funghi | 11,80 EUR | 2, 3, A, A1, G, O
+Pizza Vegetale | 13,50 EUR | 2, 3, A, A1, G, O
+Pizza Quattro Formaggi | 14,80 EUR | 2, 3, 4, 5, A, A1, G, O
+Pizza Ortolana | 13,50 EUR | 2, 3, 4, 5, A, A1, G, O
+Pizza alla Norma | 14,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Bufalina | 15,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Gorgonzola e Spinaci | 14,50 EUR | 2, 3, 4, 5, A, A1, G, O
+
+### Pizze
+Pizza Tirolese | 15,00 EUR | 2, 3, 4, 23, A, A1, G, O
+Pizza Bresaola | 16,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Sfiziosa | 14,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Tonno e Cipolle | 14,50 EUR | A, A1, G, O, D
+Pizza Scampi con Pomodorini e Aglio | 15,00 EUR | A, A1, G, O, H
+Pizza Benito | 12,80 EUR | 2, 3, 4, D, A, A1, G, O
+Pizza Salame Milano | 13,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Prosciutto, Funghi e Carciofi | 14,00 EUR | 2, 3, 4, A, A1, G, O
+Pizza Diavola | 13,50 EUR | 2, 3, 4, A, A1, G, O
+Pizza Parma e Rucola | 15,50 EUR | 2, 3, 4, A, A1, G, O
+Pizza Amici Amici | 14,50 EUR | 2, 3, 4, A, A1, G, O
+Pizza Bresaola Rucola e Parmigiano | 18,50 EUR | 2, 3, 5, A, A1, G, O
+Pizza Burrata Pomodorini Parma e Rucola | 18,50 EUR | 2, 3, 4, 5, A, A1, G, O
+
+### Pizze Bianche Speciale
+Pizza Bronte | 16,50 EUR | 2, 3, H7, A, A1, G, O
+Pizza Concettina | 14,50 EUR | 2, 3, 4, H3, A, A1, G, O
+Pizza Monteverna | 14,50 EUR | 2, 3, 4, A, A1, G, O, C
+
+### Paste & Risotto
+Spaghetti al Pomodoro e Basilico | 12,00 EUR | 2, 3, A, A1, G, O
+Spaghetti Aglio, Olio e Peperoncino | 12,00 EUR | 2, 3, A, A1, G, O
+Pennette all'Arrabbiata | 12,50 EUR | 2, 3, A, A1, G, O
+Spaghetti con Scampi e Pomodorini | 15,50 EUR | B, L, A, A1, G, O
+Spaghetti Cacio e Pepe | 17,00 EUR | A, A1, G
+Bucattini Amatriciana | 14,50 EUR | 8, 2, 3, 4, 23, L, A, A1, G, O
+Spaghetti con Ragú di Carne alla Bolognese | 15,50 EUR | I, 4, A, A1, G, O
+Tagliatelle alla Boscaiola | 15,00 EUR | 1, 2, 3, 4, G, H, C, A, A1, O
+Orecchiette con Ragú di Salsiccia | 14,50 EUR | 2, 3, 4, I, J, A, A1, G, O
+Spaghetti alla Carbonara | 15,50 EUR | 2, 3, 4, 23, C, H, A, A1, G, O
+Risotto alla Pescatora | 16,50 EUR | H, N, D, B, 8, I, L, A, A1, G, O
+Spaghetti alla Puttanesca | 14,00 EUR | 2, 3, A, A1, B, G, O
+
+### Dolci
+Hausgemachtes Tiramisú | 7,50 EUR | 17, 25, G
+Hausgemachte Panna Cotta | 7,50 EUR | 25, G
+Tartufo-Eis | 7,50 EUR | G
+Cassata | 7,50 EUR | G
+Verschiedene Törtchen der Saison aus der Vitrine | 7,50 EUR | G, 1
+
+### Aperitivi
+Prosecco | 6,50 EUR | -
+Hugo | 8,50 EUR | -
+Martini (Bianco, Rosso, Oro) | 5,50 EUR | -
+Campari Orange | 8,50 EUR | -
+Aperol Orange | 9,00 EUR | -
+Crodino | 4,50 EUR | -
+Sanbitter | 4,50 EUR | -
+Gin Tonic | 8,00 EUR | -
+Vodka Tonic | 8,00 EUR | -
+Vodka Lemon | 8,00 EUR | -
+Tocco Rosso | 9,50 EUR | -
+Autentico Vermouth weiß | 6,00 EUR | -
+Autentico Vermouth rot | 6,00 EUR | -
+
+### Birre
+Warsteiner vom Fass | 4,00 EUR | A, A1, O
+Warsteiner vom Fass | 5,50 EUR | A, A1, O
+Warsteiner Radler vom Fass | 4,00 EUR | A, A1, O
+Warsteiner Alkoholfrei | 3,70 EUR | A, A1, O
+Peroni Nastro Azzuro | 4,00 EUR | A, A1, O
+Messina Cristalli di Sale | 5,00 EUR | A, A1, O
+Peroni Gran Riserva Puro Malto | 7,80 EUR | A, A1, O
+König Ludwig Weissbier hell | 5,50 EUR | A, A1, O
+König Ludwig Weissbier dunkel | 5,50 EUR | A, A1, O
+König Ludwig Kristall | 5,50 EUR | A, A1, O
+König Ludwig Weissbier alkoholfrei | 5,50 EUR | A, A1, O
+Oberdorfer Helles | 5,50 EUR | A, A1, O
+Berliner Weisse rot oder grün | 3,80 EUR | A, A1, O
+
+### Analcolici
+S. Pellegrino 0,25l | 3,00 EUR | -
+S. Pellegrino 0,75l | 7,20 EUR | -
+Acqua Panna 0,25l | 3,00 EUR | -
+Acqua Panna 0,75l | 7,20 EUR | -
+Pyur Wasser | 4,50 EUR | -
+Coca Cola | 4,00 EUR | 1, 10, 17
+Fanta | 4,00 EUR | 1, 6
+Sprite | 4,00 EUR | 1, 6
+Spezi | 4,00 EUR | 1, 10, 6, 17
+Coca Cola Light | 4,00 EUR | 1, 2, 5, 6, 10, 12, 17
+Fassbrause | 4,00 EUR | -
+Malzbier | 4,00 EUR | -
+OranSoda | 4,50 EUR | 1, 12
+LemonSoda | 4,50 EUR | 1, 12
+Chinotto | 4,50 EUR | 1, 12
+Apfel-Schorle | 4,00 EUR | -
+Rhabarber-Schorle | 4,00 EUR | -
+Johannisbeer-Schorle | 4,00 EUR | -
+Apfelsaft | 4,00 EUR | -
+Orangensaft | 4,00 EUR | -
+Johannisbeersaft | 4,00 EUR | -
+Cranberrysaft | 4,00 EUR | -
+Tomatensaft | 4,00 EUR | -
+Schweppes Tonic | 4,00 EUR | 18
+Ginger-Ale | 4,00 EUR | 18
+Bitter Lemon | 4,00 EUR | 18
+
+### Liquori
+Amaretto di Saronno | 3,50 EUR | 1
+Sambuca Molinari | 3,50 EUR | -
+Mirto Bianco | 4,00 EUR | -
+Mirto Rosso | 4,00 EUR | -
+Strega | 4,00 EUR | -
+Limoncello | 4,00 EUR | 1
+Amaro Averna | 4,50 EUR | -
+Ramazzotti | 4,50 EUR | 1
+Cynar | 4,50 EUR | 1
+Punt e Mes | 4,50 EUR | -
+Fernet Branca | 4,50 EUR | -
+Amaro Montenegro | 4,50 EUR | -
+Amaro Lucano | 4,50 EUR | -
+Amaro del Capo | 4,50 EUR | -
+Nardini Bianca | 5,00 EUR | -
+Nardini Riserva | 5,50 EUR | -
+Sarpa di Poli | 6,50 EUR | -
+Le 18 Lune | 7,00 EUR | -
+Prime Uve | 6,50 EUR | -
+Vecchia Romagna | 3,50 EUR | -
+Remmy Martin V.S.O.P. | 6,00 EUR | -
+Johnny Walker Red Label | 4,00 EUR | -
+Vodka Moskovskaya | 4,00 EUR | -
+Vodka Absolut | 4,00 EUR | -
+Hennessy | 4,50 EUR | -
+
+### Caffè
+Espresso | 3,00 EUR | 17
+Espresso koffeinfrei | 3,00 EUR | -
+Espresso Macchiato | 3,00 EUR | 17, G
+Espresso Doppio | 4,00 EUR | 17
+Espresso Corretto | 3,50 EUR | 17
+Caffè | 3,00 EUR | 17
+Cappuccino | 4,00 EUR | 17, G
+Latte Macchiato | 4,50 EUR | 17, G
+Tee von Althaus | 4,00 EUR | -

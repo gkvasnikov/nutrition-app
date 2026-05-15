@@ -1,0 +1,260 @@
+# Cafe Brick
+
+### THE BREAKFAST PLATE
+
+Breakfast Plate Veggie (for one) | 15,90 EUR | -
+Breakfast Plate Veggie (for two) | 29,90 EUR | -
+Breakfast Plate Veggie mit Rührei (for one) | 15,90 EUR | -
+Breakfast Plate Veggie mit Rührei (for two) | 29,90 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Bread | 2,50 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+
+### MENEMEN
+
+#### VEGGIE
+Gebratenes Gemüse | 12,50 EUR | -
+
+#### VEGAN OPTION
+Gebratenes Gemüse ohne Ei | 10,50 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Gouda & Mozzarella Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Bread | 2,50 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+
+### VEGAN
+
+#### AVOCADO & HUMMUS BREAD
+Avocado & Hummus Bread | 13,20 EUR | -
+
+#### EXTRAS
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Dried Tomatoes | 2,00 EUR | -
+
+### THE
+
+#### GRILLED CHEESE PULLED TURKEY SANDWICH
+Grilled Cheese Pulled Turkey Sandwich | 12,90 EUR | -
+
+#### BREKKIE BURGER
+Brekkie Burger | 12,90 EUR | -
+Brekkie Burger auf Sauerteigbrot (Turkey Bread) | 14,90 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Jalapenos | 1,50 EUR | -
+Dried Tomatoes | 2,00 EUR | -
+
+### FARMER´S DELIGHT
+
+#### VEGGIE
+Farmer's Delight Veggie | 12,90 EUR | -
+Farmer's Delight Veggie mit extra Knoblauchjoghurt | 13,90 EUR | -
+
+#### EXTRAS
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Dried Tomatoes | 2,00 EUR | -
+
+### THE BIG BOY
+
+#### BREKKIE BURGER
+Big Boy Brekkie Burger | 12,90 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+
+### ORIENTAL
+
+#### BREAD
+Oriental Bread | 12,50 EUR | -
+Oriental Bread mit Avocado statt Sucuk | 12,50 EUR | -
+
+#### EXTRAS
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Dried Tomatoes | 2,00 EUR | -
+
+### FRIED EGGS
+
+#### VEGGIE
+Fried Eggs Veggie | 11,90 EUR | -
+Fried Eggs Veggie als Rührei | 11,90 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+Dried Tomatoes | 2,00 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Bread | 2,50 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Tomato-Creamcheese | 2,50 EUR | -
+Homemade Hummus | 2,50 EUR | -
+
+### VEGAN
+
+#### AVO-MANGO BREAD
+Avo-Mango Bread | 13,90 EUR | -
+
+#### EXTRAS
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Grilled Cheese | 2,50 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+
+### HUMMUS PLATE
+
+#### VEGAN
+Hummus Plate Vegan | 12,50 EUR | -
+
+#### EXTRAS
+Sucuk (garlic sausage) | 2,90 EUR | -
+White Cheese | 2,50 EUR | -
+Avocado | 2,90 EUR | -
+Smoked Salmon | 3,70 EUR | -
+Pulled Turkey with Honey-Mustard-Mayo-Sauce | 3,50 EUR | -
+Beef Bacon (halal) | 2,90 EUR | -
+Bread | 2,50 EUR | -
+Organic Fried or Scrambled Egg | 2,50 EUR | -
+Jalapenos | 1,50 EUR | -
+
+### FLUFFY PANCAKES
+
+Blueberry & Banana Pancakes | 12,50 EUR | -
+Raspberry & Matcha Cream Pancakes | 13,50 EUR | -
+Chocolate Pancakes | 11,90 EUR | -
+
+### GRANOLA
+
+#### GLUTENFREE
+Granola Glutenfree | 8,50 EUR | -
+
+### SMOOTHIES
+
+Caribbean Popeye | 2,90 EUR | -
+Red Velvet | 3,50 EUR | -
+Strawberry | 3,20 EUR | -
+Mixed Berries | 3,50 EUR | -
+Spinach | 3,90 EUR | -
+Coconut Milk Mango | 4,70 EUR | -
+Orange Juice Banana | 4,70 EUR | -
+Beetroot Strawberry | 4,50 EUR | -
+Spinach Orange Juice | 3,50 EUR | -
+Mango Avocado | 4,20 EUR | -
+Orange Juice Avocado | 3,50 EUR | -
+Mixed Berries Oat Milk | 5,20 EUR | -
+Orange Juice Milk | 5,20 EUR | -
+Banana Mango | 4,20 EUR | -
+
+### WATER
+
+Still Water | 2,99 EUR | -
+Sparkling Water | 2,99 EUR | -
+Still Water 0,75L | 4,99 EUR | -
+Sparkling Water 0,75L | 4,99 EUR | -
+
+### SOFTDRINKS
+
+Fritz Kola | 3,55 EUR | -
+Fritz Kola Light | 3,55 EUR | -
+Fritz Spritz | 3,55 EUR | -
+Fritz Limo | 3,55 EUR | -
+
+### ICED TEA
+
+Earl Grey | 6,50 EUR | -
+Vanilla | 6,50 EUR | -
+Herbal | 6,50 EUR | -
+Herbal mit Fruitgarden (Orange, Zitrone, Honigmelone) | 6,50 EUR | -
+Green | 6,50 EUR | -
+
+### HOT DRINKS
+
+#### COFFEE
+Espresso Shot | 1,00 EUR | -
+Espresso Shot mit Oat Milk | 1,50 EUR | -
+Espresso Shot mit Lactose Free Milk | 1,30 EUR | -
+Espresso Shot mit Vanilla Milk | 1,80 EUR | -
+Decaff | 0,22 EUR | -
+
+#### CHAI & MATCHA LATTE
+Chai Latte | 4,20 EUR | -
+Dirty Chai (with Espresso) | 5,20 EUR | -
+Matcha Latte | 5,70 EUR | -
+Iced Matcha Latte | 4,50 EUR | -
+
+#### HOT BEVERAGES
+Hot Chocolate | 4,50 EUR | -
+Fresh Lemon Tea | 4,20 EUR | -
+Fresh Ginger Tea | 4,20 EUR | -
+Fresh Mint Tea | 4,20 EUR | -
+Fresh Mixed Tea | 4,50 EUR | -
+
+#### LOOSE TEA TEEKANNES
+Earl Grey | 3,80 EUR | -
+Earl Grey Teekannes | 6,80 EUR | -
+Darjeeling Tea | 3,80 EUR | -
+Green Tea | 3,80 EUR | -
+Herbalgarden Tea | 3,80 EUR | -
+Fruitgarden Tea | 3,80 EUR | -
+
+#### FRESH JUICES
+Fresh Orange Juice | 6,50 EUR | -
+Fresh Orange Juice 470ml | 6,50 EUR | -
+
+#### ICED TEA
+Matcha (beispielsweise Ginger & Lemon) | 4,90 EUR | -
+
+### SPARKLING WINE & COCKTAILS
+
+Sekt/Sparkling Wine Bottle | 28,00 EUR | -
+Mimosa | 6,20 EUR | -
+Lillet Wild Berry | 6,90 EUR | -
+Aperol Spritz | 6,90 EUR | -

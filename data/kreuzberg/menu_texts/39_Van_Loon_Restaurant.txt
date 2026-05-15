@@ -1,0 +1,111 @@
+# Van Loon Restaurant
+
+### APERITIFS
+Aperol Spritz | 7,90 EUR | 1, 4
+Lillet Wild Berry | 7,90 EUR | 12
+Van Loon Lillet | 7,90 EUR | -
+
+### ALKOHOLFREIE SPECIALS
+Pinke Luzy | 5,90 EUR | -
+Green Harmony | 5,90 EUR | -
+Matcha Magic | 6,90 EUR | 3
+Cranberry Eistee | 5,90 EUR | 3
+
+### KLEINER PROVIANT / STARTERS
+Sardellen | 10,90 EUR | -
+Dreierlei Dips | 9,90 EUR | -
+Vorspeiseplatte für 2 Personen | 16,80 EUR | -
+Vorspeiseplatte für 4 Personen | 31,60 EUR | -
+
+### SUPPEN / SOUPS
+Fischsuppe | 16,50 EUR | -
+
+### FISCH UND MEERESGETIER / FISH AND SEAFOOD
+Matjesfilet | 16,90 EUR | -
+Schiffsgebeizter Lachs | 21,90 EUR | -
+Portion Räucherfisch Honig-Lachs | 24,90 EUR | -
+Portion Räucherfisch Makrele | 24,90 EUR | -
+Portion Räucherfisch Heilbutt | 24,90 EUR | -
+
+### MAIN COURSES
+Van Loon Urban Burger | 14,80 EUR | -
+
+### SÜSSES / SWEETS
+Tiramisu küsst Matcha | 9,90 EUR | 3
+Waffel Pur | 5,90 EUR | -
+Pan Cake Spezial | 9,90 EUR | -
+
+### KAFFEE & SCHOKOLADE
+Espresso | 2,60 EUR | 3
+Doppelter Espresso | 4,80 EUR | 3
+Cappuccino | 3,60 EUR | 3
+Großer Cappuccino | 5,90 EUR | 3
+Tasse Kaffee | 3,00 EUR | 3
+Großer Kaffee | 5,20 EUR | 3
+Americano | 3,20 EUR | 3
+Latte Macchiato | 4,60 EUR | 3
+Milchkaffee | 4,60 EUR | 3
+Chai Latte | 4,90 EUR | -
+Matcha Latte | 4,90 EUR | 3
+Heiße Schokolade | 4,60 EUR | -
+
+### TEE & AUFGUSSGETRÄNKE
+Darjeeling Second Flush | 5,90 EUR | 3
+Earl Grey | 5,90 EUR | -
+Bancha | 5,90 EUR | 3
+Kräutergarten | 5,90 EUR | -
+Kamille | 5,90 EUR | -
+Früchtetee | 5,90 EUR | -
+Frischer Ingwer Aufguss | 4,80 EUR | -
+Ingwer-Minze-Aufguss | 4,80 EUR | -
+
+### TAFELWASSER
+Tafelwasser 0,2l | 2,00 EUR | -
+Tafelwasser 0,4l | 3,80 EUR | -
+Tafelwasser 1,0l | 5,90 EUR | -
+Gerolsteiner 0,25l | 2,80 EUR | -
+Gerolsteiner 0,75l | 5,90 EUR | -
+
+### SAFT & NEKTAR
+Saft & Nektar 0,2l | 2,90 EUR | -
+Saft & Nektar 0,4l | 5,50 EUR | -
+Saftschorle 0,2l | 2,90 EUR | -
+Saftschorle 0,4l | 5,50 EUR | -
+
+### SOFTDRINKS
+Thomas Henry Tonic 0,2l | 3,20 EUR | -
+Thomas Henry Ginger Beer 0,2l | 3,20 EUR | 4, 12
+Fritz Kola 0,2l | 3,20 EUR | 1, 3
+Fritz Superzero 0,2l | 3,20 EUR | 1, 3, 9, 10
+Fritz Kirsch-Holunder 0,2l | 3,20 EUR | -
+Fritz Orange 0,2l | 3,20 EUR | -
+Fritz Mischmisch 0,2l | 3,20 EUR | 1
+Lemon Lime 0,4l | 4,90 EUR | -
+
+### COCKTAILS & LONGDRINKS
+Gin Tonic | 9,50 EUR | 4, 12
+Cuba Libre | 9,50 EUR | 1, 3
+Vodka Mule | 9,50 EUR | -
+Leichtmatrose | 9,50 EUR | -
+
+### BIER
+König Pilsener 0,4l | 4,90 EUR | -
+Benediktiner Hell 0,5l | 5,40 EUR | -
+Alster 0,4l | 4,90 EUR | -
+Benediktiner Hefeweissbier 0,5l | 5,40 EUR | -
+Bitburger 0,0% 0,33l | 4,50 EUR | -
+Benediktiner Hell alkoholfrei 0,33l | 4,50 EUR | -
+Hefeweissbier alkoholfrei 0,5l | 5,40 EUR | -
+Berliner Weisse grün 0,33l | 4,50 EUR | 1
+Berliner Weisse rot 0,33l | 4,50 EUR | 1
+
+### SPIRITUOSEN
+Jägermeister 2cl | 3,50 EUR | -
+Sambuca Molinari 2cl | 3,40 EUR | -
+Plantation XO Rum 2cl | 6,90 EUR | -
+Botucal Rum 2cl | 4,80 EUR | -
+Don Papa Rum 2cl | 5,20 EUR | -
+Glenmorangie Whisky 2cl | 4,50 EUR | -
+Williams Birne 2cl | 3,90 EUR | -
+Grappa Nonino Riserva 2cl | 3,90 EUR | -
+Berliner Luft Likör 2cl | 3,20 EUR | -

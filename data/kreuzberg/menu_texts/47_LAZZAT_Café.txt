@@ -1,0 +1,5 @@
+# LAZZAT Café
+
+Leider kann ich den Menütext nicht korrekt verarbeiten, da dieser in einer beschädigten oder codierten Formatierung vorliegt (CID-Zeichen). Die Zeichen sind nicht lesbar und können nicht in eine strukturierte Menüliste umgewandelt werden.
+
+Um die Gerichte korrekt zu extrahieren, benötige ich einen lesbaren Menütext in Standard-Formatierung (z.B. als normale PDF, Bild oder Textdatei).

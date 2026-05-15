@@ -1,0 +1,82 @@
+# Hasir Burger
+
+### BURGER
+
+Hasir Burger | 7,69 EUR | A, B, C, D
+Hamburger | 6,99 EUR | A, B, C, D
+Chipotle Chicken Burger | 6,99 EUR | A, B, C, D
+Mozzarella Cheeseburger | 7,99 EUR | A, C, G, N
+Halloumi Burger | 6,99 EUR | A, B, C, D
+Vegan Kürbis-Chia Burger | 7,29 EUR | B, C, D, F
+BBQ Bacon Burger | 10,29 EUR | A, B, C, D, F
+The Betruffled Burger | 10,99 EUR | A, C, G, N
+Cheese'n'Onion Burger | 9,99 EUR | A, C, G, M, N, Q
+Kids Burger Menü | 8,29 EUR | -
+
+### TOPPINGS
+
+Rindfleisch Patty | 3,00 EUR | -
+Halloumi Patty | 2,30 EUR | -
+Rindfleisch Bacon | 1,50 EUR | -
+Extra Käse (2 Stück) | 1,30 EUR | -
+Jalapeño | 0,90 EUR | -
+Tomate | Zwiebel | Saure Gurken | 0,90 EUR | -
+Extra Soße | 1,00 EUR | -
+Ketchup | Mayonnaise | 0,50 EUR | -
+
+### SANDWICHES
+
+Smash Beefed Sandwich | 9,20 EUR | A, C, G, L, M, N, O
+
+### POMMES
+
+Pommes | 3,39 EUR | -
+Kringel Pommes | 4,00 EUR | -
+Süßkartoffelpommes | 4,69 EUR | -
+Chili Cheese Fries mit Pommes | 4,99 EUR | -
+Chili Cheese Fries mit Süßkartoffelpommes | 5,99 EUR | -
+
+### BEILAGEN
+
+Chicken Nuggets 6 | 4,99 EUR | -
+Chicken Nuggets 9 | 7,39 EUR | -
+Chicken Nuggets 12 | 9,79 EUR | -
+Chicken Wings 6 | 5,29 EUR | -
+Chicken Wings 9 | 7,59 EUR | -
+Chicken Wings 12 | 9,89 EUR | -
+Onion Rings 8 | 3,69 EUR | -
+Mozzarella Taler 2 | 4,99 EUR | -
+Mozzarella Taler 4 | 9,39 EUR | -
+Mozzarella Taler 6 | 12,79 EUR | -
+Kids Nugget Menü | 7,49 EUR | -
+
+### SOFT DRINKS 0,25L
+
+Coca Cola | 2,80 EUR | 10, 12, 13
+Coca Cola Light | 2,80 EUR | 2, 10, 12, 13
+Coca Cola Zero | 2,80 EUR | 11, 12
+Fanta | 2,80 EUR | 11, 12
+Sprite | 2,80 EUR | 10, 12, 13
+Mezzo Mix | 2,80 EUR | 10, 12, 13
+
+### SOFT DRINKS 0,3L
+
+Fritz Cola Original | 3,80 EUR | 1, 10, 12, 13
+Fritz-Limo Orange | 3,80 EUR | 1, 10, 12, 13
+Fritz-Limo Zitrone | 3,80 EUR | 1, 10, 12, 13
+Fritz-Limo Honigmelone | 3,80 EUR | 1, 10, 12, 13
+Bionade Holunder | 3,80 EUR | 11, 12
+Bionade Ingwer | 3,80 EUR | 11, 12
+Club Mate | 3,80 EUR | -
+
+### BIER 0,33L
+
+Warsteiner | 4,00 EUR | 5
+Efes | 4,00 EUR | 5
+Warsteiner Alkoholfrei | 4,00 EUR | 5
+
+### WASSER
+
+Still 0,25L | 2,50 EUR | -
+Sprudel 0,25L | 2,50 EUR | -
+Ayran 0,25L | 2,50 EUR | -

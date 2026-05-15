@@ -1,0 +1,219 @@
+Benvenuti Sicilia!
+in
+Seit 2006 die italienischte
+Ecke in Berlin-Kreuzberg ...
+8,G Mozzarella di Bufala D.O.P. alla Caprese 13,50
+Büffelmozzarella nach Capreser Art mit Tomaten und Basilikum
+8 Insalata Mista 7,50
+Gemischter Salat der Saison
+8,G,H1 Insalata di Rucola con Funghi Parmigiano e Pomodori 9,50
+Rucolasalat mit frischen Champignons, Parmesan und Tomaten
+8 Insalata Mista con Tonno e Cipolle Rosse 9,--
+Gemischter Salat der Saison mit Thunfisch und roten Zwiebeln
+6,G Carpaccio di Manzo 13,50
+Rinder-Carpaccio mit Rucola, Champignons und Parmesan
+2,3,4,23,A,A1,G Antipasto Rustico della Casa 15,50
+Tomate, Mozzarella, Gemüse der Saison und iatlienischer Aufschnitt (Pro Portion)
+Pizze vegetariane
+2,3,A,A1,O Pizza Marinara 9,--
+Tomatensauce, Oregano, Knoblauch und Olivenöl Extra Vergine
+2,3,A,A1,G,O Pizza Margherita 10,--
+Tomatensauce, Mozzarella und Basilikum
+2,3,A,A1,G,O Pizza Funghi 11,80
+Tomatensauce, Mozzarella und frischen Champignos
+2,3,A,A1,G,O Pizza Vegetale 13,50
+Tomatensauce, Mozzarella Gemüse der Saison
+Pizza Quattro Formaggi 14,80
+2,3, 4, 5, A,A1,G,O
+Tomatensauce, Mozzarella, Gorgonzola, Scamorza und Taleggio
+2,3, 4, 5, A,A1,G,O Pizza Ortolana 13,50
+Tomatensauce, Mozzarella, Rucola, Parmesan und frische Tomaten
+2,3,4,A,A1,G,O Pizza alla Norma 14,--
+Tomaten, Mozzarella, Auberginen, Ricotta und Basilikum
+2,3,4,A,A1,G,O Pizza Bufalina 15,--
+Tomatensauce, Büffel-Mozzarella, Kirschtomaten und Basilikum
+2,3, 4, 5, A,A1,G,O Pizza Gorgonzola e Spinaci 14,50
+Tomatensauce, Mozzarella, Gorgonzola und sautiertem Blattspinat
+Darf es etwas mehr sein? Wählen Sie Ihr Extra zur Pizza! Fisch/Meeresfrüchte/Käse + 3,50 // Wurst/Gemüse + 3,-
+
+Pizze
+2,3,4,23,A,A1,G,O Pizza Tirolese 15,--
+Tomatensauce, Mozzarella, Taleggio, Speck, gebratene Kartoffeln und Zwiebeln
+2,3,4A,A1,G,O Pizza Bresaola 16,--
+Tomatensauce, Mozzarella, luftgetrockneter Rinderschinken und Burrata
+2,3,4A,A1,G,O Pizza Sfiziosa 14,--
+Tomatensauce, Mozzarella, scharfe Salami und Gorgonzola
+A,A1,G,O,D Pizza Tonno e Cipolle 14,50
+Tomatensauce, Mozzarella, gebratene Zwiebeln und Thunfisch
+A,A1,G,O,H Pizza Scampi con Pomodorini e Aglio 15,--
+Tomatensauce, Mozzarella, Garnelen, Kirschtomaten und Knoblauch
+2,3,4,D,A,A1,G,O Pizza Benito 12,80
+Tomatensauce, Mozzarella, Sardellen und Kapern
+2,3,4,A,A1,G,O Pizza Salame Milano 13,--
+Tomatensauce, Mozzarella, Mailänder Salami
+2,3,4,A,A1,G,O Pizza Prosciutto, Funghi e Carciofi 14,--
+Tomatensauce, Mozzarella, Kochschinken, frische Champignons und Artischoken
+2,3,4,A,A1,G,O Pizza Diavola 13,50
+Tomatensauce, Mozzarella und scharfe Salami und Oliven
+2,3,4,A,A1,G,O Pizza Parma e Rucola 15,50
+Tomatensauce, Mozzarella, Rucola, Parmaschinken und Parmesan
+2,3,4,A,A1,G,O Pizza Amici Amici 14,50
+Tomatensauce, Mozzarella, Salsiccia und Scamorza
+2,3,5,A,A1,G,O Pizza Bresaola Rucola e Parmigiano 18,50
+Tomatensauce, Mozzarella, luftgetrockneter Rinderschinken, Rucola und Parmesan
+2,3, 4, 5, A,A1,G,O Pizza Burrata Pomodorini Parma e Rucola 18,50
+Tomatensauce, Mozzarella-Burrata, Parmaschinken Rucola und Kirischtomaten
+Pizze bianche speciale
+2,3,H7,A,A1,G,O Pizza Bronte 16,50
+Mozzarella, Mortadella, Mozzarella-Burrata und Pistatzien
+2,3,4,H3,A,A1,G,O Pizza Concettina 14,50
+Mozzarella, Gorgonzola, Birne und Walnuss
+2,3,4,A,A1,G,O,C Pizza Monteverna 14,50
+Mozzarella, Salsiccia, gebratene Kartoffeln und Taleggio
+
+Paste & Risotto
+2,3,A,A1,G,O Spaghetti al Pomodoro e Basilico 12,--
+Spaghetti mit Tomatensauce und Basilikum
+2,3,A,A1,G,O Spaghetti Aglio, Olio e Peperoncino 12,--
+Spaghetti mit Knoblauch, Olivenöl und Peperoncino
+2,3,A,A1,G,O Pennette all‘Arrabbiata 12,50
+Pennette mit Tomatensauce und Peperoncino
+B,L,A,A1,G,O Spaghetti con Scampi e Pomodorini 15,50
+Spaghetti mit Garnelen und Kirschtomaten
+A, A1, G Spaghetti Cacio e Pepe 17,--
+Spaghetti mit geröstetem Pfeffer und Pocorino
+8,2,3,4,23,L,A,A1,G,O Bucattini Amatriciana 14,50
+Bucattini mit Tomatensauce, Speck und Zwiebeln
+I,4,A,A1,G,O Spaghetti con Ragú di Carne alla Bolognese 15,50
+Spaghetti mit hausgemachter Fleischsauce
+1,2,3,4,G,H,C,A,A1,G,O Tagliatelle alla Boscaiola 15,--
+Tagliatelle mit Champignons, Erbsen, Schinken und Sahne-Creme
+2,3,4,I,J,A,A1,G,O Orecchiette con Ragú di Salsiccia 14,50
+Orecchiette mit hausgemachtem Salsiccia-Ragout
+2,3,4,23,C,H,A,A1,G,O Spaghetti alla Carbonara 15,50
+Spaghetti mit Gaunciale-Speck, Ei und Parmesan
+H,N,D,B,8,i,L,A,A1,G,O Risotto alla Pescatora 16,50
+Risotto mit Meeresfrüchten
+2,3,A,A1,B,G,O Spaghetti alla Puttanesca 14,--
+Spaghetti mit Tomatensauce, Oliven, Kapern und Sardellen
+Carne & Pesce
+Bitte entnehmen Sie das aktuelle Angebot an Hauptgerichten unserer Tageskarte.
+Dolci
+17, 25, G Hausgemachtes Tiramisú 7,50
+25, G Hausgemachte Panna Cotta 7,50
+G Tartufo-Eis 7,50
+G Cassata 7,50
+G,1 Verschiedene Törtchen der Saison aus der Vitrine 7,50
+
+Aperitivi
+Prosecco 0,1l 6,50
+Hugo2 0,1l 8,50
+Martini (Bianco**, Rosso, Oro) 5 cl 5,50
+Campari Orange** 0,2l 8,50
+Aperol Orange 0,2l 9,--
+Crodino (alkoholfrei) 0,1l 4,50
+Sanbitter (alkoholfrei) 0,1l 4,50
+Gin Tonic3 0,2l 8,--
+Vodka Tonic3 0,2l 8,--
+Vodka Lemon3 0,2l 8,--
+Tocco Rosso (HP)**2 0,2l 9,50
+Autentico Vermouth weiß/rot (Bio) 5cl 6,--
+Weitere Aperitivi finden Sie auf unserer Karte von
+Birre
+Warsteiner vom Fass 0,3l 4,--
+0,5 l 5,50
+Warsteiner Radler vom Fass 0,3l 4,--
+(mit Sprite oder Fanta)
+Warsteiner Alkoholfrei 0,33l 3,70
+Alle Biere
+Peroni Nastro Azzuro 0,33l 4,--
+enthalten
+A, A1, 0 Messina Cristalli di Sale 0,33l 5,--
+Peroni Gran Riserva Puro Malto 0,5l 7,80
+König Ludwig Weissbier hell 0,5l 5,50
+König Ludwig Weissbier dunkel 0,5l 5,50
+König Ludwig Kristall 0,5l 5,50
+König Ludwig Weissbier alkoholfrei 0,5l 5,50
+Oberdorfer Helles 0,5 l 5,50
+Berliner Weisse, rot oder grün 0,33l 3,80
+Analcolici
+Flasche 0,25l Flasche 0,75l
+S. Pellegrino 3,-- 7,20
+Acqua Panna 3,-- 7,20
+Pyur Wasser (regional & gefiltert, 0,7l) 4,50
+Coca Cola1, 10,17 , Fanta 1,6, Sprite 1,6, Spezi1,10,6,17 0,3l 4,--
+Coca Cola light1, 2,5,6,10,12,17 0,33 l 4,--
+Fassbrause 0,3l 4,--
+Malzbier 0,33 l 4,--
+OranSoda1, 12, LemonSoda1, 12, Chinotto1, 12 0,33 l 4,50
+Apfel-, Rhabarber oder Johannisbeerschorle 0,3l 4,--
+Apfel-, Orangen-, Johannisbeer-, Cranberrysaft 0,3l 4,--
+oder Tomatensaft 0,3 l 4,--
+Schweppes Tonic18, Ginger-Ale18, Bitter Lemon18 0,2 l 4,--
+
+Liquori
+Amaretto di Saronno1 2 cl 3,50
+Sambuca Molinari 2 cl 3,50
+Grappe
+Mirto Bianco oder Rosso 2 cl 4,--
+Strega 2 cl 4,--
+Limoncello1 2 cl 4,--
+Amaro Averna 4 cl 4,50 Nardini Bianca 2 cl 5,--
+Ramazzotti1 4 cl 4,50 Nardini Riserva 2 cl 5,50
+Cynar1 4 cl 4,50 Sarpa di Poli 2 cl 6,50
+Punt e Mes 4 cl 4,50 Le 18 Lune 2 cl 7,--
+Fernet Branca 4 cl 4,50 Prime Uve 2 cl 6,50
+Amaro Montenegro 4 cl 4,50
+Amaro Lucano 4 cl 4,50
+Caffè
+Amaro del Capo 4 cl 4,50
+Espresso17 3,--
+Super Alcolici Espresso koffeinfrei 3,--
+Espresso Macchiato17,G 3,--
+Espresso Doppio17 4,--
+Vecchia Romagna 2 cl 3,50
+Espresso Corretto(mit Alkohol) 17 3,50
+Remmy Martin V.S.O.P. 2 cl 6,-- Caffè17 3,--
+Johnny Walker Red Label 2 cl 4,-- Cappuccino17,G 4,--
+Vodka Moskovskaya 2 cl 4,-- Latte Macchiato17,G 4,50
+Voda Absolut 2 cl 4,--
+Tee von Althaus,
+Hennessy 2 cl 4,50
+verschiedene Sorten 4,--
+Alle genannten Preise inklusive MwSt. und Service. Gestaltung: marcmayer.berlin
+Stoffe oder Erzeugnisse, die Allergien oder
+Unverträglichkeiten auslösen können Zusatzstoffe Kennzeichnung
+A Glutenhaltiges Getreide 1 Farbstoffe „mit Farbstoff“
+A1 Weizen 2 Konservierungsstoffe „mit Konservierungsstoff“
+A4 Hafer Natrium- oder Kaliumnitrit, auch gemischt und in „mit Nitritpökelsalz“
+B Krebstiere Mischungen mit Kochsalz jodiertem Kochsalz oder
+C Eier 3 Kochsalzersatz
+D Fische 4 Natrium- oder Kaliumnitrat, auch gemischt „mit Nitrat“
+E Erdnüsse (Natrium-oder Kaliumnitrit und Natrium- oder Kaliumnitrat, „mit Nitrat und Nitritpökelsalz“
+G Laktose jeweils auch gemischt und in Mischungen mit Kochsalz,
+H Schalenfrüchte jodiertem Kochsalz oder
+H1 Pinienkerne 5 Kochsalzersatz
+H3 Walnüsse 6 Antioxidationsmittel „mit Antioxidationsmittel“
+H7 Pistazien 7 Geschmacksverstärker „mit Geschmacksverstärker“
+I Sellerie 8 Schwefeldioxid und/oder Sulfite „geschwefelt“
+J Senf 9 E579 oder E585 bei Oliven „geschwärzt“
+K Sesamsamen 10 E901 bis E904, E912 oder E914 auf der Oberfäche von
+L Schwefeldioxid und Sulfite Zitrusfrüchten, Melonen, Äpfeln Birnen „gewachst“
+M Lupinen E338 bis E341, E450 bis E452 bei „mit Phosphat“
+N Weichtiere 11 Fleischerzeugnissen
+O Hefe 12 Süßungsmittel wenn Süßungsmittel und „mit Süßungsmittel“ oder bei mehreren „mit Süßungsmitteln“
+13 Zucker enthalten sind für Tafelsüßen und andere „mit einer Zuckerart und Süßungsmittel/n“
+14 Lebensmittel, die Aspartam enthalten „enthält eine Phenylalaninquelle“
+15 E420, E421, E953, E965, bis 967 „Kann bei übermäßigem Verzehr abführend wirken“
+16 Azofarbstoffe „Kann die Aufmerksamkeit von Kindern beeinträchtigen“
+17 Koffein „enthält Koffein. Für Kinder und schwangere oder stillende Frauen nicht empfohlen“
+18 Chininhaltig „enthält Chinin“
+19 Gentechnisch verändert „gentechnisch verändert“
+20 Taurin „enthält Turin“
+21 Formfleisch „aus Fleischstücken zusammengefügt“
+22 Krebsfleischimitat „mit Krebsfleischimitat“
+23 geräuchert „geräuchert“
+24 Alkohol
+25 Schweinegelantine
+
+Amici Amici Mehringdamm 40 10961 Berlin Tel. (030) 746 84 121 www.amici-amici.de

@@ -1,0 +1,66 @@
+# Gazzo
+
+### Pizza
+Pizza 11 | 9,50 EUR | -
+Pizza 22 | 11,50 EUR | -
+Pizza 3 | 13,50 EUR | -
+Pizza 4 | 14,50 EUR | -
+Pizza 5 | 14,50 EUR | -
+Pizza 6 | 14,50 EUR | -
+Pizza 7 | 16,00 EUR | -
+Pizza 8 | 16,00 EUR | -
+Pizza 99 | 17,50 EUR | -
+Pizza 99 mit Sardellen | 17,50 EUR | -
+
+### Bites
+Marinierte Nocellara Oliven aus Sizilien | 6,00 EUR | -
+Artischocken-Walnuss-Dip | 6,50 EUR | -
+Eingelegte Zucchini mit Zitronen-Ricotta | 6,50 EUR | -
+Eingelegte gewürzte Aubergine | 6,50 EUR | -
+Warme Wildschwein-Bällchen | 9,50 EUR | -
+
+### Salat
+Geröstete Kichererbsen Salat | 12,00 EUR | -
+
+### Büffelmilch Softeis
+Büffelmilch Softeis | 7,50 EUR | -
+Saisonales Special Softeis | 7,50 EUR | -
+
+### Rotwein
+Sangiovese VDT Cantina S. Osvaldo | 5,50 EUR / 20,50 EUR | -
+Primitivo Atria, Di Camillo Vini | 7,50 EUR / 28,00 EUR | -
+Syrah, Grenache, Côtes du Rhône AOC | 9,50 EUR / 35,00 EUR | -
+Carl Koch Spätburgunder | 8,50 EUR / 31,00 EUR | -
+
+### Weißwein
+Chardonnay VDT Cantina S. Osvaldo | 6,50 EUR / 24,00 EUR | -
+Tramoya Verdejo, Bodegas Don Diego | 7,50 EUR / 28,00 EUR | -
+Grillo "Luna", Vaccaro Vini | 9,50 EUR / 35,00 EUR | -
+
+### Rosé
+Vinho Verde Rosado, O Tal | 6,50 EUR / 24,00 EUR | -
+Cava Flama d'Or Brut Rosado | 6,50 EUR | -
+
+### Prickelndes
+Cava Flama d'Or Brut | 6,50 EUR | -
+
+### Bier
+Pilsner Urquell | 3,60 EUR / 5,50 EUR | -
+Berliner Berg Rotbier | 4,30 EUR / 7,10 EUR | -
+BRLO IPA | 4,80 EUR / 7,90 EUR | -
+Berliner Berg Pils | 4,00 EUR | -
+BRLO Naked Pale Ale | 5,00 EUR | -
+
+### Cocktails
+Venezianer Spritz | 8,50 EUR | -
+Negroni | 10,50 EUR | -
+Limoncello Spritz | 11,00 EUR | -
+Alkoholfrei Spritz | 8,50 EUR | -
+
+### Alkoholfrei
+Wasser still oder sprudelnd | 0,70 EUR / 5,50 EUR | -
+Hausgemachte Limo | 0,50 EUR / 6,50 EUR | -
+Apfelschorle | 0,50 EUR | -
+Hausgemachter Amalfi Limoncello | 6,00 EUR | -
+Amaro | 5,00 EUR | -
+Fritz Kola | 3,90 EUR | -

@@ -1,0 +1,179 @@
+# Standard Serious Pizza
+
+### BIER & CIDER
+Peroni Lager | 5,00 EUR | -
+BRLO Pils | 5,20 EUR | -
+Paulaner Weißbier | 5,50 EUR | -
+Warsteiner Radler | 4,90 EUR | -
+BRLO Cider | 5,50 EUR | -
+
+### SPRIZZ
+Aperol Spritz | 9,50 EUR | a, e, h
+Ginger Sprizz | 9,50 EUR | e
+
+### STARK
+Negroni | 10,50 EUR | a
+Negroni Sbagliato | 10,50 EUR | a, e, h
+Whiskey Sour | 11,00 EUR | -
+Gin Tonic | 10,50 EUR | h
+
+### FEIN
+Grappa Poli Moscato | 6,00 EUR | -
+Averna | 4,00 EUR | -
+Fernet | 4,00 EUR | -
+Limoncello | 4,00 EUR | a, e, h
+
+### SOFT
+Eistee ChariTea Mint | 4,00 EUR | -
+Saft Apfel | 3,00 EUR | -
+Saft Orange | 3,00 EUR | -
+Saft Guave | 3,00 EUR | -
+Schorle Apfel | 4,90 EUR | -
+Schorle Orange | 4,90 EUR | -
+Schorle Guave | 4,90 EUR | -
+Biozisch Naturorange | 4,00 EUR | -
+Lemonaid Blutorange | 4,00 EUR | -
+Kombucha Bouche | 5,90 EUR | g
+Coca-Cola | 3,50 EUR | a, f, g, i
+Coca-Cola Light | 3,50 EUR | a, f, g, i
+Coca-Cola Zero | 3,50 EUR | a, f, g, i
+Mineralwasser | 2,80 EUR | -
+Mineralwasser groß | 6,80 EUR | -
+
+### HEISS
+Espresso | 2,50 EUR | g
+Espresso Macchiato | 2,70 EUR | 4, g
+Espresso Doppio | 3,20 EUR | g
+Cappuccino | 3,90 EUR | 4, g
+Cappuccino mit Hafermilch | 4,40 EUR | -
+Frischer Ingwertee mit Zitrone & Honig | 5,50 EUR | -
+Tee im Kännchen ChariTea | 4,50 EUR | -
+
+### WEIN - BUBBLES
+NV Etienne Cremant de Loire Brut | 40,00 EUR | e
+NV Cuvée Tschiel Nr. V Brut Nature | 69,00 EUR | e
+2024 Whaam! Pet Nat | 46,00 EUR | e
+2023 Sollazzo Vino Rosato | 65,00 EUR | e
+2023 Renaissance Metodo Classico | 65,00 EUR | e
+NV Champagner Eclats Extra Brut | 99,00 EUR | e
+
+### WEIN - ROSÉ
+2023 Rossato | 40,00 EUR | e
+2022 Ariousious Rosé | 39,00 EUR | e
+2021 Winifred | 59,00 EUR | e
+2023 Cecilia | 89,00 EUR | e
+
+### WEIN - ORANGE
+2024 Salamandre Orange | 44,00 EUR | e
+2023 Traminer Červený | 60,00 EUR | e
+NV Posca Bianca | 55,00 EUR | e
+2022 Odyssea | 62,00 EUR | e
+
+### WEIN - WEISS
+2024 Quinta do Ermizio | 40,00 EUR | e
+2024 Falanghina Campo Reale | 42,00 EUR | e
+2023 Chardonnay Reserve | 45,00 EUR | e
+2024 Felsenfest | 46,00 EUR | e
+2024 Pinot Blanc | 48,00 EUR | e
+2021 Pixu Olazriezling | 48,00 EUR | e
+2022 Perm | 44,00 EUR | e
+2022 JZ VELUE | 39,00 EUR | e
+2023 Le Glanon Arbois Savagnin | 69,00 EUR | e
+2024 La Superiora Bianco | 59,00 EUR | e
+2023 Standard 10 Jahre | 89,00 EUR | e
+2024 Theodora | 62,00 EUR | e
+2022 Timotheus | 89,00 EUR | e
+2023 Eugenie | 120,00 EUR | e
+2022 Vespasi Vigne Nuove | 54,00 EUR | e
+2022 Assyrtiko Maison Viticole Ligas | 52,00 EUR | e
+2021 Rioja Blanco | 45,00 EUR | e
+2023 Alos | 55,00 EUR | e
+
+### WEIN - ROT
+2023 Ciello Rosso Nero d'Avola | 42,00 EUR | e
+2024 Spätburgunder „Löss" | 38,00 EUR | e
+2020 Urban Merlot | 44,00 EUR | e
+2023 Standard 10 Jahre | 89,00 EUR | e
+2017-2021 Joschuari | 99,00 EUR | e
+2024 Atanasius | 59,00 EUR | e
+2021 Rosso CR | 85,00 EUR | e
+2021 La Sora | 42,00 EUR | e
+2022 Lucifer | 54,00 EUR | e
+2023 Le Facteur Su' L' Vélo – Rouge | 46,00 EUR | e
+2021 La Belle Romaine | 55,00 EUR | e
+2021 Alpha Omega | 39,00 EUR | e
+2023 La Bruja de Rozas | 69,00 EUR | e
+
+### WEIN - 0%
+NV DOM Zero Riesling | 39,00 EUR | -
+2023 Kräutertraube | 23,50 EUR | -
+NV Passing Clouds | 45,00 EUR | -
+NV Sherbet Daydream | 45,00 EUR | -
+
+### WEIN - GROSSFLASCHEN
+2023 Theodora Magnum | 115,00 EUR | e
+2023 Theodora Doppel Magnum | 205,00 EUR | e
+2023 Theodora Methusalem | 500,00 EUR | e
+2023 Winifred Doppel Magnum | 250,00 EUR | e
+2023 Winifred Methusalem | 500,00 EUR | e
+2023 Atanasius Magnum | 115,00 EUR | e
+2023 Atanasius Doppel Magnum | 250,00 EUR | e
+2023 Atanasius Methusalem | 500,00 EUR | e
+2023 Joschuari Magnum | 200,00 EUR | e
+2023 Joschuari Doppel Magnum | 480,00 EUR | e
+
+### ANTIPASTI & SALAT
+Oliven Mix | 6,50 EUR | -
+Standard Salat | 10,00 EUR | 1
+Standard Salat mit hausgebackenem Brot | 11,50 EUR | 1
+Standard Salat mit gegrilltem Ziegenkäse | 15,50 EUR | 1, 4
+Burrata | 11,50 EUR | 4
+Artischockensalat | 11,00 EUR | 4
+Sizilianische Caponata & Burrata | 14,90 EUR | 4, 6, 9
+Sizilianische Caponata ohne Burrata | 10,50 EUR | 6, 9
+Brot | 1,50 EUR | 1
+
+### DESSERT
+Tiramisu Klassisch | 9,00 EUR | 1, 3, 4, g
+Tiramisu Pistazie | 9,50 EUR | 1, 3, 4, g
+Calzone Dolce Nutella | 9,00 EUR | 1, 4, 6, 7
+Calzone Dolce Ricotta & Nutella | 9,50 EUR | 1, 4, 6, 7
+Eis am Stiel Paletas | 4,00 EUR | -
+
+### PIZZE
+Marinara Nostra | 13,00 EUR | 1
+Marinara Nostra mit Burrata | 18,50 EUR | 1, 4
+Marinara Nostra mit Alici di Cetara | 15,50 EUR | 1, 2, 3
+Margherita | 13,50 EUR | 1, 4
+Margherita mit Salame | 16,00 EUR | 1, 4
+Margherita mit Salame Piccante | 16,00 EUR | 1, 4
+Margherita mit Sucuk | 17,00 EUR | 1, 4
+Margherita mit Bufala | 17,00 EUR | 4
+Margherita mit Burrata | 19,00 EUR | 4
+Margherita mit Prosciutto Cotto | 16,00 EUR | 1, 4
+Margherita mit Champignons | 16,00 EUR | 1, 4
+´Nduja | 17,50 EUR | 1, 4
+´Nduja vegetarisch | 17,50 EUR | 1, 4
+Carciofi dell'Autunno | 19,50 EUR | 1, 4
+Carciofi dell'Autunno mit schwarzem Trüffel | 26,00 EUR | 1, 4
+Carciofi dell'Autunno vegetarisch | 17,50 EUR | 1, 4
+Carciofi dell'Autunno vegetarisch mit schwarzem Trüffel | 24,00 EUR | 1, 4
+Porcinambur | 20,50 EUR | 1, 4
+Porcinambur mit schwarzem Trüffel | 26,50 EUR | 1, 4
+L´Ape che Punge | 16,50 EUR | 1, 4
+Calzone | 17,00 EUR | 1, 4
+Calzone vegetarisch | 17,00 EUR | 1, 4
+Calzone mit Nduja | 18,50 EUR | 1, 4
+Magic Mushrooms | 18,50 EUR | 1, 4
+Magic Mushrooms mit schwarzem Trüffel | 24,50 EUR | 1, 4
+CheeseCheeseCheeseCheese | 17,50 EUR | 1, 4
+CheeseCheeseCheeseCheese mit schwarzem Trüffel | 23,50 EUR | 1, 4
+New York, New York | 16,50 EUR | 1, 4
+Tonno e Cipolla | 20,50 EUR | 1, 2, 4
+Parma e Bufala | 20,50 EUR | 1, 4
+
+### MERCH + GIFTS
+Standard Cap | 30,00 EUR | -
+Standard Tote Bag | 25,00 EUR | -
+Standard Magnet | 1,50 EUR | -
+Gutschein | 20,00 EUR | -

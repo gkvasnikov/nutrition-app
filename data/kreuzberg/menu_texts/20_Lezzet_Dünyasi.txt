@@ -1,0 +1,92 @@
+# Lezzet Dünyası
+
+### ET YEMEKLERI / FLEISCHGERICHTE
+İzmir Köfte | 9,90 EUR | -
+Dalyan Köfte | 9,90 EUR | -
+Tas Kebab | 9,90 EUR | -
+Karnıyarık | 9,90 EUR | -
+Kavurma | 9,90 EUR | -
+Musakka | 9,90 EUR | -
+Dana Ciger | 9,90 EUR | -
+Çökertme Kebab | 9,90 EUR | -
+Hünkar Beğendi | 9,90 EUR | -
+İslim Kebab | 9,90 EUR | -
+Patlican Kebab | 9,90 EUR | -
+İçli Köfte | 9,90 EUR | -
+
+### ÖZEL YEMEKLER / SPEZIALGERICHTE
+Kuzu İncik | 14,90 EUR | -
+Fırında Kuzu Kaburga | 14,90 EUR | -
+Dana Gerdan | 14,90 EUR | -
+Avşar Kebabı | 14,90 EUR | -
+
+### TAVUK YEMEKLERI / HÄHNCHENGERICHTE
+Tavuk Haşlama | 7,90 EUR | -
+Fırında Tavuk | 7,90 EUR | -
+Tavuk Sote | 7,90 EUR | -
+
+### VEGETARYAN / VEGETARISCH
+Taze Fasulye | 7,90 EUR | -
+Biber Dolması | 7,90 EUR | -
+Lahana Sarması | 7,90 EUR | -
+Mücver | 7,90 EUR | -
+Kuru Fasulye | 7,90 EUR | -
+Nohut | 7,90 EUR | -
+Ispanak | 7,90 EUR | -
+Yaprak Sarma | 7,90 EUR | -
+Beşamel Soslu Mantar | 7,90 EUR | -
+
+### MANTI / TÜRKISCHE TORTELLINI
+Manti mit Hackfleisch | 9,90 EUR | -
+
+### ŞEFİN TABAĞI / CHEF-TELLER
+Şefin Tabağı 1 Person | 16,90 EUR | -
+Şefin Tabağı 2 Personen | 32,90 EUR | -
+
+### ÇORBALAR / SUPPEN
+Mercimek | 5,00 EUR | -
+İşkembe | 5,00 EUR | -
+Paça | 5,00 EUR | -
+Yayla | 5,00 EUR | -
+
+### TATLILAR / SÜßSPEISEN
+Fırında Sütlaç | 4,90 EUR | A, C, F, G, K, 6
+Portakallı Revani | 4,90 EUR | A, C, F, G, K, 6
+Şekerpare Findikli | 4,90 EUR | -
+Kabak Tatlisi | 4,90 EUR | -
+Ayva Tatlisi | 4,90 EUR | -
+
+### PASTALAR / KUCHEN
+Kuchen (verschiedene Sorten) | 5,90 EUR | -
+Cheesecake Lotus | 5,90 EUR | -
+Cheesecake Oreo | 5,90 EUR | -
+Cheesecake Zitrone | 5,90 EUR | -
+
+### KALTE GETRÄNKE
+Fritz Cola 0,2l | 2,50 EUR | 1, 2, 4
+Fritz Cola Zero 0,2l | 2,50 EUR | 1, 2, 4, 6
+Fritz Cola Light 0,2l | 2,50 EUR | 1, 2, 4, 6, 7
+Fritz Limo Orange 0,2l | 2,50 EUR | 1, 3, 4
+Fritz Kola Mischmasch 0,2l | 2,50 EUR | 1, 2, 4
+Fritz Kola Apfel-Kirsch 0,2l | 2,50 EUR | 1, 2, 4
+Uludağ 0,33l | 2,50 EUR | 4, 5
+Mineralwasser 0,2l | 2,50 EUR | -
+Stilles Wasser 0,2l | 2,50 EUR | -
+Redbull 0,33l | 3,90 EUR | 1, 2, 11
+Ayran 0,25l | 2,50 EUR | G
+Şalgam Suyu 0,33l | 2,50 EUR | -
+Capri Sun 0,33l | 2,50 EUR | -
+Apfelschorle 0,3l | 2,80 EUR | 1, 3, 5, 9
+Multivitamin 0,33l | 2,80 EUR | 3, 4
+Fuze Tea Pfirsich 0,3l | 3,50 EUR | -
+Fuze Tea Zitrone 0,3l | 3,50 EUR | -
+Lemonade | 3,50 EUR | -
+
+### WARME GETRÄNKE
+Kaffee Crema | 3,20 EUR | 2
+Espresso | 2,50 EUR | 2
+Doppelter Espresso | 3,50 EUR | 2
+Cappuccino | 3,50 EUR | 2, G
+Heiße Schokolade | 3,20 EUR | 2
+Türkischer Mokka | 3,80 EUR | 2
+Türkischer Tee | - EUR | 2

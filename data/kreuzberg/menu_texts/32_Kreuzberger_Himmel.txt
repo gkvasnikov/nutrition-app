@@ -1,0 +1,169 @@
+# Kreuzberger Himmel
+
+### KALTE VORSPEISEN
+Hummus | 8,10 EUR | -
+Muhamra | 8,10 EUR | 8, 11
+Batata | 8,40 EUR | -
+Schawandar | 8,10 EUR | -
+Baba Ganoush | 9,40 EUR | 7, 11
+M'tabal | 8,70 EUR | 7, 11
+Vier gemischte Vorspeisen | 14,20 EUR | -
+Gemischte kalte Vorspeisen für zwei Personen | 19,50 EUR | -
+
+### WARME VORSPEISEN
+Maria vegetarisch | 9,10 EUR | 7
+Maria mit Fleisch | 8,40 EUR | 1
+Sanbousak vegetarisch | 9,10 EUR | 1, 5, 7
+Sanbousak mit Fleisch | 9,10 EUR | 1
+Muhammara | 7,40 EUR | -
+
+### SALATE
+Tabouleh | 8,50 EUR | 1
+Fatoush | 8,80 EUR | 1
+Rucola Salat | 8,80 EUR | 8
+
+### SUPPE
+Linsensuppe | 6,80 EUR | -
+
+### HAUPTSPEISEN
+Kabse mit Hähnchensteak | 16,80 EUR | 4, 6
+Kabse vegan | 15,40 EUR | -
+Faroug | 18,10 EUR | -
+Kibbeh | 18,10 EUR | 1, 6
+Kibbeh a Laban | 18,60 EUR | 1, 6, 7
+Kibbeh vegan | 19,20 EUR | 1, 8, 12
+Kebab Betahini | 19,10 EUR | 7, 11
+Khosa be Laban | 18,10 EUR | 7
+Fatteh Makdoush vegetarisch | 16,80 EUR | 1, 7
+Fatteh Makdoush mit Rinderhack | 18,10 EUR | 1, 7
+Zahra Betahini | 15,90 EUR | 7, 11
+Abo Schalhop | 15,90 EUR | -
+Mizzol | 18,90 EUR | 7
+Batata Mahashi | 16,90 EUR | -
+Samaak | 20,10 EUR | 4
+
+### DESSERT
+Baklava | 6,80 EUR | 8
+Basbouse | 6,80 EUR | -
+
+### SOFT DRINKS
+Ayran 0,2l | 3,10 EUR | -
+Vitamalz 0,33l | 4,30 EUR | -
+Staatl. Fachingen Naturell 0,25l | 2,80 EUR | -
+Staatl. Fachingen Naturell 0,75l | 6,40 EUR | -
+Staatl. Fachingen Medium 0,25l | 2,80 EUR | -
+Staatl. Fachingen Medium 0,75l | 6,40 EUR | -
+Schweppes Tonic 0,2l | 3,20 EUR | -
+Schweppes Bitter Lemon 0,2l | 3,20 EUR | -
+Coca-Cola 0,2l | 3,10 EUR | -
+Coca-Cola 0,4l | 5,10 EUR | -
+Coca-Cola Zero 0,2l | 3,10 EUR | -
+Coca-Cola Zero 0,4l | 5,10 EUR | -
+Mezzo Mix 0,2l | 3,10 EUR | -
+Mezzo Mix 0,4l | 5,10 EUR | -
+Sprite 0,2l | 3,10 EUR | -
+Sprite 0,4l | 5,10 EUR | -
+Fanta 0,2l | 3,10 EUR | -
+Fanta 0,4l | 5,10 EUR | -
+
+### SÄFTE
+Apfelsaft 0,2l | 3,80 EUR | -
+Apfelsaft 0,4l | 5,80 EUR | -
+Apfelschorle 0,2l | 3,80 EUR | -
+Apfelschorle 0,4l | 5,80 EUR | -
+Orangensaft 0,2l | 3,80 EUR | -
+Orangensaft 0,4l | 5,80 EUR | -
+Orangenschorle 0,2l | 3,80 EUR | -
+Orangenschorle 0,4l | 5,80 EUR | -
+Rhabarbersaft 0,2l | 3,80 EUR | -
+Rhabarbersaft 0,4l | 5,80 EUR | -
+Rhabarberschorle 0,2l | 3,80 EUR | -
+Rhabarberschorle 0,4l | 5,80 EUR | -
+Cranberrysaft 0,2l | 3,80 EUR | -
+Cranberrysaft 0,4l | 5,80 EUR | -
+Cranberryschorle 0,2l | 3,80 EUR | -
+Cranberryschorle 0,4l | 5,80 EUR | -
+
+### KAFFEE
+Kaffee | 3,20 EUR | -
+Cappuccino | 4,10 EUR | 7
+Milchkaffee | 4,10 EUR | 7
+Espresso | 2,90 EUR | -
+Arabischer Mocca | 4,10 EUR | 7
+
+### TEE
+Schwarzer Tee | 3,10 EUR | -
+Kräutertees | 3,10 EUR | -
+Frische Minze | 3,80 EUR | -
+Frischer Ingwer | 3,80 EUR | -
+
+### BIER
+Schneider Helles 0,3l | 4,70 EUR | -
+Schneider Helles 0,5l | 6,10 EUR | -
+Schneider Weisse 0,3l | 4,70 EUR | -
+Schneider Weisse 0,5l | 6,10 EUR | -
+Meine helle Weisse 0,3l | 4,70 EUR | -
+Meine helle Weisse 0,5l | 6,10 EUR | -
+Berliner Berg Pils 0,3l | 4,70 EUR | -
+Berliner Berg Pils 0,5l | 6,10 EUR | -
+Berliner Berg Pils (alkoholfrei) 0,3l | 4,80 EUR | -
+Schneider Weisse (Alkoholfrei) 0,5l | 6,10 EUR | -
+
+### APERITIV
+Crémant de Loire 0,1l | 6,10 EUR | 1, 7
+Bouvet Ladoubay Saumur 0,75l | 42,00 EUR | 1, 7
+Aperol Spritz 0,15l | 6,80 EUR | -
+Aperol Spritz alkoholfrei 0,15l | 6,80 EUR | -
+
+### WEISSWEIN
+Cider 0,33l | 4,10 EUR | -
+Chateau Ksara Blanc de Blanc 0,2l | 6,90 EUR | 1, 7
+Chateau Ksara Blanc de Blanc 0,75l | 21,50 EUR | 1, 7
+Chateau Ksara Blanc de L'Observatoire 0,2l | 6,90 EUR | 1, 7
+Chateau Ksara Blanc de L'Observatoire 0,75l | 21,50 EUR | 1, 7
+Grauer Burgunder trocken 0,2l | 6,10 EUR | 1, 7
+Grauer Burgunder trocken 1l | 28,00 EUR | 1, 7
+Weissburgunder Martin Tesch 0,2l | 6,10 EUR | 1, 7
+Weissburgunder Martin Tesch 1l | 28,00 EUR | 1, 7
+Riesling trocken Karl Pfaffmann 0,2l | 5,90 EUR | 1, 7
+Riesling trocken Karl Pfaffmann 0,75l | 20,00 EUR | 1, 7
+Maximin Schiefer Riesling feinherb 0,2l | 5,90 EUR | 1, 7
+Maximin Schiefer Riesling feinherb 0,75l | 20,00 EUR | 1, 7
+
+### ROTWEIN
+Cuvée de Printemps 0,2l | 7,20 EUR | 1, 7
+Cuvée de Printemps 0,75l | 23,00 EUR | 1, 7
+Clos St Alphonse 0,2l | 7,40 EUR | 1, 7
+Clos St Alphonse 0,75l | 23,00 EUR | 1, 7
+Reserve Du Couvent 0,75l | 26,00 EUR | 1, 7
+Merlot Classic Pays d'Oc 0,2l | 6,10 EUR | 1, 7
+Merlot Classic Pays d'Oc 1l | 28,00 EUR | 1, 7
+Primitivo Casato de Melzi 0,2l | 6,10 EUR | 1, 7
+Primitivo Casato de Melzi 1l | 28,00 EUR | 1, 7
+Primitivo Reserve 14 0,75l | 32,00 EUR | 1, 7
+
+### ROSÉ
+Merlot Rosé 0,2l | 6,10 EUR | 1, 7
+Merlot Rosé 0,75l | 21,00 EUR | 1, 7
+Rosé de Ksara 0,2l | 6,50 EUR | 1, 7
+Rosé de Ksara 0,75l | 24,00 EUR | 1, 7
+
+### LONGDRINKS
+Gin Tonic | 7,50 EUR | -
+Gin Tonic alkoholfrei | 7,50 EUR | -
+Campari Orange | 7,50 EUR | -
+Campari Orange alkoholfrei | 7,50 EUR | -
+
+### SPIRITUOSEN
+Berolina Vodka 2cl | 3,90 EUR | -
+Berolina Gin 2cl | 3,90 EUR | -
+Slyrs Bavarian Single Malt 2cl | 4,80 EUR | -
+Chivas Regal 12 Jahre 2cl | 4,80 EUR | -
+Bergamotte Liqueur 2cl | 3,20 EUR | -
+Williams Liqueur 2cl | 3,00 EUR | -
+Pastis 51 2cl | 3,20 EUR | -
+Averna Amaro 2cl | 3,20 EUR | -
+Aperol Aperitiv 2cl | 3,00 EUR | -
+Campari Bitter 2cl | 3,20 EUR | -
+Grappa di Vinaccia 2cl | 4,50 EUR | -
+Clos St. Thomas Arak Touma 2cl | 3,00 EUR | -

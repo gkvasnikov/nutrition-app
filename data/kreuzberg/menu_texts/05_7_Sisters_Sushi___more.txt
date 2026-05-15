@@ -1,0 +1,247 @@
+# 7 Sisters Sushi & more
+
+### Suppen
+Miso Shiru | 3,50 EUR | f, d
+Miso Spezial | 6,50 EUR | f, d, n
+Miso Spicy Ebi | 5,50 EUR | f, b
+Miso Sake | 4,50 EUR | f, d
+
+### Sticks
+Sake Samurai | 7,90 EUR | f, d, k
+Tori no Tare | 7,90 EUR | f, k
+Ebi Samurai | 8,50 EUR | k, b, n, f
+
+### Gyoza
+Gyoza Chicken | 6,50 EUR | k
+Gyoza Veggie | 5,50 EUR | k
+Gyoza Garnelen | 7,50 EUR | k, b
+
+### Kindermenü
+Chicken Schnitzel | 9,90 EUR | a, g, k, f
+Kids Sushi | 9,90 EUR | a, g, k
+
+### Otsumami
+Spicy Edamame | 6,00 EUR | f, k
+Edamame | 5,00 EUR | f
+Yakitori | 6,50 EUR | k, f
+Karaage | 6,90 EUR | k, f
+Frühlingsr​ollen | 5,50 EUR | k
+Ebi Green | 7,50 EUR | f, b, k
+
+### Salate
+Yuzu Gyu Salat | 14,50 EUR | f, k, b
+Citrine Chicken Salat | 13,50 EUR | f, k, c
+Leaves and Beans Salat | 12,50 EUR | f, k
+Kimchi | 5,00 EUR | k
+Seetang Salat | 5,00 EUR | k
+Wakame-Gurkensalat | 6,50 EUR | k
+Kimchi Kyuri Salat | 6,50 EUR | k
+
+### Miso Ramen
+Ramen Aki Ryu | 17,50 EUR | f, 22, k, c
+Ramen Beef | 16,00 EUR | k, f, c, 22
+Ramen Ebi Tempura | 16,00 EUR | b, k, 22, c, a, f
+Ramen Spezial | 19,50 EUR | f, 22, k, d, n, c
+Ramen Karaage | 15,50 EUR | f, 22, c, a, k
+Ramen Sake | 16,00 EUR | d, k, 22, f, c
+Ramen Gyoza Tori Katsu | 13,50 EUR | f, 22, c, a, k
+Ramen Veggie | 12,50 EUR | f, k, a
+
+### Japanisches Curry
+Kare Classic | 13,50 EUR | f, k, a
+Kare Karaage | 14,50 EUR | f, k, a
+Kare Umi | 18,50 EUR | f, k, a, b
+Kare Tofu | 12,50 EUR | f, k, a
+
+### Udon
+Maishähnchen Curry Udon | 16,50 EUR | a, k
+Tofu Miso Kimchi Udon | 14,50 EUR | k, f, a
+Karaage Curry Udon | 14,50 EUR | a, k, f
+Beef Miso Teriyaki Udon | 16,50 EUR | k, f
+Ebi Kimchi Udon | 18,50 EUR | b, k, c, a, f
+
+### Reisgerichte
+Torikara | 17,50 EUR | a, g, f, k
+Salmon Miso Shoyu | 19,50 EUR | g, f, k, d
+
+### Sushi Menüs
+Set B | 16,00 EUR | a, d, k, 22, 1, g, f
+Menu for 2 Deluxe | 46,50 EUR | a, d, k, 1, g, f
+Set C | 15,00 EUR | a, d, k, 22, 1, g, f
+Menü for 2 Superior | 40,50 EUR | a, d, f, g, k
+Midori | 35,50 EUR | d, k, g, b
+Hikari | 18,50 EUR | d, 1, 22, k, a
+Set D | 15,00 EUR | a, k, 2, f, g
+Menu for 2 | 33,00 EUR | a, d, k, 22, f, g
+Yoikoto | 18,00 EUR | d, 1, 22
+Azura | 18,00 EUR | d
+Zen | 14,50 EUR | a, k, 2, f, g
+Yamato | 14,50 EUR | d
+Menu for 2 Veggie | 30,50 EUR | a, k, 2, f, g
+Menu for 2 Veggie Supreme | 37,00 EUR | a, d, k, f, g
+
+### Sashimi
+Sashimi Zen | 38,50 EUR | d, n
+Lachs Sashimi | 13,50 EUR | d
+Thunfisch Sashimi | 16,50 EUR | d
+Gemischtes Sashimi | 19,50 EUR | d
+
+### Donburi
+Grilled Salmon DON | 17,50 EUR | g, k, d, f
+Sake DON | 16,00 EUR | d, 1, k, g, f
+Ebi Tempura DON | 16,00 EUR | a, g, k, b, f
+Tori DON | 15,50 EUR | g, a, k, f
+
+### Maki
+Sake | 4,10 EUR | d
+Sake Avocado | 4,30 EUR | d
+Tuna gek. | 4,30 EUR | d, a, 1, g
+Salmonskind | 4,30 EUR | d, k
+Tekka | 4,50 EUR | d
+California | 3,90 EUR | 22, 1
+Mutzu Negi | 4,30 EUR | d
+Spicy Ebi | 4,60 EUR | b, 1, g
+Rucola | 3,80 EUR | g, k
+Tekka Avocado | 4,60 EUR | d
+Cali Spezial | 4,50 EUR | 1, g, b
+Ebi Avocado | 4,30 EUR | b
+Spargel | 4,00 EUR | g, k
+Unagi | 4,60 EUR | d, 2, k
+Spicy Tuna | 4,40 EUR | d
+Shiitake | 3,90 EUR | k
+Avocado | 3,80 EUR | k
+Kappa | 3,80 EUR | k
+Oshinko | 3,80 EUR | k, 2
+Mutzu Avocado | 4,30 EUR | d
+Kampyo | 3,90 EUR | 2, k
+Tamago | 3,90 EUR | c, k
+
+### Nigiri
+Sake | 4,00 EUR | d
+Maguro | 4,20 EUR | d
+Sake Ikura | 6,00 EUR | d, f
+Tai | 4,00 EUR | d
+Mutzu | 4,00 EUR | d
+Shiitake | 3,80 EUR | -
+Ebi | 4,20 EUR | b
+Unagi | 4,60 EUR | d
+Hokkigai | 4,40 EUR | n
+Hotategai | 4,60 EUR | n
+Hamachi | 4,60 EUR | d
+Lachs Fl. | 5,00 EUR | d, g, 1
+Ikan | 4,00 EUR | n
+Tako | 4,00 EUR | n
+Avocado | 3,80 EUR | -
+Lachs Rucola Fl. | 5,50 EUR | d, g, 1
+Inari | 3,80 EUR | f, 2
+Tamago | 3,80 EUR | c, g
+Ikura | 6,00 EUR | d
+Jakobsmuschel Fl. | 6,00 EUR | n, g, 1
+Tuna Negi | 5,00 EUR | d
+Green Eyes | 6,50 EUR | g, b, 1
+Salmon Rose | 6,50 EUR | d, g, 1
+Butterfisch Fl. | 5,50 EUR | d, g, 1
+
+### Inside Out
+Sake IO | 7,50 EUR | 1, d
+Maguro IO | 8,00 EUR | d, 1
+Spicy Tuna IO | 8,00 EUR | d, 1
+Spicy Salmon IO | 7,50 EUR | d, k, g
+Ebi Negi IO | 8,00 EUR | b, g, 1
+Cali Special IO | 8,00 EUR | b, 1, g
+Unagi IO | 8,50 EUR | d, k
+Philadelphia IO | 7,50 EUR | d, k, g
+Veggie Sake IO | 7,50 EUR | k, 2, f
+Veggie Tuna IO | 7,50 EUR | k, 2, f
+Avocado IO | 7,00 EUR | k, g
+Spicy Ebi IO | 8,00 EUR | g, b, 1
+Tori IO | 7,50 EUR | g, k, a
+California IO | 7,00 EUR | 22, 1
+Tuna Gek. IO | 7,50 EUR | d, g, k, 2
+Rucola Lachs IO | 7,50 EUR | d, k, g
+Salmonskin IO | 7,50 EUR | d, k
+
+### Crunchy Rolls
+Toronto Roll | 6,50 EUR | d, g, k, a, f
+Fuji Roll | 6,50 EUR | b, g, k, a, f
+Orchidee Roll | 7,00 EUR | b, g, k, a, f
+Tori Roll | 6,50 EUR | g, k, a, f
+Spicy Roll | 6,50 EUR | d, g, k, a, f
+Nina Roll | 7,00 EUR | d, g, k, a, f
+Spicy Ebi Roll | 7,00 EUR | b, g, k, a, 1, f
+Mini Sake Roll | 7,50 EUR | d, g, k, a, f
+Spicy Lachs Roll | 6,50 EUR | d, g, k, a, f
+Atlantic Roll | 6,50 EUR | d, g, k, a, f, 2
+Tokio Roll | 7,50 EUR | d, g, k, a
+Mini Avo Roll | 7,50 EUR | g, k, a, f
+Buddha Roll | 6,50 EUR | g, k, a, f
+Veggie Rolls | 6,50 EUR | g, k, a, f
+Hokkaido Roll | 6,00 EUR | g, k, a, f
+Mini Ebi Roll | 7,50 EUR | g, b, k, a, f
+Ginkgo Roll | 7,00 EUR | k, a, f, g
+Ryu Roll | 7,00 EUR | g, k, a, f
+Chicago Roll | 6,50 EUR | 1, g, k, a, 22
+
+### Special Rolls
+Caterpillar | 7,00 EUR | d, g, k, f
+Aki Hot | 7,50 EUR | d, g, k, f
+Rainbow Roll | 8,00 EUR | d, g, k, 1, f
+Dragon Roll | 8,00 EUR | d, g, k, a, f, 1
+Ebi Tempura Roll | 6,50 EUR | b, 1, g, k, a, f
+Hawaii Roll | 8,00 EUR | d, g, k, b, f
+Aki Ryu Roll | 8,50 EUR | d, 1, b, g, k, a, f
+Sake Unagi Roll | 8,00 EUR | d, g, k, f
+Tiger Roll | 7,50 EUR | d, g, k, b, f
+Volcano | 8,00 EUR | d, g, k, f
+Osaka Roll | 7,00 EUR | d, g, k, f
+Alaska Roll | 8,00 EUR | g, b, k, a, 1, f
+Chikara Roll | 7,00 EUR | g, k, a, f
+Kombu Leaf | 7,50 EUR | d, k, f
+Spicy Vegan Roll | 7,50 EUR | k, f, g
+Hotategai Roll | 8,50 EUR | b, g, k, n, 1, f
+
+### Temaki / Futo Maki
+Sake Temaki | 4,50 EUR | d, k, 1
+Maguro Temaki | 5,00 EUR | d, k, 1
+Sakana Futo | 8,00 EUR | d, g, k, f
+
+### Nachspeisen
+Mochi | 5,50 EUR | k, 2
+Mochi Eis | 6,00 EUR | k, 2, 1
+
+### Getränke - Wasser & Softdrinks
+Still/Mineral 0,2l | 2,20 EUR | -
+Still/Mineral 0,4l | 3,90 EUR | -
+Still/Mineral Flasche | 7,00 EUR | -
+Cola/Zero | 2,60 EUR | 1, 22, 12
+Cola/Zero 0,4l | 3,90 EUR | 1, 22, 12
+Fanta/Sprite | 2,60 EUR | 1, 22
+Fanta/Sprite 0,4l | 3,90 EUR | 1, 22
+Ginger Ale | 2,60 EUR | 1, 13
+Ginger Ale 0,4l | 3,90 EUR | 1, 13
+
+### Getränke - Säfte
+Apfelsaft trüb 0,2l | 2,60 EUR | -
+Apfelsaft trüb 0,4l | 4,00 EUR | -
+Mangonektar 0,2l | 2,60 EUR | -
+Mangonektar 0,4l | 4,00 EUR | -
+Saftschorle 0,2l | 2,60 EUR | -
+Saftschorle 0,4l | 4,00 EUR | -
+Lycheesaft 0,2l | 3,90 EUR | -
+
+### Getränke - Tee
+Sencha / Jasmin Tasse | 3,00 EUR | -
+Sencha / Jasmin Kännchen | 3,90 EUR | -
+Genmaicha & Sencha Tasse | 3,90 EUR | -
+Genmaicha & Sencha Kännchen | 5,50 EUR | -
+Ingwer & Zitronengras Tasse | 3,90 EUR | -
+Ingwer & Zitronengras Kännchen | 5,50 EUR | -
+Pfefferminz & Ingwer Tasse | 3,90 EUR | -
+Pfefferminz & Ingwer Kännchen | 5,50 EUR | -
+
+### Getränke - Aperitif
+Aperol Spritz | 6,90 EUR | -
+Hono | 6,00 EUR | -
+Sake Yuzu Spritz | 6,90 EUR | -
+Raku | 6,00 EUR | -
+Ume

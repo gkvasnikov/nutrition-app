@@ -1,0 +1,114 @@
+# AnCom Kitchen
+
+### VORSPEISEN
+
+Nem Cuon mit Bio-Tofu (2 Stk.) | 4,90 EUR | S
+Nem Cuon mit Hähnchen (2 Stk.) | 4,90 EUR | F
+Nem Cuon mit Garnelen (2 Stk.) | 5,50 EUR | K, F
+Nem Ran mit Bio-Tofu (2 Stk.) | 5,50 EUR | G, S
+Nem Ran mit Hackfleisch (2 Stk.) | 5,50 EUR | G, E, F
+Nem Ran mit Hähnchen (2 Stk.) | 5,50 EUR | G
+Wantan Chien mit Bio-Tofu (5 Stk.) | 4,90 EUR | G, S
+Wantan Chien mit Hähnchen (5 Stk.) | 4,90 EUR | G, F
+Edamame | 5,50 EUR | S
+Goi Xoai | 5,50 EUR | F, ER, SE
+Gyoza (6 Stk.) | 5,50 EUR | G, S
+Ha Cao Tom (5 Stk.) | 5,50 EUR | G, K, S
+Sup Chua Cay mit Bio-Tofu | 5,50 EUR | S
+Sup Chua Cay mit Hähnchen | 5,50 EUR | -
+Dau Chien Gion | 5,50 EUR | G, S
+Suon Rim | 6,50 EUR | F
+
+### SUPPEN
+
+Canh Rau Chay mit Bio-Tofu | 10,90 EUR | S
+Canh Rau Chay mit Rindfleisch | 11,90 EUR | F
+Pho Soup mit Bio-Tofu | 10,90 EUR | -
+Pho Soup mit Hähnchen | 11,50 EUR | -
+Pho Soup mit Rindfleisch | 11,90 EUR | F
+Wantan Soup mit Bio-Tofu | 10,90 EUR | G, S
+Wantan Soup mit Hähnchen | 10,90 EUR | G
+AnCom's Hue Soup | - EUR | -
+Bun Chua Cay mit Bio-Tofu | 11,50 EUR | -
+Bun Chua Cay mit Hähnchen | 11,90 EUR | -
+Bun Chua Cay mit Garnelen | 12,90 EUR | -
+
+### REISGERICHTE
+
+Com Ga mit Bio-Tofu | 9,50 EUR | S
+Com Ga mit Hähnchen | 9,50 EUR | F, MI, SE
+Toi Ot mit Bio-Tofu | 10,90 EUR | S
+Toi Ot mit Hähnchen | 11,50 EUR | F, SE
+Toi Ot mit Rindfleisch | 11,90 EUR | F, SE
+Toi Ot mit Garnelen | 13,50 EUR | K, SE
+Ca Ri mit Bio-Tofu | 10,90 EUR | S
+Ca Ri mit Hähnchen | 11,50 EUR | F, MI, SE
+Ca Ri mit Rindfleisch | 11,90 EUR | F, MI, SE
+Ca Ri mit Garnelen | 13,50 EUR | K, F, MI, SE
+Ca Ri mit Ente | 13,50 EUR | G, F, MI, SE
+Hoisin mit Bio-Tofu & Seitan | 11,50 EUR | G, S
+Hoisin mit Hähnchen | 11,50 EUR | F, SE
+Hoisin mit Rindfleisch | 11,90 EUR | F, SE
+Xoai Ca Ri mit Bio-Tofu | 10,90 EUR | S
+Xoai Ca Ri mit Hähnchen | 11,50 EUR | F, MI, SE
+Ga Chien Xu mit Crispy Tofu | 10,50 EUR | G, S
+Ga Chien Xu mit Crispy Chicken | 10,50 EUR | G, F, MI, SE
+Vit Xao Cai | 13,50 EUR | G, K, SE
+Sot Lac mit Crispy Tofu | 11,90 EUR | G, ER, S
+Sot Lac mit Crispy Chicken | 12,50 EUR | G, ER, F
+Chua Ngot mit Crispy Tofu | 11,90 EUR | G, S
+Chua Ngot mit Crispy Chicken | 12,50 EUR | G, F
+
+### NUDELGERICHTE
+
+Bun Bo Nam Bo mit Bio-Tofu | 10,50 EUR | ER, S, SE
+Bun Bo Nam Bo mit Hähnchen | 10,90 EUR | ER, F, SE
+Bun Bo Nam Bo mit Rindfleisch | 10,90 EUR | ER, F, SE
+Pho Tron mit Bio-Tofu | 10,50 EUR | ER, S, SE
+Pho Tron mit Hähnchen | 10,90 EUR | ER, F, SE
+Pho Tron mit Rindfleisch | 10,90 EUR | ER, F, SE
+Goi Mien mit Bio-Tofu | 10,50 EUR | ER, S, SE
+Goi Mien mit Hähnchen | 10,90 EUR | ER, F, SE
+Goi Mien mit Rindfleisch | 10,90 EUR | ER, F, SE
+Udon Xao mit Bio-Tofu | 11,50 EUR | G, S, SE
+Udon Xao mit Hähnchen | 11,90 EUR | G, F, SE
+Udon Xao mit Rindfleisch | 12,50 EUR | G, F, SE
+Udon Xao mit Garnelen | 13,90 EUR | G, K, SE
+Bun Nem Ran mit Bio-Tofu | 10,90 EUR | G, ER, S, SE
+Bun Nem Ran mit Hackfleisch | 10,90 EUR | G, ER, E, F, SE
+Pho Hoisin mit Seitan | 10,50 EUR | SE, G, S
+Pho Hoisin mit Hähnchen | 10,90 EUR | SE, G, F
+
+### SPECIAL
+
+Ca Sot Tieu | 14,50 EUR | K, F, SE
+Dua Xao mit Bio-Tofu | 10,90 EUR | K, S, SE
+Dua Xao mit Hähnchen | 11,50 EUR | K, F, SE
+Dua Xao mit Rindfleisch | 11,90 EUR | K, F, SE
+Sot Me mit Crispy Tofu | 10,90 EUR | G, S, SE
+Sot Me mit Crispy Chicken | 11,50 EUR | G, F, SE
+Sot Me mit Crispy Duck | 12,50 EUR | G, F, SE
+Shaolin | 11,50 EUR | G, S, SE
+Udon Ca Ri mit Bio-Tofu | 10,50 EUR | G, F, MI, SE, S
+Udon Ca Ri mit Hähnchen | 10,90 EUR | G, F, MI, SE
+Dau Muoi | 10,50 EUR | G, F, S, MI, SE
+Suon Chua Ngot | 11,90 EUR | F
+
+### HOMEMADE DESSERT
+
+Xoi Xoai Nep Than | 4,90 EUR | ER, MI, SE
+Chuoi Chien | 4,90 EUR | G, ER, MI, SE
+Xoai Pan | 4,90 EUR | MI, 8
+
+### BEILAGEN
+
+Jasminreis | 1,90 EUR | -
+Reisbandnudeln | 1,90 EUR | -
+Reisnudeln | 1,90 EUR | -
+Udonnudeln | 3,50 EUR | -
+Curry-Soße | 2,50 EUR | -
+Gedämpftes Gemüse | 2,90 EUR | -
+Knuspriges Hühnerfilet | 3,90 EUR | -
+Knuspriger Bio-Tofu | 3,90 EUR | -
+Knuspriges Entenfilet | 5,90 EUR | -
+Gegrillter Lachs | 6,50 EUR | -

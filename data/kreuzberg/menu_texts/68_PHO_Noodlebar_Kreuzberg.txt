@@ -1,0 +1,73 @@
+# PHO Noodlebar Kreuzberg
+
+### STARTERS
+Sommerrollen | 13,00 EUR | 3
+Frühlingsrollen mit Schweinehackfleisch | 7,00 EUR | 1
+Frühlingsrollen mit Garnelen & Krabben | 7,00 EUR | 1, 6
+Frühlingsrollen mit Tofu & Pilzen | 7,00 EUR | 1, 9
+Süßkartoffel-Pommes | 5,50 EUR | 1
+Edamame | 5,50 EUR | -
+Kimchi | 4,50 EUR | 5
+
+### ROLLS GRILL
+Chicken Spieße | 7,50 EUR | 3
+Black Tiger Garnelen | 7,00 EUR | 6
+Grilled Chicken | 8,50 EUR | 1, 3, 5, 9
+Tofu Spieße | 7,50 EUR | 1, 3, 5, 9
+BBQ Loin Ribs | 8,50 EUR | 1, 5, 8
+
+### SIDES
+Quay | 2,50 EUR | 1
+Eigelb + Brühe | 4,00 EUR | 0
+Duftreis | 2,50 EUR | -
+Eigelb + Brühe | 4,00 EUR | 0
+Fleisch | 4,00 EUR | -
+Garnelen | 4,00 EUR | 6
+Gemüse | 3,00 EUR | -
+Nudeln | 2,50 EUR | -
+Weizenstange frittiert | 2,50 EUR | 1
+
+### PHO
+Pho mit Rinderbrust | 15,00 EUR | 1
+Pho mit Rindersteak | 15,00 EUR | 1
+Pho mit Rinderbällchen | 14,50 EUR | 1
+Pho 3er Kombo vom Rind | 16,00 EUR | 1
+Pho 5er Spezial-Kombo vom Rind | 16,90 EUR | 1
+Pho Rinderhesse vom Wok | 16,00 EUR | 1
+Pho mit Hühnerbrust | 14,00 EUR | 1
+Pho mit Garnelen, Shiitake Pilze, Ei | 16,90 EUR | 0, 6
+Pho mit Tofu, Seitan, Shimeji Pilze | 14,00 EUR | 1, 9
+
+### SALATE
+Dry Pho mit Crispy Chicken | 14,50 EUR | 1, 3, 8, 9
+Dry Pho mit Tofu + Seitan | 14,50 EUR | 1, 3, 9
+Grüne Mango-Salat | 13,00 EUR | 5, 8
+Grüne Mango-Salat mit Crispy Ente | 13,00 EUR | 5, 8
+Grüne Mango-Salat mit Tofu + Seitan | 12,00 EUR | 5, 8, 9
+Glasnudelsalat mit Crispy Chicken | 11,00 EUR | 1, 3, 8
+Glasnudelsalat mit Tofu + Seitan | 10,50 EUR | 1, 3, 8, 9
+Grüne Papaya-Salat mit Black Tiger Garnelen | 13,00 EUR | 6, 8
+Grüne Papaya-Salat mit Tofu + Seitan | 12,00 EUR | 8, 9
+
+### DUMPLINGS
+Gyoza mit Chicken | 7,50 EUR | 1, 5, 9
+Gyoza Veggy | 7,50 EUR | 1, 5
+Banh Bao Dumpling mit Chicken | 7,00 EUR | 1, 3, 5, 9
+Banh Bao Dumpling Veggy | 7,00 EUR | 1, 3, 5, 9
+
+### BAO BUNS
+Bao Buns mit Hähnchenschenkel gegrillt | 9,50 EUR | 1, 3, 5, 9
+Bao Buns mit Rinderfleisch gegrillt | 9,50 EUR | 1, 3, 5, 8, 9
+Bao Buns mit Pilz Tempura | 9,50 EUR | 1, 3, 5, 9
+Bao Buns mit Tofu gegrillt | 9,50 EUR | 1, 3, 5, 8, 9
+
+### WOK
+Sunrice mit Hähnchenschenkel gegrillt | 15,50 EUR | 0, 1, 5, 9
+Sunrice mit Tofu + Seitan | 15,50 EUR | 0, 1, 5, 9
+Rice Me | 15,50 EUR | 1, 5, 8
+Fry Pho mit Rinderhesse vom Wok | 15,50 EUR | 1, 3, 5, 9
+Fry Pho mit Tofu + Seitan | 14,50 EUR | 1, 3, 5, 9
+
+### NUDELN
+Udon Nudeln mit Hühnerbrust | 14,90 EUR | 1, 5, 8
+Udon Nudeln mit Tofu + Seitan | 14,50 EUR | 1, 5, 8, 9

@@ -1,0 +1,155 @@
+# World of Pizza Berlin-Mitte
+
+### PIZZEN - BEST PRICE
+Margherita | - | -
+Hawaii | - | -
+Michigan | - | -
+Salami | - | -
+Tonno | - | -
+Western | - | -
+
+### PIZZEN - FAVORITE
+Amsterdam | - | -
+California | - | -
+Curry | - | -
+Gemüsebeet | - | -
+Holland | - | -
+Kansas | - | -
+Mist(a)er | - | -
+Philadelphia | - | -
+Rucola | - | -
+WOP Dog | - | -
+
+### PIZZEN - PREMIUM
+Chicken Kebab | - | -
+Dutchman | - | -
+Italiano | - | -
+Montana | - | -
+Oklahoma Chicken | - | -
+Spring Rod | - | -
+Sucuk Teriyaki Chicken | - | -
+Texas | - | -
+Zingara | - | -
+
+### BURGER
+American Style Burger Small | 9,99 EUR | -
+American Style Burger Normal | 12,99 EUR | -
+BBQ Bacon Burger Small | 9,99 EUR | -
+BBQ Bacon Burger Normal | 12,99 EUR | -
+Chili Cheese Burger Small | 9,99 EUR | -
+Chili Cheese Burger Normal | 12,99 EUR | -
+Chipotle Beef Burger Small | 9,99 EUR | -
+Chipotle Beef Burger Normal | 12,99 EUR | -
+Crispy Chicken Burger Normal | 12,99 EUR | -
+Plant Crunchy Chick'n Burger Normal | 12,99 EUR | -
+World Burger Small | 9,99 EUR | -
+World Burger Normal | 12,99 EUR | -
+World Burger Small mit Beilage + Getränk | 15,99 EUR | -
+World Burger Normal mit Beilage + Getränk | 18,99 EUR | -
+
+### WRAPS
+Wrap Caesar | 9,99 EUR | -
+Wrap Chicken Kebab | 9,99 EUR | -
+Wrap Chipotle Chicken Small | 9,99 EUR | -
+Wrap Chipotle Chicken Normal | 12,99 EUR | -
+Wrap Gartenfrisch | 9,99 EUR | -
+Wrap Miami Normal | 12,99 EUR | -
+Wrap Plant Crunchy Chick'n | 9,99 EUR | -
+Wrap Teriyaki Chicken | 9,99 EUR | -
+
+### FINGERFOOD
+Blumenkohlwings Vegan | 9,99 EUR | -
+Chicken Box | 12,99 EUR | -
+Chicken Nuggets | 9,99 EUR | -
+Chicken Wings | 12,99 EUR | -
+Country Potatoes | 5,99 EUR | -
+Fingerfood Box | 24,99 EUR | -
+Onion Rings Box | 6,99 EUR | -
+
+### PASTA
+Vegan Gamba | 14,99 EUR | -
+Gourmet | 14,99 EUR | -
+Lasagne Bologna | 14,99 EUR | -
+Meine Pasta Fusilli | 10,99 EUR | -
+Gratin Catania | 14,99 EUR | -
+Gratin Siena | 14,99 EUR | -
+
+### PIZZABRÖTCHEN
+Meine Pizzabrötchen | - | -
+Meine Pizzabrötchen Vegan | - | -
+Pizzabrötchen Like Meat Vegan | - | -
+Pizzabrötchen Salami & Käse | - | -
+Pizzabrötchen Spinat & Hirtenkäse | - | -
+Pizzabrötchen Schinken & Käse | - | -
+Pizzabrötchen Ungefüllt | - | -
+Pizzabrötchen WOP Dog | - | -
+
+### KNOBLAUCH-ECKEN
+Knoblauch-Ecken | 1,90 EUR | -
+Knoblauch-Käse-Ecken | 1,90 EUR | -
+Knoblauch-Käse-Ecken Vegan | 1,90 EUR | -
+
+### BOWLS
+Bowl Crispy Chicken | 11,99 EUR | -
+Bowl Medina | 11,99 EUR | -
+Bowl Osaka | 11,99 EUR | -
+Bowl Plant Crunchy Chick'n | 11,99 EUR | -
+Bowl Teriyaki Beef | 12,99 EUR | -
+Bowl Teriyaki Chicken | 12,99 EUR | -
+
+### SALATE
+Salat Greece | 10,99 EUR | -
+Salat Italy | 10,99 EUR | -
+Salat Red Garden | 10,99 EUR | -
+Snack Salat | 4,99 EUR | -
+
+### DESSERTS
+Ben & Jerry's Shorties Cookie Dough | 2,99 EUR | -
+Ben & Jerry's Shorties Chocolate Fudge Brownie | 2,99 EUR | -
+Ben & Jerry's Pint Brookieees & Cream | 8,99 EUR | -
+Ben & Jerry's Pint Cookies on Cookie Dough | 8,99 EUR | -
+Ben & Jerry's Pint Karamel Sutra | 8,99 EUR | -
+Ben & Jerry's Pint Peanut Butter Cup | 8,99 EUR | -
+Sweeties | 5,99 EUR | -
+
+### DIPS
+Aioli Dip | 1,99 EUR | -
+Curry Dip | 1,99 EUR | -
+Guacamole Dip | 1,99 EUR | -
+Honey BBQ | 1,99 EUR | -
+Jalapeño Salsa | 1,99 EUR | -
+Ketchup Dip | 1,99 EUR | -
+Ketchup & Mayonnaise Dip | 1,99 EUR | -
+Mayonnaise Dip | 1,99 EUR | -
+Mayonnaisesauce Vegan | 1,99 EUR | -
+Sour Creme Dip | 1,99 EUR | -
+Teriyakisauce | 1,99 EUR | -
+Thai Mango Dip | 1,99 EUR | -
+Tzatziki | 1,99 EUR | -
+Vanillesauce | 1,99 EUR | -
+
+### DRESSINGS
+American Dressing | 1,99 EUR | -
+Balsamico Dressing | 1,99 EUR | -
+Caesar Dressing | 1,99 EUR | -
+Dressing Sylter Art | 1,99 EUR | -
+
+### SOFTDRINKS
+Coca-Cola 0,33 l Mehrweg | 2,35 EUR | -
+Coca-Cola Zero 0,33 l Mehrweg | 2,35 EUR | -
+Fanta 0,33 l Mehrweg | 2,35 EUR | -
+Sprite 0,33 l Mehrweg | 2,35 EUR | -
+Coca-Cola, Coca-Cola Zero, Fanta, Sprite 1,00 l Mehrweg | 3,00 EUR | -
+VIO Mineralwasser Still 0,5 l Einweg | 2,25 EUR | -
+VIO Mineralwasser Medium 0,5 l Einweg | 2,25 EUR | -
+
+### ENERGY DRINK
+Monster Energy 0,5 l Einweg | 3,25 EUR | -
+
+### BIER
+Krombacher Pils 0,33 l Mehrweg | 2,92 EUR | -
+
+### WEIN
+Merlot 0,75 l | 9,99 EUR | -
+Chardonnay 0,75 l | 9,99 EUR | -
+Liebfraumilch 0,75 l | 9,99 EUR | -

@@ -1,0 +1,118 @@
+# Gran Casino
+
+### PANINI
+Panino aus dem Holzofen | 2,50 EUR | -
+Panino con Mortadella | 6,00 EUR | -
+Panino Caprese | 6,00 EUR | -
+Panino con Prosciutto Crudo | 7,00 EUR | -
+Panino con Melanzane Grigliate e Formaggio | 6,50 EUR | -
+
+### VORSPEISEN
+Oliven | 5,00 EUR | -
+Bruschette al Pomodoro | 8,00 EUR | -
+Antipasto Misto | 9,50 EUR | -
+Antipasto Misto con Prosciutto Crudo | 12,00 EUR | -
+Mozzarella di Bufala alla Caprese | 9,00 EUR | -
+Burrata con Rucola | 9,50 EUR | -
+Mortadella Emiliana | 8,00 EUR | -
+Formaggi Misti | 10,00 EUR | -
+Insalata Mista | 7,50 EUR | -
+Insalata di Rucola con Parmigiano | 8,50 EUR | -
+Vitello Tonnato | 12,00 EUR | -
+
+### PASTA
+Linguine Aglio e Olio | 10,50 EUR | Gluten
+Linguine al Pomodoro | 11,50 EUR | Gluten
+Linguine alla Sorrentina | 13,50 EUR | Gluten, Milch
+Linguine alla Puttanesca | 14,00 EUR | Gluten
+Ravioli ripieni con Ricotta e Spinaci al Burro di Salvia | 14,50 EUR | Gluten, Milch
+Kinderportion Pomodoro | 6,50 EUR | Gluten
+Kinderportion Ragu | 7,00 EUR | Gluten
+Pappardelle al Ragu | 15,00 EUR | Gluten
+Lasagna al Forno alla Bolognese | 14,00 EUR | Gluten
+Tagliatelle alla Carbonara | 15,50 EUR | Gluten
+
+### PIZZA NAPOLETANA
+Focaccia | 7,00 EUR | Gluten
+Pizza Marinara | 9,00 EUR | Gluten
+Pizza Margherita | 11,00 EUR | Gluten, Milch
+Pizza Salame | 12,00 EUR | Gluten, Milch
+Pizza Funghi | 12,00 EUR | Gluten, Milch
+Pizza Spianata | 13,00 EUR | Gluten, Milch
+Pizza Regina | 14,50 EUR | Gluten, Milch
+Pizza Parma | 15,50 EUR | Gluten, Milch
+Pizza Napoli | 14,00 EUR | Gluten, Milch, Fisch
+Pizza Salsiccia e Friarielli DOC | 15,50 EUR | Gluten, Milch
+Pizza Originale | 14,50 EUR | Gluten, Milch
+Pizza Rucola | 13,50 EUR | Gluten, Milch
+Pizza con Burrata | 17,00 EUR | Gluten, Milch
+Pizza Leggera | 12,50 EUR | Gluten
+Pizza Diavola | 14,50 EUR | Gluten, Milch
+Pizza Tonno | 15,50 EUR | Gluten, Milch, Fisch
+Pizza Ortolana | 14,50 EUR | Gluten, Milch
+Calzone con Scarola | 16,50 EUR | Gluten, Milch, Fisch
+Focaccia con Pomodorini | 9,50 EUR | Gluten
+Kinderpizza Margherita | 6,00 EUR | Gluten
+Kinderpizza Salami | 6,50 EUR | Gluten
+
+### DOLCE
+Crostata al Limone | 4,50 EUR | Gluten, Milch, Ei
+Panna Cotta con Frutti di Bosco | 6,50 EUR | Gluten, Milch, Ei
+Affogato | 7,00 EUR | Milch
+Tiramisu | 8,00 EUR | Gluten, Milch
+
+### CAFFÈ ESPRESSO
+Espresso | 1,90 EUR | -
+Doppio | 3,00 EUR | -
+Americano | 2,50 EUR | -
+Cappuccino | 2,80 EUR | -
+Caffè Latte | 3,50 EUR | -
+Heiße Schokolade | 3,00 EUR | -
+
+### AQUA
+Wasser mit Kohlensäure Glas 0,2 l | 2,50 EUR | -
+Wasser mit Kohlensäure Karaffe 1,0 l | 6,00 EUR | -
+Wasser ohne Kohlensäure Glas 0,3 l | 2,50 EUR | -
+Wasser ohne Kohlensäure Flasche 0,75 l | 6,00 EUR | -
+
+### BIBITI
+Proviant Saftschorlen 0,33 l | 3,50 EUR | -
+Tonic/Bitter Lemon/Lemon Soda 0,2 l | 3,50 EUR | -
+Rixdorfer Fassbrause 0,33 l | 3,50 EUR | -
+Apfelsaft/Orangensaft 0,2 l | 3,00 EUR | -
+Orangina 0,25 l | 3,50 EUR | -
+Coca Cola/Zero 0,2 l | 3,00 EUR | -
+
+### BIRRA BIER
+Berliner Berg Pils 0,3 l | 3,50 EUR | -
+Berliner Berg Pils 0,5 l | 5,00 EUR | -
+BRLO Helles 0,3 l | 3,50 EUR | -
+BRLO Helles 0,5 l | 5,00 EUR | -
+Erdinger Hefeweizen 0,5 l | 4,50 EUR | -
+Erdinger Hefeweizen alkoholfrei 0,5 l | 4,50 EUR | -
+Störtebeker Atlantik-Ale alkoholfrei 0,33 l | 3,50 EUR | -
+Ichnusa Non Filtrata 0,33 l | 3,50 EUR | -
+
+### TÈ TEE
+Frische Kräuter | 2,50 EUR | -
+Frischer schwarzer Tee | 2,50 EUR | -
+Mit Zitrone | 3,50 EUR | -
+Mit Minze | 3,50 EUR | -
+Heiße Zitrone | 3,50 EUR | -
+Frische Minze | 3,50 EUR | -
+Frischer Ingwer | 3,50 EUR | -
+Frischer Ingwer und frische Minze | 3,50 EUR | -
+Frische Hibiskusblüte | 3,50 EUR | -
+Frische Kamillenblüte | 3,50 EUR | -
+
+### APERITIVO/SPIRITI
+Aperol/Campari/Lemon Spritz 0,2 l | 7,50 EUR | -
+Hugo 0,2 l | 7,50 EUR | -
+Campari Soda/Orange 0,2 l | 7,50 EUR | -
+San Bitter alkoholfrei 0,2 l | 4,00 EUR | -
+Negroni 0,2 l | 8,00 EUR | -
+Gin Tonic, Vodka Soda 0,2 l | 7,50 EUR | -
+Limoncello 2 cl | 3,50 EUR | -
+Amari, Liquori 2 cl | 3,50 EUR | -
+Nardini Grappa Bianca 2 cl | 4,00 EUR | -
+Sarpa Oro di Poli Grappa 2 cl | 4,50 EUR | -

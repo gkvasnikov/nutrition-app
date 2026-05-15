@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+enrichment/pdfs/
+enrichment/*_batch_id.txt
+data/*_backup*.json
+data/kreuzberg/.wolt_venues_cache.json
+data/wrangelkiez/.wolt_venues_cache.json
+errors.log
+enrichment.log

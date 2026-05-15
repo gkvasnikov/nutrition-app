@@ -1,0 +1,49 @@
+# Restaurant Panther
+
+### Vorspeisen
+Ziegenkäsebällchen | 11,80 EUR | 7, 8, 10, 11, 16
+Hausgemachte kleine Kartoffelpuffer mit gebeiztem Lachs und Sahnemeerrettich | 12,50 EUR | 1, 3, 4, 7, 9, 10, 15
+Hausgemachte kleine Kartoffelpuffer mit gebeiztem Lachs und Honig-Senf-Sauce | 12,50 EUR | 1, 3, 4, 7, 9, 10, 15
+Hausgemachte kleine Kartoffelpuffer mit Apfelmus | 9,90 EUR | 1, 3, 12, 18
+Gebratene Gambas | 13,50 EUR | 2, 10, 11
+Spargelcremesüppchen | 7,90 EUR | 7, 9
+
+### Salate
+Panther-Salat | 16,50 EUR | 7, 10, 11
+Raff´s Low Carb | 17,50 EUR | 7, 10, 11, 12
+Kleiner gemischter Beilagensalat | 6,00 EUR | 10, 11
+Kleiner gemischter Beilagensalat mit gebröseltem Schafsfeta | 7,50 EUR | 10, 11
+Extra Brotkorb mit Dip | 3,50 EUR | -
+
+### Flammkuchen
+Klassiker | 11,90 EUR | 1, 7, 12, 16, 17, 18
+Herzhafter | 13,50 EUR | 1, 7, 12, 16, 17, 18
+Veganer | 13,50 EUR | 1, 12, 17
+Italiener | 13,90 EUR | 1, 7, 8, 16, 17
+Saisonaler | 17,50 EUR | 1, 7, 3, 12, 15, 17, 18
+
+### Hauptspeisen
+Frischer Spargel mit neue Kartoffeln und Hollandaise | 19,90 EUR | 3, 7, 12, 17
+Frischer Spargel mit neue Kartoffeln und zerlassener Butter | 19,90 EUR | 3, 7, 12, 17
+Frischer Spargel mit gemischtem Schinkenteller | 26,40 EUR | 3, 7, 12, 15, 17, 18
+Frischer Spargel mit kleinem Wiener Schnitzel vom Kalb | 32,40 EUR | 1, 3, 7, 12, 17
+Frischer Spargel mit gebratenem Schollenfilet | 32,40 EUR | 3, 4, 7, 12, 17
+Würziges Gulasch vom Brandenburger Hirschen | 22,50 EUR | 1, 6, 7, 9, 10, 12
+Wiener Schnitzel vom Kalbsrücken | 29,50 EUR | 1, 3, 7, 9, 10, 11
+Wiener Schnitzel vom Kalbsrücken mit Preiselbeeren | 30,70 EUR | 1, 3, 7, 9, 10, 11
+Schnitzel „Wiener Art" | 19,50 EUR | 1, 3, 9, 10, 11
+Kinderschnitzel „Wiener Art" | 11,90 EUR | 1, 3
+Paniertes Schnitzel von der Aubergine | 18,90 EUR | 1, 3
+PANTHER´s Real Beef Burger | 21,00 EUR | 1, 6, 7, 10, 12
+Beyond Vegetarian Ground Beef Burger | 19,90 EUR | 1, 6, 7, 10, 12, 13, 17, 18
+Tagliatelle | 15,90 EUR | 1, 9
+Mangold-Pilz-Pfanne | 16,90 EUR | 6, 9, 10, 12
+BIO-Ravioli mit Steinpilz-Füllung | 16,90 EUR | 1, 7
+Tiroler Käsespätzle | 15,90 EUR | 1, 3, 7, 9, 10, 11, 12, 17, 18
+Panther-Spätzle | 16,90 EUR | 1, 3, 7, 9, 10, 11, 12, 17, 18
+
+### Dessert
+Hausgemachter Kaiserschmarrn | 12,90 EUR | 1, 3, 7, 16
+Kleines Schokoküchlein mit flüssigem Kern | 7,50 EUR | 1, 3, 7, 18
+Creme Brulée | 6,90 EUR | 7, 17
+Espresso Martini | 11,50 EUR | 16, 19

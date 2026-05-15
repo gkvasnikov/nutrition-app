@@ -1,0 +1,178 @@
+# Anh Ba Restaurant
+
+### BANH MÌ
+Banh Mì mit gegrilltem Schwein | 7,90 EUR | -
+Banh Mì mit gegrilltem Hähnchen | 7,90 EUR | -
+Banh Mì mit Tofu | 7,90 EUR | N
+
+### FINGERFOOD
+Nem Chien mit Hühnchen | 5,90 EUR | N, F, H
+Nem Chien mit Gemüse | 5,90 EUR | N, F, H
+Gỏi Cuốn mit Tofu | 4,90 EUR | -
+Gỏi Cuốn mit Garnelen | 5,90 EUR | -
+Tôm Chiên Cốm | 6,90 EUR | -
+Crispy Bowl Vegan | 6,50 EUR | F
+Thịt Nuong | 6,90 EUR | F
+Bò Lá Lốt mit gegrilltem Rind | 5,90 EUR | I
+Bò Lá Lốt mit gegrilltem Seitan | 5,90 EUR | I
+Hoi An Crostini Vegan | 5,50 EUR | -
+Shiso Rolls Vegan | 6,50 EUR | N, H
+Tau Hu Sate | 4,90 EUR | H
+Bò Sa | 6,90 EUR | I
+Viet Tacos mit Hühnchen | 5,90 EUR | H, N
+Viet Tacos mit Garnelen | 5,90 EUR | H, N
+Viet Tacos mit knusprigem Tofu | 5,90 EUR | H, N
+Loving Tofu | 5,90 EUR | A, B, C, D, F, N
+Nasu Caramel Yaki | 7,90 EUR | I, A
+Crispy Chicken | 5,90 EUR | I
+Dumplings mit Gemüse | 5,90 EUR | N, H
+Dumplings mit Hühnchen | 5,90 EUR | N, H
+
+### SALATE
+Gỏi Hoa Chuối | 9,90 EUR | I, F
+Gỏi Xoài mit Tofu | 5,90 EUR | -
+Gỏi Xoài mit Garnelen-Hühnchen | 6,50 EUR | -
+Golden Salat mit knusprigem Tofu | 5,90 EUR | -
+Golden Salat mit Hühnchen | 5,90 EUR | -
+Golden Salat mit Garnelen | 6,50 EUR | -
+
+### SMALL SOUPS
+Hoanh Thanh mit Garnelen | - EUR | H, F
+Hoanh Thanh mit knusprigem Tofu | - EUR | H, F
+Sup Tomka mit Hühnchen | 7,90 EUR | -
+Sup Tomka mit knusprigem Tofu | 6,90 EUR | -
+
+### PHỞ - SOUP
+Phở mit Rinderfleisch | 14,90 EUR | N
+Phở mit Hühnchen | 13,90 EUR | N
+Phở Vegan | 11,90 EUR | -
+
+### NOODLE SOUPS
+Bún Bò Huế | 13,90 EUR | N
+Bún Huế Vegan | 11,90 EUR | N, B
+Bún Cá | 15,90 EUR | N
+Bún Cá Vegan | 12,90 EUR | I, A
+Bánh Canh | 13,90 EUR | O, NF
+
+### NOODLE DISHES
+Phở Xào mit knuspriger Ente | 15,90 EUR | I, H
+Phở Xào mit gegrilltem Hühnersteck | 14,90 EUR | I, H
+Phở Xào mit knuspriger großer Garnele | 14,90 EUR | I, H
+Phở Xào mit knusprigem Hühnchen | 13,90 EUR | I, H
+Cao Lầu mit mariniertem Schweinbauch | 13,90 EUR | B
+Cao Lầu mit gegrilltem Hühnersteck | 13,90 EUR | I
+Mì Bò Kho | 13,90 EUR | H, N, F
+Bún Chả | 14,90 EUR | H, N
+Bún Nam Bộ | 14,90 EUR | I, H, N
+Mì Xào Sốt Lạc mit Rinder | 14,90 EUR | H, F
+Mì Xào Sốt Lạc mit gegrilltem Hühnersteck | 14,90 EUR | H, F
+Mì Xào Sốt Lạc mit knuspriger Ente | 15,90 EUR | H, F
+Mì Xào Sốt Lạc mit knusprigem Hühnchen | 14,90 EUR | H, F
+Miến Trộn mit Rinder | 15,90 EUR | I, H
+Miến Trộn mit gegrilltem Hühnersteck | 15,90 EUR | I, H
+Miến Trộn mit knuspriger Ente | 15,90 EUR | I, H
+
+### VEGAN NOODLE DISHES
+Cao Lầu Chay | 11,90 EUR | O, N, F
+Phở Xào Chay mit knusprigem Tofu | 12,90 EUR | I, N, H
+Phở Xào Chay mit Seitan | 12,90 EUR | I, N, H
+Phở Xào Chay mit knuspriger Vegan Ente | 14,90 EUR | I, N, H
+Mỳ Quảng Chay | 11,90 EUR | I, N, H
+Bún Seitan Nướng | 12,90 EUR | I, N
+Bò Kho Chay | 11,90 EUR | I, N, H
+Mì Xào Sốt Lạc Vegan mit knusprigem Tofu | 12,90 EUR | H, F
+Mì Xào Sốt Lạc Vegan mit Seitan | 12,90 EUR | H, F
+Mì Xào Sốt Lạc Vegan mit knuspriger Vegan Ente | 14,90 EUR | H, F
+Miến Trộn Vegan mit knusprigem Tofu | 13,90 EUR | -
+Miến Trộn Vegan mit Seitan | 13,90 EUR | -
+Miến Trộn Vegan mit knuspriger Vegan Ente | 15,90 EUR | -
+
+### TRADITIONAL MENU-SETS
+Thịt Kho-Canh Cai | 16,90 EUR | A
+Cá Kho-Canh Bí | 16,90 EUR | B
+
+### RICE DISHES
+Cơm Tấm Sườn | 16,90 EUR | F, A
+Grilled Salmon | 16,90 EUR | F, B
+Sốt Lạc Bowl mit knuspriger Ente | 14,90 EUR | H
+Sốt Lạc Bowl mit gegrilltem Hühnersteck | 14,50 EUR | H
+Sốt Lạc Bowl mit knuspriger großer Garnele | 14,90 EUR | H
+Sốt Lạc Bowl mit knusprigem Hühnchen | 13,90 EUR | H
+Sốt Lạc Bowl mit gegrilltem Lachs | 16,90 EUR | F
+Cari Bowl mit knuspriger Ente | 14,90 EUR | F
+Cari Bowl mit gegrilltem Hühnersteck | 14,50 EUR | F
+Cari Bowl mit knuspriger großer Garnele | 14,90 EUR | F
+Cari Bowl mit knusprigem Hühnchen | 13,90 EUR | F
+Beef on Fire | 16,90 EUR | F
+Rau Xào mit knuspriger Ente | 15,90 EUR | H, N, F
+Rau Xào mit gegrilltem Hühnersteck | 14,90 EUR | H, N, F
+Rau Xào mit knuspriger großer Garnele | 14,90 EUR | H, N, F
+Rau Xào mit knusprigem Hühnchen | 14,90 EUR | H, N, F
+Rau Xào mit Rinder | 14,90 EUR | H, N, F
+Cơm Rang mit knuspriger Ente | 15,90 EUR | H, N, F
+Cơm Rang mit gegrilltem Hühnersteck | 14,90 EUR | H, N, F
+Cơm Rang mit knuspriger großer Garnele | 15,90 EUR | H, N, F
+Cơm Rang mit knusprigem Hühnchen | 14,90 EUR | H, N, F
+
+### VEGAN RICE DISHES
+Rau Xào Vegan mit Tofu | 11,90 EUR | F
+Rau Xào Vegan mit Seitan | 12,90 EUR | F
+Rau Xào Vegan mit knuspriger Vegan Ente | 14,90 EUR | F
+Cari Vegan mit Tofu | 11,90 EUR | -
+Cari Vegan mit Seitan | 12,90 EUR | -
+Cari Vegan mit knuspriger Vegan Ente | 14,90 EUR | -
+Cơm Rang Chay mit knusprigem Tofu | 12,90 EUR | F, N
+Cơm Rang Chay mit Seitan | 12,90 EUR | F, N
+Cơm Rang Chay mit knuspriger Vegan Ente | 14,90 EUR | F, N
+Royal Teriyaki mit Tofu | 12,90 EUR | F
+Royal Teriyaki mit Seitan | 12,90 EUR | F
+Royal Teriyaki mit knuspriger Vegan Ente | 14,90 EUR | F
+Sot Lac Vegan mit Tofu | 11,90 EUR | F, H, N
+Sot Lac Vegan mit Seitan | 12,90 EUR | F, H, N
+Sot Lac Vegan mit knuspriger Vegan Ente | 14,90 EUR | F, H, N
+Golden Vegan | 12,90 EUR | F, H, N
+
+### HOMEMADE DRINKS
+Spicy Summer | 5,90 EUR | -
+Kumquat Limonade | 5,90 EUR | -
+Strawberry Lemonade | 5,90 EUR | -
+Mango Drink | 5,90 EUR | -
+Maracujas Drink | 5,90 EUR | -
+Himbeere Drinks | 5,90 EUR | -
+Lychee Ice Tea | 5,90 EUR | 1, 5
+Ha Noi Green | 5,90 EUR | -
+Ginger Lemonade | 5,90 EUR | -
+Mangolassi | 4,90 EUR | L, 11
+
+### BEER
+Tiger Bier 0,3l | 3,90 EUR | -
+Tiger Bier 0,5l | 5,50 EUR | -
+Benediktiner Hell 0,3l | 3,90 EUR | -
+Benediktiner Hell 0,5l | 5,50 EUR | -
+Jeverfun alkoholfrei 0,3l | 3,90 EUR | -
+Jeverfun alkoholfrei 0,5l | 4,90 EUR | -
+Benediktiner Weissbier alkoholfrei | 4,90 EUR | -
+Benediktiner Weissbier naturtrüb | 4,90 EUR | -
+
+### SHOTS SPECIAL
+Chuối Hột | 3,90 EUR | -
+Rượu Thuốc | 3,90 EUR | -
+Rượu Sâm | 3,90 EUR | -
+Rượu Táo | 3,90 EUR | -
+
+### APERITIFS
+Aperol Spritz | 7,90 EUR | 4, 5, 11
+Hugo Spritz | 7,90 EUR | 4, 5, 11
+Campari Spritz | 7,90 EUR | 4, 5, 11
+
+### LONG DRINKS
+Maracuja Mojito | 7,90 EUR | 4, 5
+Strawberry Mojito | 7,90 EUR | 4, 5
+Coconut Mojito | 7,90 EUR | 4, 5
+Gin Gin Mule | 7,90 EUR | 4, 5
+Saigon Moscow Mule | 7,90 EUR | 4, 5
+Cuba Libre | 7,90 EUR | 4, 5
+
+### COCKTAILS
+Lemon Rosemary Smash | 8,90 EUR | 5
+Viet Bali Smash | 8,90 EUR | 5

@@ -1,0 +1,104 @@
+# Zeytin Café
+
+### SUPPEN
+Mercimek | 5,00 EUR | -
+Tavuk Çorba | 6,00 EUR | -
+
+### VORSPEISEN
+Sigara Böregi (6 Stück) | 6,00 EUR | -
+Su Böregi (2 Stück) | 8,00 EUR | -
+Ezme Tabagi (6 Sorten) | 10,00 EUR | -
+Kizartma Tabagi | 10,00 EUR | -
+
+### FRÜHSTÜCK/BREAKFAST BROTE
+Avo Bread | 13,00 EUR | -
+Champy Bread | 13,00 EUR | -
+Oriental Bread | 14,00 EUR | -
+Sicak Tava Pastrami Bread | 15,00 EUR | -
+Salmon Bread | 16,00 EUR | -
+Zeytin's Bread | 17,00 EUR | -
+
+### TOASTS
+Simit Tost | 9,00 EUR | -
+Simit Tost mit Sucuk | 10,00 EUR | -
+Simit Tost mit Pastirma | 11,00 EUR | -
+Tost Menü mit Sucuk | 10,00 EUR | -
+Tost Menü mit Pastirma | 11,00 EUR | -
+
+### FRÜHSTÜCKSMENÜS
+Menü 1 | - EUR | -
+Menü 2 | - EUR | -
+Serpme Kahvaltisi | - EUR | -
+gestreutes Frühstück für 2 Personen | 35,00 EUR | -
+
+### PFANNEN (TAVALAR)
+Menemen | 10,00 EUR | -
+Menemen mit Sucuk | 11,00 EUR | -
+Menemen mit Pastirma | 12,00 EUR | -
+Kuymak | 10,00 EUR | -
+Spiegelei | 10,00 EUR | -
+Rührei | 10,00 EUR | -
+Rührei mit Sucuk | 11,00 EUR | -
+Rührei mit Pastirma | 12,00 EUR | -
+Rührei mit Kiyma | 13,00 EUR | -
+Rührei mit Kavurma | 14,00 EUR | -
+Ciftlik Tava | 10,00 EUR | -
+Ciftlik Tava mit Sucuk | 11,00 EUR | -
+Ciftlik Tava mit Pastirma | 12,00 EUR | -
+Mantar Tava | 11,00 EUR | -
+Sucuk Tava | 11,00 EUR | -
+Menemen | 14,00 EUR | -
+Menemen mit Sucuk | 15,00 EUR | -
+Menemen mit Pastirma | 16,00 EUR | -
+Kuymak | 14,00 EUR | -
+Spiegelei | 14,00 EUR | -
+Rührei | 14,00 EUR | -
+Rührei mit Sucuk | 15,00 EUR | -
+Rührei mit Pastirma | 16,00 EUR | -
+Rührei mit Kiyma | 17,00 EUR | -
+Rührei mit Kavurma | 18,00 EUR | -
+Ciftlik Tava | 14,00 EUR | -
+Ciftlik Tava mit Sucuk | 15,00 EUR | -
+Ciftlik Tava mit Pastirma | 16,00 EUR | -
+Mantar Tava | 14,00 EUR | -
+Sucuk Tava | 14,00 EUR | -
+
+### OMELETTEN
+Peynirli Omlet | 10,00 EUR | -
+Kasarli Omlet | 10,00 EUR | -
+Sucuklu Omlet | 11,00 EUR | -
+Mantarli Omlet | 10,00 EUR | -
+Patatesli Omlet | 11,00 EUR | -
+Pastirmali Omlet | 12,00 EUR | -
+Bauern Omlet | 12,00 EUR | -
+
+### SALATE
+Bauernsalat | 8,00 EUR | -
+Bauernsalat mit Schafskäse | 10,00 EUR | -
+Gemischter Blattsalat | 8,00 EUR | -
+Gemischter Blattsalat mit Schafskäse | 10,00 EUR | -
+Hähnchen Salat | 13,00 EUR | -
+Hähnchen Salat mit Schafskäse | 15,00 EUR | -
+Thunfisch Salat | 13,00 EUR | -
+Thunfisch Salat mit Schafskäse | 15,00 EUR | -
+
+### DESSERTS
+Manti mit Hackfleisch Katmer mit Eis | 11,00 EUR | -
+Manti mit Kartoffel | 9,00 EUR | -
+
+### EXTRAS
+Simit | 1,30 EUR | -
+Ezme | 1,80 EUR | -
+Zeytin | 1,50 EUR | -
+Beyaz Peynir | 2,00 EUR | -
+Frischkäse | 2,00 EUR | -
+Bal Kaymak | 2,50 EUR | -
+Salam | 2,50 EUR | -
+Sucuk | 2,50 EUR | -
+Nutella | 2,50 EUR | -
+Recel | 2,50 EUR | -
+Pastirma | 2,50 EUR | -
+Tahin Pekmez | 2,50 EUR | -
+Sosis | 2,50 EUR | -
+Pommes | 4,00 EUR | -
+Haslanmis Yumurta | 1,00 EUR | -

@@ -1,0 +1,87 @@
+# Cafe Morgenstern
+
+### FRÜHSTÜCK
+Kreuzberger | 11,90 EUR | -
+Käseteller | 11,90 EUR | -
+Grillteller | 12,90 EUR | -
+Menemen | 8,50 EUR | -
+Menemen Groß | 12,90 EUR | -
+Menemen mit Sucuk | 8,50 EUR | -
+Menemen mit Sucuk Groß | 12,90 EUR | -
+Menemen mit Rinderschinken | 8,50 EUR | -
+Menemen mit Rinderschinken Groß | 12,90 EUR | -
+Menemen mit Schafskäse | 8,50 EUR | -
+Menemen mit Schafskäse Groß | 12,90 EUR | -
+Rührei | 8,50 EUR | -
+Rührei Groß | 12,90 EUR | -
+Rührei mit Sucuk | 8,50 EUR | -
+Rührei mit Sucuk Groß | 12,90 EUR | -
+Rührei mit Rinderschinken | 8,50 EUR | -
+Rührei mit Rinderschinken Groß | 12,90 EUR | -
+Rührei mit Schafskäse | 8,50 EUR | -
+Rührei mit Schafskäse Groß | 12,90 EUR | -
+Spiegelei | 8,50 EUR | -
+Toastplatte | 8,90 EUR | -
+Doppelte Toastplatte | 15,90 EUR | -
+Toastplatte mit Sucuk | 8,90 EUR | -
+Toastplatte mit Rinderschinken | 8,90 EUR | -
+Toastplatte mit Pute | 8,90 EUR | -
+Toastplatte mit Ei | 8,90 EUR | -
+Toastplatte mit Mozzarella | 8,90 EUR | -
+Toastplatte mit Schafskäse | 8,90 EUR | -
+
+### SALATE
+Hähnchensalat | 6,90 EUR | -
+Thunfischsalat | 6,90 EUR | -
+Veggie-Salat | 6,40 EUR | -
+
+### MINI-SALATBECHER
+Kisir | 2,90 EUR | -
+Kisir Groß | 3,90 EUR | -
+Nudelsalat | 2,90 EUR | -
+Kartoffelsalat | 2,90 EUR | -
+Linsensalat | 3,20 EUR | -
+Kichererbsensalat | 3,20 EUR | -
+
+### SÜSSE BECHER
+Tiramisu | 3,20 EUR | -
+Lotuscreme-Becher | 3,50 EUR | -
+Chia-Mango-Becher | 4,20 EUR | -
+Bircher-Müsli | 3,20 EUR | -
+Mandarinen-Quarkbecher | 3,20 EUR | -
+Pfirsich-Maracuja-Becher | 3,20 EUR | -
+Müsli-Quarkbecher | 2,90 EUR | -
+
+### KUCHEN
+Brownie Schnitte | 3,20 EUR | -
+Brownie mit Walnuss | 3,50 EUR | -
+Bienenstich Schnitte | 3,20 EUR | -
+Kirschstreusel Schnitte | 3,20 EUR | -
+Apfelstreusel Schnitte | 3,20 EUR | -
+Täglich frische Kuchen | - | -
+
+### KAFFEE
+Café Crema | 2,50 EUR | -
+Café Crema Groß | 3,50 EUR | -
+Milchkaffee | 3,50 EUR | -
+Espresso | 2,50 EUR | -
+Espresso Groß | 3,50 EUR | -
+Cappuccino | 3,50 EUR | -
+Cappuccino Groß | 4,50 EUR | -
+Latte Macchiato | 3,50 EUR | -
+Türkischer Mokka | 3,70 EUR | -
+
+### HEISSE GETRÄNKE
+Türkischer Tee | 1,30 EUR | -
+Türkischer Tee Groß | 1,90 EUR | -
+Frischer Minztee | 3,40 EUR | -
+Beuteltee | 2,20 EUR | -
+Heiße Schokolade | 1,90 EUR | -
+Heiße Schokolade Groß | 2,90 EUR | -
+
+### KALTE GETRÄNKE
+Eiskaffee Klassisch | 4,90 EUR | -
+Eiskaffee Karamell | 4,90 EUR | -
+Eiskaffee Schoko | 4,90 EUR | -
+Eiskaffee Haselnuss | 4,90 EUR | -
+Frischer Orangensaft | 4,20 EUR | -

@@ -1,0 +1,97 @@
+# Avatar Indisches Restaurant
+
+### Suppen · Soups
+
+Madras Rasam | 5,00 EUR | A
+Gemüsesuppe | 5,00 EUR | A
+Mulligatawney-Suppe | 5,90 EUR | A
+Sauer-Scharf-Suppe | 5,90 EUR | A
+Knoblauchsuppe | 5,90 EUR | A
+Cremige Tomatensuppe | 5,90 EUR | A
+Scampi Suppe | 7,90 EUR | A
+
+### Vorspeisen & Salat
+
+Gobi Pakora | 5,00 EUR | -
+Paneer Pakora | 5,50 EUR | G
+Champignon Pakora | 5,00 EUR | -
+Onion Ring | 5,50 EUR | -
+Chicken Pakora | 6,00 EUR | -
+Mixed Pakora für zwei Personen | 13,90 EUR | G
+Samosas (2 Stück) | 5,90 EUR | A
+Chicken Salat | 10,90 EUR | J
+
+### Vegetarische Gerichte
+
+Aloo Bengan | 10,90 EUR | -
+Paneer Markhani | 11,90 EUR | -
+Okra Masala | 12,90 EUR | -
+Dal Tadka | 10,90 EUR | -
+Mix Subji | 10,90 EUR | -
+Palak Paneer | 10,90 EUR | G
+Malai Kofta | 11,90 EUR | G, H
+Alu Gobi | 11,90 EUR | -
+Shahi Paneer | 11,90 EUR | G, H
+Bengan Curry | 11,90 EUR | G
+Paneer Jalfrezi | 11,90 EUR | G, F
+Monari Handi | 11,90 EUR | -
+Aloo Palak | 10,90 EUR | -
+Mattar Paneer | 10,90 EUR | G
+Sabzi Korma | 11,90 EUR | G, H
+Channa Masala | 10,90 EUR | G, H
+Mango Paneer | 11,90 EUR | G, H
+
+### Hähnchengerichte
+
+Chicken Broccoli | 12,90 EUR | G, H
+Chicken Vindaloo | 12,90 EUR | -
+Chicken Avatar | 12,90 EUR | -
+Chicken Curry | 11,90 EUR | -
+Chicken Saag | 12,90 EUR | -
+Chicken Champignon | 12,50 EUR | G
+Chicken Korma | 12,90 EUR | G, H
+Butter Chicken | 12,90 EUR | G, H
+Chicken Mango | 12,90 EUR | G, H
+Chicken Subji | 12,50 EUR | -
+Chicken Madras | 12,90 EUR | -
+Chicken Dahiwala | 12,50 EUR | G, H
+Chicken Jalfrezi | 12,90 EUR | -
+Chicken Tikka Masala | 12,90 EUR | -
+Chicken Chili | 12,90 EUR | G, 1
+
+### Lammgerichte
+
+Lamm Curry | 13,50 EUR | -
+Lamm Subji | 13,50 EUR | -
+Lamm Saag | 13,90 EUR | -
+Lamm Korma | 14,00 EUR | G, H
+Lamm Champignon | 13,90 EUR | G
+Lamm Dahiwala | 13,90 EUR | G, H
+Lamm Vindaloo | 14,00 EUR | -
+Lamm Dal | 14,00 EUR | -
+Lamm Broccoli | 13,90 EUR | G, H
+Lamm Madras | 14,00 EUR | -
+Lamm Mango | 14,00 EUR | G
+Lamm Masala | 14,00 EUR | -
+
+### Tandoori-Ofen
+
+Chicken Tandoori | 15,00 EUR | G
+Chicken Tikka | 15,50 EUR | G
+Lamm Tikka | 16,00 EUR | -
+Birbal Chooza | 15,50 EUR | G, H
+Paneer Tikka | 15,00 EUR | G
+Avatar Mix Grillplatte | 17,90 EUR | G, 1
+Ente Tikka | 15,90 EUR | -
+Scampi Tikka | 16,90 EUR | B
+Fisch Tikka | 15,90 EUR | D
+Vegetarisches Tikka | 15,50 EUR | G
+
+### Reisgerichte
+
+Vegetable Biryani | 12,00 EUR | -
+Chicken Biryani | 12,90 EUR | -
+
+### Happy Hour Cocktail
+
+Happy Hour Cocktail | 5,90 EUR | -

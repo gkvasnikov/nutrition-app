@@ -1,0 +1,61 @@
+# Café Bethesda
+
+### MENÜ 1 (8,50 EUR)
+
+Zwiebelcremesuppe | 8,50 EUR | 10, 16, 22, 23
+Blumenkohlkronen mit Hackbällchen mit Champignon, Petersilienkartoffeln und Hollandaise | 8,50 EUR | 10, 16a
+Pfirsichquark | 8,50 EUR | 10
+
+Waldpilzrahmsuppe | 8,50 EUR | 10, 16, 22, 23
+Soljanka mit Sauerrahm | 8,50 EUR | 10, 22, 29
+Espressocreme | 8,50 EUR | 10
+
+Paprikacremesuppe | 8,50 EUR | 10, 16, 22, 23
+2 Getreide Bratlinge mit gemischtem Salat und Kräuter Dip | 8,50 EUR | 10, 16, 16a, 18
+Rote Grütze mit Vanillesauce | 8,50 EUR | 7, 10
+
+Kartoffelsuppe | 8,50 EUR | 10, 16, 22, 23, 29
+Gemüselasagne mit fruchtiger Tomatensauce | 8,50 EUR | 10, 16a
+Limettenpudding | 8,50 EUR | 10
+
+Broccoli Cremesuppe | 8,50 EUR | 10, 16, 22, 23
+Kaiserschmarren mit Fruchtkompott | 8,50 EUR | 10, 16a, 18
+Pfirsichkompott | 8,50 EUR | 7
+
+Gemüsecremesuppe | 8,50 EUR | 10, 16, 22, 23
+Graupeneintopf mit Kasseler Einlage | 8,50 EUR | 16, 18, 22, 29
+Kirschpudding | 8,50 EUR | 7, 10
+
+Karottensuppe | 8,50 EUR | 10, 16, 22, 23
+Mac & Cheese (Nudelauflauf) | 8,50 EUR | 22, 23, 29
+Eisbecher | 8,50 EUR | 7, 10
+
+### MENÜ 2 (12,50 EUR)
+
+Zwiebelcremesuppe | 12,50 EUR | 10, 16, 22, 23
+Blumenkohlkronen mit Hackbällchen mit Champignon & Butterspätzle | 12,50 EUR | 10, 16a, 24
+Pfirsichquark | 12,50 EUR | 10
+
+Waldpilzrahmsuppe | 12,50 EUR | 10, 16, 22, 23
+Hähnchengulasch mit Rotkohl und Kartoffeln | 12,50 EUR | 12, 16
+Espressocreme | 12,50 EUR | 10
+
+Paprikacremesuppe | 12,50 EUR | 10, 16, 22, 23
+Leberkäse mit Schmorzwiebeln und Kartoffelpüree | 12,50 EUR | 16, 18, 10
+Rote Grütze mit Vanillesauce | 12,50 EUR | 7, 10
+
+Tomatensuppe | 12,50 EUR | 10
+Cevapcici, Djuvecreis und Krautsalat | 12,50 EUR | 5, 8, 18, 29
+Limettenpudding | 12,50 EUR | 10
+
+Broccoli Cremesuppe | 12,50 EUR | 10, 16, 22, 23
+Backfisch vom Kabeljau, Kartoffelecken und Remouladensauce | 12,50 EUR | 10, 16, 19
+Pfirsichkompott | 12,50 EUR | 7
+
+Gemüsecremesuppe | 12,50 EUR | 10, 16, 22, 23
+Hühnerfrikassee mit Erbsen, Möhren, Champignons mit Buttereis | 12,50 EUR | 10, 16, 22
+Kirschpudding | 12,50 EUR | 7, 10
+
+Karottensuppe | 12,50 EUR | 10, 16, 22, 23
+Kasseler Braten, Salzkartoffeln, Sauerkraut und Dunkler Jus | 12,50 EUR | 10, 16, 22, 23
+Eisbecher | 12,50 EUR | 7, 10

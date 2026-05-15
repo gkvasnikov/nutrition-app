@@ -1,0 +1,69 @@
+# Seerose
+
+### Warme Speisen
+Kleiner Teller (2 Gerichte zur Wahl) | 5,90 EUR | -
+Mittlerer Teller (3 Gerichte zur Wahl) | 7,40 EUR | -
+Großer Teller (4 Gerichte zur Wahl) | 10,60 EUR | -
+
+### Salate & Snacks
+Kleiner Salat-Teller | 4,00 EUR | -
+Mittlerer Salat-Teller | 5,00 EUR | -
+Großer Salat-Teller | 6,50 EUR | -
+Gemüsebratling | 2,80 EUR | -
+Frühlingsrolle | 2,50 EUR | -
+Spinat und Schafskäse | - | -
+Sojabohnensprossen und Gemüse | - | -
+
+### Süßes
+Kuchen pro Stück | 2,80 EUR | -
+Energiebällchen | 2,00 EUR | -
+
+### Heiße Getränke
+Kaffee | 2,20 EUR | -
+Espresso | 2,00 EUR | -
+Espresso doppelter | 2,80 EUR | -
+Cappuccino | 2,70 EUR | -
+Cappuccino mit Sojamilch | 2,50 EUR | -
+Milchkaffee | 3,20 EUR | -
+Milchkaffee mit Sojamilch | 2,90 EUR | -
+Latte Macchiato | 3,20 EUR | -
+Heiße Schokolade | 2,30 EUR | -
+Glas Tee (0,3 l) | 2,20 EUR | -
+Glas Tee (0,4 l) | 3,70 EUR | -
+Glas Tee (0,5 l) | 4,70 EUR | -
+
+### Getränke
+Frisch gepresste Säfte (0,3 l) | 3,00 EUR | -
+Frisch gepresste Säfte (0,4 l) | 4,00 EUR | -
+Frisch gepresste Säfte (0,5 l) | 5,00 EUR | -
+Biosäfte (0,3 l) | 2,90 EUR | -
+Biosäfte (0,4 l) | 3,90 EUR | -
+Biosäfte (0,5 l) | 4,90 EUR | -
+Saftschorle (0,3 l) | 2,70 EUR | -
+Saftschorle (0,4 l) | 3,40 EUR | -
+Saftschorle (0,5 l) | 4,10 EUR | -
+Wasser (0,3 l) | 2,00 EUR | -
+Wasser (0,4 l) | 2,80 EUR | -
+Wasser (0,5 l) | 3,60 EUR | -
+Brandenburger Quell (0,75 l) | 4,50 EUR | -
+Römerquelle (1,0 l) | 5,50 EUR | -
+Bionade (0,33 l) | 2,50 EUR | -
+Bio-Cola (0,33 l) | 2,20 EUR | -
+BioZisch (0,33 l) | 2,50 EUR | -
+
+### Bier, Wein, Sekt
+Weißwein (0,2 l) | 3,50 EUR | -
+Rotwein (0,2 l) | 3,50 EUR | -
+Weinschorle (0,2 l) | 3,00 EUR | -
+Bio-Weißwein (0,2 l) | 6,90 EUR | -
+Bio-Rotwein (0,2 l) | 6,90 EUR | -
+Bier Lammsbräu (0,33 l) | 3,00 EUR | -
+Bier Lammsbräu (0,5 l) | 3,50 EUR | -
+Lammsbräu alkoholfrei (0,33 l) | 2,70 EUR | -
+Lammsbräu alkoholfrei (0,5 l) | 3,00 EUR | -
+Bio-Bier (0,3 l) | 2,00 EUR | -
+Bio-Bier (0,5 l) | 2,50 EUR | -
+Bio-Sekt (0,7 l) | 8,90 EUR | -
+Bio-Prosecco (0,7 l) | 6,90 EUR | -
+Sekt (0,7 l Flasche) | 18,00 EUR | -
+Prosecco (0,7 l Flasche) | 18,00 EUR | -

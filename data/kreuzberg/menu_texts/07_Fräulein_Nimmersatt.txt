@@ -1,0 +1,66 @@
+# Fräulein Nimmersatt
+
+### DRAFT BEER
+Pilsner Urquell 0,33l | 3,20 EUR | -
+Pilsner Urquell 0,5l | 3,90 EUR | -
+Alster (Sprite) 0,33l | 3,20 EUR | -
+Alster (Sprite) 0,5l | 3,50 EUR | -
+Radler (Fanta) 0,33l | 3,20 EUR | -
+Radler (Fanta) 0,5l | 3,50 EUR | -
+Diesel (Cola) 0,33l | 3,20 EUR | -
+Diesel (Cola) 0,5l | 3,50 EUR | -
+Malzbier 0,33l | 3,20 EUR | -
+
+### BOTTLED BEER
+Wostok | 3,20 EUR | -
+Bionade Kräuter | 3,20 EUR | -
+Bionade Litchi | 3,20 EUR | -
+Bionade Holunder 0,33l | 3,20 EUR | -
+Hefe 0,5l | 3,50 EUR | -
+Kristall 0,5l | 3,50 EUR | -
+Dunkel 0,5l | 3,50 EUR | -
+Becks 0,33l | 3,50 EUR | -
+Becks Lemon 0,33l | 3,50 EUR | -
+Rothaus 0,33l | 3,50 EUR | -
+Schöfferh. Grapefruit 0,33l | 3,50 EUR | -
+Red Bull 0,33l | 3,50 EUR | -
+Red Bull Sugarfree 0,33l | 3,50 EUR | -
+Büble Bayrisches Helles 0,5l | 3,50 EUR | -
+Berl. Weisse rot 0,33l | 3,80 EUR | -
+Berl. Weisse grün 0,33l | 3,80 EUR | -
+
+### WINE
+Merlot (rot) 0,2l | 4,50 EUR | -
+Rioja (rot) 0,2l | 4,50 EUR | -
+Lambrusco (rot) 0,2l | 4,50 EUR | -
+Chardonnay (weiss) 0,2l | 4,50 EUR | -
+Weissburgunder (weiss) 0,2l | 4,50 EUR | -
+Pinot Grigio (weiss) 0,2l | 4,50 EUR | -
+Riesling (weiss) 0,2l | 4,50 EUR | -
+Zinfandel (rosé) 0,2l | 4,50 EUR | -
+Weissherbst (rosé) 0,2l | 4,50 EUR | -
+Tempranillo (rosé) 0,2l | 4,50 EUR | -
+
+### SOFTDRINKS & WATER
+Coca Cola 0,2l | 2,60 EUR | -
+Cola Zero 0,2l | 2,60 EUR | -
+Fanta 0,2l | 2,60 EUR | -
+Sprite 0,2l | 2,60 EUR | -
+Ginger Ale 0,2l | 2,80 EUR | -
+Bitter Lemon 0,2l | 2,80 EUR | -
+Tonic Water 0,2l | 2,80 EUR | -
+Wasser Still 0,25l | 2,50 EUR | -
+Wasser Sprudel 0,75l | 5,50 EUR | -
+
+### JUICES
+Apfelsaft 0,35l | - EUR | -
+Orangensaft 0,35l | - EUR | -
+Ananassaft 0,35l | - EUR | -
+Bananensaft 0,35l | - EUR | -
+Kirschsaft 0,35l | - EUR | -
+Mangosaft 0,35l | - EUR | -
+Rhabarbersaft 0,35l | - EUR | -
+Grapefruitsaft 0,35l | - EUR | -
+Maracujanektar 0,35l | - EUR | -
+Guavesaft 0,35l | - EUR | -
+Kiba 0,35l | 3,50 EUR | -

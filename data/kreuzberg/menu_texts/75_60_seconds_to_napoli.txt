@@ -1,0 +1,55 @@
+# 60 SECONDS TO NAPOLI
+
+### VORSPEISEN
+BURRATA | - | 1, 7
+MIXED ANTIPASTI | - | 1, 7, B, C, I
+BEST OF BRUSCHETTA | - | 1, 3, 5, 7, 8, A, B, E, H, I, J
+FOCCACIA | - | 1
+FOCCACIA mit Aioli | - | 1, 3, B, I, J
+FOCCACIA mit Nduja-Mayonaise | - | 1, 3, A, B, H, I
+FOCCACIA mit Trüffelmayonnaise | - | 1, 3, 10, A, B, I, J
+FOCCACIA mit Basilikum-Pesto | - | 5, 7, 8, E
+BLACK AGNUS CARPACCIO | - | 1, 3, 7, 10, A, B, I, J
+CHEESE ROLL 1 | - | 1, 3, 7, 10, A, B, I, J
+CHEESE ROLL 1 mit Mangalitza Schinken | - | 1, 3, 7, 9, 10, A, B, C, I, J
+
+### SALATE
+GRÜNZEUG | - | 1, A
+GRÜNZEUG mit Ziegenkäse | - | 1, 7, A
+GRÜNZEUG mit Burrata | - | 1, 7, A
+CAESAR SALAD | - | 1, 3, 4, 10
+BEILAGENSALAT | - | A
+CHICKEN & BURRATA | - | 1, 7
+
+### PIZZA
+MARINARA 1 | - | 1
+MARGHERITA 1 | - | 1, 7
+MARGHERITA VEGAN 1 | - | 1, 8C
+MARGHERITA DI BUFALINA 1 | - | 1, 7
+GREEN MAMBA 1 | - | 1, 7
+GREEN MAMBA VEGAN 1 | - | 1, 8C
+ARNIE 1 | - | 1, 7
+SALSICCIA STYLE 1 | - | 1, 7, 9, 10, B
+THE ROCK 1 | - | 1, 5, 7, 8, E
+SCHINKEN CHAMPIGNON 1 | - | 1, 7, 9, 10, B, C
+COWABUNGA 1 | - | 1, 7, B, C
+DON DIABLO 1 | - | 1, 7, B, C, I
+THE BEAST 1 | - | 1, 7, B
+VEGAN SALAMI 1 | - | 1, 6, 8J, 10, A, J
+VEGAN SALAMI mit Fior di Latte 1 | - | 1, 6, 7, 8J, 10, A, J
+BACON `N`CHEESE 1 | - | 1, 7, B
+BURRATA BOMB 1 | - | 1, 7, B
+PARMA 24 1 | - | 1, 7
+VEGAN BEEF CHIMICHURRI 1 | - | 1, 8C, 9, 10, B, C, F, I
+GAMBA 1 | - | 1, 2, 7
+WHITE TUNA 1 | - | 1, 4, 7
+OH MY TRUFFLE 1 | - | 1, 7
+TRUFFLEPASTA IN A PIZZA BOWL 1 | - | 1, 7
+THE ROYAL LOBSTER 1 | - | 1, 2, 4, 6, 7, 8E, 10
+
+### NACHTISCH
+PIZZA NUTELLA 1 | - | 1, 5, 6, 7, H
+TIRAMISU | - | 1, 3, 7, 11, H
+SCHOKOTÖRTCHEN | - | 1, 2, 3, 4, 5, 6, 7, 9, 10, 12
+ESPRESSO AFFOGATO | - | 1, 7, A, I
+VEGAN STRAWBERRY CRUMBLE | - | 1, 6, C, E, I

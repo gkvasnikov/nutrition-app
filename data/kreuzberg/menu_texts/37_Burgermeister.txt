@@ -1,0 +1,53 @@
+# Burgermeister
+
+### BURGERS
+Hamburger | - | -
+Cheeseburger | - | -
+Chili-Cheeseburger | - | -
+Hausmeister® | - | -
+Meisterburger | - | -
+Meister aller Klassen® | - | -
+Fleischermeister | - | -
+Waldmeister® (Veggie) | - | -
+Lieferandomeister | - | -
+Woltmeister | - | -
+
+### FRIES
+Fries | - | -
+Cheese Fries | - | -
+Bacon & Onion Fries | - | -
+
+### COOKIES
+Blueberry Cheesecake | - | -
+Double Chocolate Peanut | - | -
+Chocolate Chip Walnut | - | -
+
+### MILKSHAKES
+Vanilla | - | -
+Vanilla Cookie Crumble | - | -
+Double Chocolate | - | -
+Strawberry | - | -
+Sticky Rice Mango | - | -
+Speculoos Crunch | - | -
+
+### DRINKS
+Coca-Cola 0,3L | - | -
+Coca-Cola Zero 0,3L | - | -
+Sprite 0,3L | - | -
+Fanta 0,3L | - | -
+Wasser 0,3L | - | -
+Bier 0,33L | - | -
+
+### EXTRAS
+Bacon | - | -
+Cheese | - | -
+Jalapeños | - | -
+Grilled Mushrooms | - | -
+Grilled Onions | - | -
+Cheese Sauce | - | -
+Proteinpulver (30g) | - | -
+Sahne (25g) | - | -
+Patty | - | -
+Veggie Patty | - | -
+Mayo | - | -
+Ketchup | - | -

@@ -1,0 +1,81 @@
+# Café Milagro
+
+### Frühstück
+Pancakes | 10,90 EUR | -
+Sweety | 10,90 EUR | -
+New Yorker Frühstück | 11,90 EUR | -
+Käse Frühstück | 12,90 EUR | -
+Oxford Frühstück | 11,90 EUR | -
+Italienisches Frühstück | 12,90 EUR | -
+Vegetarisches Frühstück | 12,90 EUR | -
+Kreuzberger Frühstück | 11,90 EUR | -
+Naturrühr- oder Spiegeleier – von drei Eiern | 8,90 EUR | -
+Naturrühr- oder Spiegeleier mit Tomaten, frischen Kräutern, Salatgarnitur und Obst | 9,90 EUR | -
+Naturrühr- oder Spiegeleier mit gekochtem Schinken, Champignons, Salatgarnitur und Obst | 10,90 EUR | -
+Naturrühr- oder Spiegeleier mit gebratenem Speck, Champignons, Salatgarnitur und Obst | 10,90 EUR | -
+Spanische Omelette | 11,90 EUR | -
+Omelette mit Tomate-Mozzarella, Basilikum | 10,90 EUR | -
+Omelette mit Gorgonzola | 10,90 EUR | -
+Omelette mit Schafskäse und frischen Tomaten Basilikum | 10,90 EUR | -
+
+### Vorspeisen, Suppen und Pizza
+Fruchtige Orangen-Tomatensuppe | 5,90 EUR | -
+Linsensuppe | 6,90 EUR | -
+Kürbis-Ingwercremesuppe | 6,90 EUR | -
+Edelfischsuppe | 11,90 EUR | -
+Bruschetta | 7,90 EUR | -
+Caprese | 9,90 EUR | -
+Humus | 8,90 EUR | -
+Veganer Vorspeisenteller | 16,90 EUR | -
+Milagro Vorspeisenteller | 21,90 EUR | -
+Pizza Spinat | 11,90 EUR | -
+Pizza Salami | 11,90 EUR | -
+Pizza Salami & Kalb | 16,90 EUR | -
+Pizza Spinat Gorgonzola | 13,90 EUR | -
+Pizza Quattro Formaggi | 13,90 EUR | -
+Pizza Vegetari | 15,90 EUR | -
+Pizza Lachs-Spinat | 15,90 EUR | -
+Pizza Tonno & Cipolla | 13,90 EUR | -
+
+### Salate, Nudeln und Kinder-Gerichte
+Gemischter Salat | 6,90 EUR | -
+Schafskäse Salat | 10,90 EUR | -
+Ziegenkäse Salat | 11,90 EUR | -
+Thunfisch Salat | 11,90 EUR | -
+Hähnchen Salat | 13,90 EUR | -
+Lachs Salat | 13,90 EUR | -
+Linsen-Vegetarische Maultaschen Salat | 12,90 EUR | -
+Milagro Salat der Saison | 16,90 EUR | -
+Ricotta-Spinat-Tortellini | 11,90 EUR | -
+Spaghetti mit Garnelen | 17,90 EUR | -
+Hausgemachte Chicken Nuggets | 10,90 EUR | -
+Pasta mit Tomatensoße | 7,90 EUR | -
+Pommes mit Ketchup | 7,90 EUR | -
+
+### Milagro Classics
+Flammkuchen Klassik | 11,90 EUR | -
+Flammkuchen Tomate-Mozzarella | 11,90 EUR | -
+Flammkuchen Spinat-Gorgonzola | 12,90 EUR | -
+Flammkuchen Vegetarisch | 13,90 EUR | -
+Flammkuchen mit Garnelen | 17,90 EUR | -
+Veganer Flammkuchen | 13,90 EUR | -
+Gegrillte Hähnchenbrust | 13,90 EUR | -
+Black Angus Hüft-Steak Argentinien | 23,90 EUR | -
+Wiener Schnitzel vom Kalb mit Kräuterkartoffeln und Salatbouqet | 22,90 EUR | -
+Wiener Schnitzel vom Kalb mit knusprigen Bratkartoffeln und Salatbouqet | 24,80 EUR | -
+Milagro Special Burger | 12,90 EUR | -
+Maultaschen | 11,90 EUR | -
+Käsespätzle | 11,90 EUR | -
+Spinat-Semmelknödel | 12,90 EUR | -
+Sauerteigfladen (Injera) | 14,90 EUR | -
+
+### Dessert
+Zitronensorbet | 9,90 EUR | -
+Afogato | 5,90 EUR | -
+Creme Brûlée | 5,90 EUR | -
+Kaiserschmarrn | 12,90 EUR | -
+Gemischtes Eis | 8,90 EUR | -
+Bananen Split | 9,90 EUR | -
+Eiskaffee | 6,90 EUR | -
+Eisschokolade | 6,90 EUR | -
+Kugel Eis nach Wahl | 2,80 EUR | -

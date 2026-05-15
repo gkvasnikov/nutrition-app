@@ -1,0 +1,82 @@
+# Soi 189 Kreuzberg
+
+### Vorspeisen
+
+Tao Hu Thod | 5,50 EUR | A, F
+Por Pia Jeh | 6,50 EUR | A, F
+Por Pia Sod mit Tofu | 6,50 EUR | A, F
+Por Pia Sod mit Garnelen | 7,50 EUR | A, B, F
+Giew Thod | 6,50 EUR | A, B, F
+Thod Man Gung | 8,90 EUR | A, B, C, F
+Thod Man Pla | 8,50 EUR | A, D, F, E
+Muh Grob | 8,50 EUR | A, B, F, D, 4
+Kor Muh Yang | 7,90 EUR | F, D
+Sateh Gai | 7,00 EUR | E, F
+Peek Gai Thod | 6,50 EUR | A, F
+
+### Suppen
+
+Gaeng Jued Wunsen Sarai | 6,50 EUR | F, I
+Tom Yam mit Tofu | 6,50 EUR | D, F
+Tom Yam mit Hähnchen | 6,90 EUR | D
+Tom Yam mit Garnelen | 7,90 EUR | B, D
+Tom Kha Gai mit Tofu | 6,50 EUR | F
+Tom Kha Gai mit Hähnchen | 6,90 EUR | D
+Tom Kha Gai mit Garnelen | 7,90 EUR | B, D
+Giew Nam | 6,90 EUR | A, C
+
+### Salate
+
+Som Tam Thai | 10,90 EUR | B, D, F
+Som Tam Lao | 13,50 EUR | B, D, F, 4
+Yam Mamuang Gung | 13,90 EUR | B, D, E, F, I, O
+Yam Nueah Yang | 14,90 EUR | D, I
+Yam Pla Meuk | 15,90 EUR | D, N
+Yam Taleh | 16,90 EUR | B, D, I
+Yam Wun-sen mit Hähnchen | 13,90 EUR | E, F, I
+Yam Wun-sen mit Schwein | 13,90 EUR | E, F, I
+Yam Wun-sen mit Garnelen | 16,90 EUR | B, D, F, I
+Yam Wun-sen mit Meeresfrüchten | 17,50 EUR | B, D, F, I
+Laab mit Hähnchen | 12,90 EUR | A, D
+Laab mit Schwein | 12,90 EUR | A, D
+Laab mit Ente | 16,80 EUR | A, D
+
+### Hauptspeisen
+
+Pad Sauce Tua | 12,50 EUR | E, F
+Pad Sam-rod | 12,50 EUR | D, F
+Pad Grapao | 12,50 EUR | D, F
+Pad Phed Medmamuang | 12,50 EUR | E, F
+Pad Phrik Khing | 12,50 EUR | D, F
+Pad Pak Ruam | 12,50 EUR | F, N
+Pad Priew Waan | 12,50 EUR | D, F
+Pad Gra-Triem Phrik-Thai | 12,50 EUR | D, F
+Pad Kee Mao | 12,50 EUR | -
+Pad Phrik-Gaeng | 12,50 EUR | D, F
+Roter Thai-Curry | 12,50 EUR | F
+Grüner Thai-Curry | 12,50 EUR | F
+Massaman Thai-Curry | 12,50 EUR | E, F, H
+Panaeng Thai-Curry | 12,50 EUR | E, F
+Gaeng Kua Sapparod | 13,50 EUR | F
+Gaeng Mamuang | 13,50 EUR | F, H
+Kao Pad | 11,50 EUR | C, F
+Pad Thai | 11,50 EUR | A, C, E, F
+Pad Si-iew | 11,50 EUR | A, C, F
+Pad Wun Sen | 11,50 EUR | A, C, F, L
+
+### Empfehlungen des Hauses
+
+Gai Yang | 15,90 EUR | E
+Pla Meuk Yang | 15,90 EUR | -
+Gung Yang | 19,90 EUR | -
+Yam Khor Muh Yang | 15,90 EUR | -
+Yam Pak Krob | 24,90 EUR | -
+Gaeng Phed Ped Yang | 22,90 EUR | -
+Gaeng Kiew Waan Gung | 23,90 EUR | -
+Pla Nueung Manao | 28,90 EUR | -
+Pla Luk Suan | 30,90 EUR | -
+Gung Sod Tamarind | 28,90 EUR | -
+Hod Mok Taleh | 25,90 EUR | -
+Tom Yam Poh Taek | 30,90 EUR | -
+Taleh Deud Tam Tad | 39,00 EUR | -
+Gai Yang | 29,00 EUR | E

@@ -1,0 +1,85 @@
+# PATAKHA
+
+### CHAATS & SNACKS
+
+Samosa | 5,50 EUR | 1, 2
+Aloo Tikki | 6,50 EUR | 1, 7
+Chaat Papdi | 7,00 EUR | 1, 7
+Pani Puri | 6,50 EUR | 1, 7
+Sev Puri | 6,50 EUR | 1, 7
+Dahi Bhalle | 6,50 EUR | 1, 7
+Bhel Puri | 6,50 EUR | 1, 7
+Masala Papad | 5,00 EUR | 1
+Spring Roll | 6,50 EUR | 1, 2, 7
+Vegetable Pakora | 7,00 EUR | 1, 2, 7
+Paneer Pakora | 8,00 EUR | 1, 2, 7
+Onion Bhaji | 6,50 EUR | 1, 2, 7
+Fish Pakora | 9,00 EUR | 1, 2, 6, 7
+Tandoori Paneer Tikka | 9,50 EUR | 1, 7
+
+### POPULAR CURRIES
+
+Chicken Tikka Masala | 13,50 EUR | 1, 7
+Butter Chicken | 13,50 EUR | 1, 7
+Palak Paneer | 12,00 EUR | 1, 7
+Chana Masala | 11,00 EUR | 1, 7
+Dal Makhani | 11,00 EUR | 1, 7
+Paneer Makhani | 13,00 EUR | 1, 7
+Shahi Paneer | 13,00 EUR | 1, 7
+Chole Bhature | 12,00 EUR | 1, 2, 7
+Tandoori Chicken Curry | 13,50 EUR | 1, 7
+Fish Curry | 14,50 EUR | 1, 6, 7
+Prawn Curry | 15,00 EUR | 1, 6, 7
+Lamb Rogan Josh | 14,50 EUR | 1, 7
+Chicken Biryani | 13,00 EUR | 1, 7
+Vegetable Biryani | 11,50 EUR | 1, 7
+Goat Curry | 15,00 EUR | 1, 7
+
+### TANDOORI GRILL
+
+Tandoori Chicken Half | 13,50 EUR | 1, 7
+Tandoori Chicken Full | 22,00 EUR | 1, 7
+Tandoori Paneer Tikka | 12,50 EUR | 1, 7
+Tandoori Fish Tikka | 14,50 EUR | 1, 6, 7
+Tandoori Prawn | 16,00 EUR | 1, 6, 7
+Seekh Kebab | 13,00 EUR | 1, 7
+Lamb Tikka | 14,00 EUR | 1, 7
+Paneer Tikka | 12,50 EUR | 1, 7
+
+### BREADS
+
+Naan Plain | 3,50 EUR | 1, 7
+Naan Garlic | 4,00 EUR | 1, 7
+Naan Cheese | 4,50 EUR | 1, 7
+Naan Peshwari | 4,50 EUR | 1, 7
+Roti | 2,50 EUR | 1, 7
+Paratha | 3,50 EUR | 1, 7
+Kulcha | 3,50 EUR | 1, 7
+Bhatura | 4,00 EUR | 1, 7
+
+### SIDES
+
+Green Beans | 5,00 EUR | 7
+Rice Plain | 3,50 EUR | 7
+Rice Fried | 4,50 EUR | 1, 7
+Linseed Raita | 3,00 EUR | 1, 7
+Coconut Raita | 3,50 EUR | 1, 7
+Pickle | 2,00 EUR | 7
+Papad | 2,50 EUR | 1, 7
+
+### THALIS AKA KARI PLATES
+
+Vegetarian Thali | 15,00 EUR | 1, 7
+Chicken Thali | 16,50 EUR | 1, 7
+Fish Thali | 17,50 EUR | 1, 6, 7
+Lamb Thali | 18,00 EUR | 1, 7
+Paneer Thali | 15,00 EUR | 1, 7
+
+### DESSERT
+
+Gulab Jamun | 5,50 EUR | 1, 7
+Kheer | 5,00 EUR | 1, 7
+Ras Malai | 6,00 EUR | 1, 7
+Mango Kulfi | 5,50 EUR | 1, 7
+Payasam | 5,00 EUR | 1, 7
+Falooda | 6,50 EUR | 1, 7

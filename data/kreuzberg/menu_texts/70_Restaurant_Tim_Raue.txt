@@ -1,0 +1,17 @@
+# Restaurant Tim Raue
+
+### KOI
+
+Kokosnuss | - EUR | 1, 2, 9, 12
+Seehecht | - EUR | 1, 2, 9, 12
+Weisser Spargel | - EUR | 1, 3, 12
+Chinoise Sud | - EUR | 1, 2, 12
+KFC | - EUR | 1, 2, 12
+Reh | - EUR | 1, 2, 9, 12
+Yuzu Cheesecake | - EUR | 1, 3
+Wasabi Kaisergranat | - EUR | -
+Ente "Marie-Anne" à l'Orange | - EUR | 1, 2, 9, 12
+
+### MENÜ
+
+KOI Menü | 292,00 EUR | 1, 2, 3, 9, 12

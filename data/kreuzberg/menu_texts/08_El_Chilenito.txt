@@ -1,0 +1,120 @@
+# El Chilenito
+
+### STREET FOOD - EMPANADAS
+Empanada Chilena | 6,80 EUR | -
+Empanada Veggie | 6,80 EUR | -
+Empanada Vegan | 6,80 EUR | -
+
+### STREET FOOD - COMPLETOS
+Completo Pobre | 5,00 EUR | -
+Completo Dinamico | 6,00 EUR | -
+Completo Coné | 3,00 EUR | -
+Completo Italiano | 6,00 EUR | -
+Completo Yayita | 6,50 EUR | -
+Completo Veggie | 6,00 EUR | -
+Completo Don Chuma | 5,00 EUR | -
+
+### STREET FOOD - PIMPITUP
+Extra Käse | 2,00 EUR | -
+Extra Pebré | 2,00 EUR | -
+Extra Grüne Bohnen | 2,00 EUR | -
+Extra Avocado Creme | 2,00 EUR | -
+Totales | 5,00 EUR | -
+
+### CHURRASCO
+El Casero | 14,00 EUR | -
+Churrasco Italiano | 12,00 EUR | -
+Barros Luco | 11,00 EUR | -
+El Chilenito | 19,00 EUR | -
+
+### CHURRASQUITO
+Diaguitas | 7,00 EUR | -
+Chacarero | 12,00 EUR | -
+Huiliche | 7,50 EUR | -
+Rapa Nui | 8,00 EUR | -
+
+### VEGETARIANO Y VEGAN - CHURRASCO
+La Guatona | 13,00 EUR | -
+
+### PAN
+La Roja | 8,00 EUR | -
+La Prima | 8,00 EUR | -
+
+### BOWL
+Casero Bowl | 13,00 EUR | -
+Chiloé Bowl | 14,00 EUR | -
+
+### ACOMPAÑAMIENTO
+Papas Rusticas | 4,00 EUR | -
+5 Sopaipillas | 4,00 EUR | -
+Huevito duro | 1,00 EUR | -
+
+### OFERTA COLACIÓN - MITTAGSANGEBOT
+El Casero + Glas Hauslimo | 7,50 EUR | -
+Pan + Glas Hauslimo | 8,00 EUR | -
+Sopa del Día | 5,50 EUR | -
+Ensalada del Día | - EUR | -
+Kuchen del Día | 3,00 EUR | -
+
+### DULCES
+Alfajores | 3,00 EUR | -
+Alfajores de Chocolate | 4,00 EUR | -
+Brazo de Reina | 3,00 EUR | -
+Chilenito | 3,00 EUR | -
+Pie de Limón | 4,00 EUR | -
+Tageskuchen | 3,00 EUR | -
+
+### BEBIDAS CALIENTE
+Americano | 2,50 EUR | -
+Cappuccino | 3,00 EUR | -
+Cortado | 2,80 EUR | -
+Espresso | 2,00 EUR | -
+Espresso Macchiato | 2,50 EUR | -
+Café au Lait | 3,80 EUR | -
+Latte Macchiato | 4,20 EUR | -
+Heisse Schokolade | 4,50 EUR | -
+Flat White | 3,00 EUR | -
+
+### EXTRAS
++ Hafermilch | 0,80 EUR | -
++ Erbsenmilch | 0,80 EUR | -
+
+### TÉ
+Assam | 2,50 EUR | -
+Earl Grey | 2,50 EUR | -
+Grüner Tee | 2,50 EUR | -
+Frischer Minztee | 4,50 EUR | -
+Frischer Ingwer & Honig | 4,50 EUR | -
+Frischer Ingwer & Minze | 5,00 EUR | -
+Tiger Spice | 4,50 EUR | -
+White Shark | 4,50 EUR | -
+Power Matcha | 5,00 EUR | -
+Tee Chai | - EUR | -
+
+### BEBIDAS FRIA
+Fritz Kola 0,2 l | 3,00 EUR | -
+Fritz Kola ohne Zucker 0,2 l | 3,00 EUR | -
+Fritz Orange 0,2 l | 3,00 EUR | -
+Fritz Apfelschorle 0,2 l | 3,00 EUR | -
+Fritz Anjola 0,3 l | 3,50 EUR | -
+Fritz Rhabarber 0,2 l | 3,00 EUR | -
+Thomas Henry Mate 0,5 l | 3,50 EUR | -
+Vöslauer Wasser 0,25 l | 2,50 EUR | -
+Tafelwasser 0,4 l | 3,00 EUR | -
+Orangensaft frischgepresst 0,2 l | 4,00 EUR | -
+Smoothie 0,3 l | 5,00 EUR | -
+El Chilenito Juicy 0,3 l | 4,00 EUR | -
+
+### CERVEZAS
+San Miquel 0,3 l | 4,00 EUR | -
+Pilsner Urquell 0,3 l | 4,00 EUR | -
+
+### VINO CHILENO
+Tinto 0,2 l | 6,00 EUR | -
+Blanco 0,2 l | 6,00 EUR | -
+De la Casa Tinto 0,75 l | 20,00 EUR | -
+De la Casa Blanco 0,75 l | 17,00 EUR | -
+
+### CÓCTELES Y COPETE
+Pisco Sour Catedral 0,4 l | 10,00 EUR | -
+Combinado 0,3 l | 8,50 EUR | -

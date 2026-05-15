@@ -1,0 +1,90 @@
+# Cocolo Ramen X-berg
+
+### RAMEN
+Miso | 13,50 EUR | 1, 2, 3, 9
+Tantan | 14,50 EUR | 1, 2, 3, 5, 7
+Shoyu | 14,50 EUR | 1, 2
+Negi Shoyu | 13,50 EUR | 1, 2, 3
+Niboshi Shoyu | 14,00 EUR | 1, 2, 4, 5
+Shio | 14,00 EUR | 1, 2, 3, 5, 6
+Wantan | 15,00 EUR | 1, 2, 3, 4, 5, 6, 9
+Tonkotsu | 15,00 EUR | 1, 2, 3, 6, 9, 11
+
+### VORSPEISEN
+Edamame | 4,50 EUR | -
+Gurken Sticks | 4,50 EUR | 1
+Tsukemono | 5,00 EUR | 1, 2
+Spinat | 5,50 EUR | 1, 2, 3, 8
+Eringi | 6,00 EUR | 1, 2, 3
+Moyatan | 5,00 EUR | 1, 2, 3
+Negi-Chashu | 5,00 EUR | 1, 2
+Kakuni | 6,00 EUR | 1, 2
+Karaage | 7,00 EUR | 1, 2, 5
+Wantan Teller | 6,00 EUR | 1, 2, 3, 4, 9
+Gyoza | 6,50 EUR | 1, 2, 3, 9, 10
+
+### KINDER
+Kaedama für Kinder | 3,00 EUR | 2
+
+### BEILAGE
+Kaedama | 2,50 EUR | 2
+Reis | 2,50 EUR | -
+
+### EXTRA TOPPINGS
+Halbes Ei | 0,50 EUR | 9
+Mais | 0,50 EUR | -
+Pak Choi | 0,50 EUR | -
+Mu-err Pilze | 0,50 EUR | -
+Sojasprossen | 0,50 EUR | -
+Frühlingszwiebeln | 0,50 EUR | -
+Ingwer | 0,50 EUR | -
+Japanische Mayonnaise | 0,50 EUR | -
+3x Nori | 1,00 EUR | 1
+Bonitoflocken | 1,50 EUR | 5
+Kakuni | 1,50 EUR | 1, 2
+Chashu Huhn | 3,00 EUR | -
+Chashu Schwein | 3,00 EUR | -
+Tantan | 3,00 EUR | 1, 2, 3, 5, 7
+Wantan | 6,00 EUR | 1, 2, 3, 4, 9
+
+### ALKOHOLFREIE GETRÄNKE
+Vösslauer Mineralwasser 0,25l | 3,00 EUR | -
+Vösslauer Mineralwasser 0,75l | 6,00 EUR | -
+Cola | 3,50 EUR | -
+Cola Zero | 3,50 EUR | -
+Apfelsaft | 4,00 EUR | -
+Apfelschorle | 4,00 EUR | -
+Hausgemachte Limonade | 4,50 EUR | -
+Hausgemachtes Calpico | 4,50 EUR | -
+Mugicha | 4,00 EUR | -
+Honig Tee | 4,00 EUR | -
+Reistee | 4,00 EUR | -
+
+### ALKOHOLISCHE GETRÄNKE
+Alster 0,25l | 4,00 EUR | -
+Alster 0,5l | 5,50 EUR | -
+Kirin 0,25l | 4,00 EUR | -
+Kirin 0,5l | 5,50 EUR | -
+Warsteiner 0,25l | 4,00 EUR | -
+Warsteiner 0,5l | 5,50 EUR | -
+Weisswein 0,2l | 7,00 EUR | 11
+Weisswein 0,5l | 14,00 EUR | 11
+Orange Wein 0,2l | 7,00 EUR | 11
+Orange Wein 0,5l | 14,00 EUR | 11
+Weissweinschorle 0,2l | 5,50 EUR | 11
+Sake heiß 0,1l | 5,00 EUR | -
+Sake kalt 0,2l | 9,50 EUR | -
+Sake Flasche 0,72l | 48,00 EUR | -
+Shochu | 7,00 EUR | -
+Umeshu on the Rock 0,1l | 7,00 EUR | -
+Umeshu Soda 0,2l | 7,00 EUR | -
+Calpico Chuhai still 0,3l | 7,50 EUR | -
+Calpico Chuhai soda 0,3l | 7,50 EUR | -
+Calpico Chuhai 11 | 7,50 EUR | 11
+Honig Soda Chuhai | 7,50 EUR | -
+Fresh Grapefruit Chuhai | 7,50 EUR | -
+
+### DESSERT
+Hausgemachtes Eis | 5,50 EUR | 1
+Grüntee Eis | 5,50 EUR | 11
+Tokyo Cheesecake | 5,50 EUR | 11

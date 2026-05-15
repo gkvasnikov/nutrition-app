@@ -1,0 +1,26 @@
+# Mawal-Berlin Falafelwerk
+
+### TELLER (PLATES)
+Halloumi Teller | 7,50 EUR | -
+Urugi Teller | 7,50 EUR | -
+Shawarma Teller | 7,50 EUR | -
+Makkali Teller | 8,00 EUR | -
+Kofta Teller | 8,00 EUR | -
+Falafel Teller | 7,50 EUR | -
+Mawal Teller (1 Person) | 10,00 EUR | -
+
+### SANDWICHES (IN BROT)
+Makkali in Brot | 4,50 EUR | -
+Halloumi in Brot | 4,50 EUR | -
+Urugi in Brot | 4,50 EUR | -
+Kofta in Brot | 4,50 EUR | -
+Shawarma in Brot | 4,50 EUR | -
+Falafel in Brot | 4,50 EUR | -
+
+### COMBI
+Makkali Combi | 5,00 EUR | -
+Halloumi Combi | 5,00 EUR | -
+Urugi Combi | 5,00 EUR | -
+Kofta Combi | 5,00 EUR | -
+Shawarma Combi | 5,00 EUR | -
+Falafel Combi | 5,00 EUR | -

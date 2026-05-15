@@ -1,0 +1,32 @@
+# Chez Michel
+
+### VORSPEISEN
+Foie gras | 18,50 EUR | 1, 2, 3
+Blutwurst | 19,50 EUR | -
+Weinbergschnecken | 10,50 EUR | -
+Muschelpfanne | 11,50 EUR | 2
+Gemischter Salat | 11,50 EUR | -
+Quiche Vegetarisch | 6,00 EUR | 1a, 1c, 1g
+Quiche mit Ziegenkäse | 10,00 EUR | 1a, 1c, 1g
+Quiche Klassisch mit Speck | 8,00 EUR | 1
+Quiche Blutwurst und Apfel | 15,50 EUR | 1
+Flammkuchen Merguez-Baguette-Sandwich | 8,50 EUR | 1, 2, 3
+Flammkuchen Ziegenkäse, Ruccola, Tomaten | 10,00 EUR | 1a
+Käseteller | 12,00 EUR | -
+
+### HAUPTGERICHTE
+Pilzragout | 16,50 EUR | 1a, 1c, 1g
+Kabeljaufilet | 22,50 EUR | 1d
+Boeuf bourguignon | 18,00 EUR | 2, 3
+Rindergulasch mit Tagliatelle | - EUR | 2, 3
+Entencondite | 23,50 EUR | -
+Entrecôte | 27,00 EUR | -
+Hüftsteak | 21,50 EUR | -
+Merguez-Teller | 17,50 EUR | 1, 2, 3
+Pommes frites | 6,00 EUR | -
+
+### DESSERTS
+Apfeltarte | 5,00 EUR | 1a, 1c, 1g
+Crème brûlée | 6,50 EUR | 1c, 1g
+Zitronentarte | 5,50 EUR | 1a, 1c, 1g
+Profiteroles | 10,50 EUR | 4

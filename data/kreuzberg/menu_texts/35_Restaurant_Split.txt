@@ -1,0 +1,134 @@
+# Restaurant Split
+
+### Vorspeisen
+Dalmatinische Vorspeisenplatte | 13,90 EUR | G, L
+Schafskäse vom Grill | 9,90 EUR | G
+Kroatische Köstlichkeiten (Kalte Vorspeisenplatte) | 24,90 EUR | -
+Balkan Omelett | 9,90 EUR | C, G
+
+### Suppen
+Bouillon mit Nudeln | 4,50 EUR | A, C
+Weiße-Bohnen-Suppe mit Speck | 5,50 EUR | -
+Ungarische Gulaschsuppe | 6,50 EUR | -
+Tomaten-Cremesuppe | 5,00 EUR | G
+
+### Salate
+Krautsalat | 3,50 EUR | -
+Kleiner Schopskasalat | 4,50 EUR | G
+Gemischter Salat | 3,50 EUR | J, 12
+Grüner Salat | 3,90 EUR | J, 12
+Tomatensalat mit Zwiebeln | 3,90 EUR | -
+Salatteller | 10,90 EUR | G, J, 12
+Schopskasalat | 12,90 EUR | G
+Thunfischsalat | 12,90 EUR | C, D, G
+Gegrillte Hähnchenbruststreifen auf frischem gemischten Salat | 13,90 EUR | J, 12
+Split-Vital-Salat | 14,90 EUR | J, 12
+
+### Kleine Gerichte
+Schnitzel Wiener Art | 14,50 EUR | -
+Djuwetsch | 13,50 EUR | J, 12
+Trio-Teller | 14,50 EUR | J, 12
+Gefüllte Pljeskavica | 14,90 EUR | G, J, 12
+Pljeskavica | 13,50 EUR | J, 12
+Mućkalica | 14,50 EUR | A, C, G, I, J, 9, 12
+Puszta-Platte | 13,50 EUR | J, 12
+Ražnići | 13,50 EUR | -
+Ćevapčići | 13,50 EUR | J, 12
+Kalbsleber Berliner Art | 14,50 EUR | -
+
+### Vegetarische Gerichte
+Gefüllte Pljeskavica (vegetarisch) | 17,90 EUR | G, J, 12
+Ratatouille-Pfanne | 16,90 EUR | -
+Bandnudeln vegetarisch | 15,50 EUR | -
+No Schnitzel | 19,90 EUR | A, C, G, 4
+Crispy No Chicken | 19,90 EUR | G, J, K, 4
+Bauernkartoffel | 14,90 EUR | -
+
+### Schnitzel
+Paniertes Putenschnitzel | 19,90 EUR | A, C, J, 12
+Puszta-Schnitzel vom Grill | 19,50 EUR | A, C, G, I, J, 9, 12
+Zagreb-Schnitzel | 19,90 EUR | A, C, G, J, 3, 5, 12
+Schnitzel Wiener Art | 18,90 EUR | A, C, J, 12
+Paprika Schnitzel vom Grill | 19,50 EUR | -
+Split-Schnitzel vom Grill | 19,90 EUR | A, C, G, J, 3, 5, 12
+Champignon-Schnitzel | 20,90 EUR | A, C, G, I, J, 9, 12
+Kreuzberger Schnitzel vom Grill | 21,90 EUR | A, C, J, 12
+Gerolltes Schnitzel paniert | 19,90 EUR | -
+Hamburger Schnitzel | 19,50 EUR | -
+
+### Kroatische & Internationale Speisen
+Punjena Paprika | 16,90 EUR | -
+Sarma | 18,90 EUR | A, G, I
+Satarasch | 19,50 EUR | C, J, 12
+Schweinemedaillons in Pfefferrahmsauce | 19,50 EUR | A, C, G, J, 1, 9, 13
+Mućkalica | 18,90 EUR | J, 12
+Peperonada (mit Fleisch) | 18,90 EUR | -
+Rindergulash | 17,90 EUR | -
+Kalbsleber Berliner Art | 20,90 EUR | A, G, I, J, 12
+Balkanleber | 20,90 EUR | -
+
+### Gemeinsam essen, gemeinsam genießen
+Balkan-Platte für 2 Personen | 40,90 EUR | J, 12
+Dalmatinische Platte für 2 Personen | 42,90 EUR | J, 12
+Csárdás-Platte für 2 Personen | 42,90 EUR | J, 12
+Split-Platte für 2 Personen | 55,90 EUR | J, 12
+
+### Spezialitäten vom Grill
+Ćevapčići 300g | 18,50 EUR | J, 12
+Gurmanska Pljeskavica 350g | 19,90 EUR | G, J, 12
+Gefüllte Pljeskavica 350g | 20,90 EUR | G, J, 12
+Pljeskavica 350g | 18,50 EUR | J, 12
+Ražnjići 380g | 18,90 EUR | J, 12
+Split-Spieß 380g | 20,90 EUR | J, 12
+Hajdučki-Cevap 380g | 19,90 EUR | J, 12
+Potpourri-Platte 360g | 18,50 EUR | G, J, 12
+Spezial-Grill-Teller 400g | 20,90 EUR | J, 12
+Puszta-Platte 260g | 17,90 EUR | J, 12
+Cevap Ražnjički 360g | 18,50 EUR | J, 12
+Räuber-Teller 400g | 20,50 EUR | J, 12
+Berliner Teller 340g | 19,50 EUR | J, 12
+
+### Steaks
+Rumpsteak 200g | 26,90 EUR | G, J, 12
+Rumpsteak 300g mit Beilage | 32,90 EUR | G, J, 12
+Filetsteak 200g | 30,90 EUR | G, J, 12
+Filetsteak 300g mit Beilage | - | G, J, 12
+Rumpsteak mit Röstzwiebeln | 26,90 EUR | J, 12
+Veseli Dalmatinac | 27,50 EUR | G, J, 3, 5, 12
+Veseli Bosanac | 27,50 EUR | G, J, 3, 5, 12
+Pfeffersteak | 30,90 EUR | A, C, G, I, J, 9, 12
+Filetsteak mit Spiegelei | 30,90 EUR | C, J, 12
+
+### Fischgerichte
+Calamari fritti | 19,90 EUR | C, J, N, 5, 6, 12
+Gegrillte Calamari | 19,90 EUR | C, J, N, 5, 6, 12
+Scampis (6 Stück) am Spieß mit Paprikastreifen | 23,90 EUR | B, G, J, 12
+Gebackene Scampis | 23,90 EUR | C, J, N, 5, 6, 12
+Scampi in Knoblauchsauce | 23,90 EUR | B, G, J, 12
+Doradenfilet | 23,90 EUR | A, C, D, J, 5, 6, 12
+Forelle Müllerin Art | 18,50 EUR | A, C, D, J, 5, 6, 12
+Forelle Blau | 18,50 EUR | C, G, D, J, 12
+Rotbarschfilet in der Pfanne gebraten | 18,90 EUR | A, D, J, 12
+Zanderfilet in der Pfanne gebraten | 21,90 EUR | A, D, J, 12
+Fischplatte (für 2 Personen) | 54,90 EUR | A, B, D, J, N, 12
+
+### Nur für Kinder
+Kinder Räuber-Teller | 0,00 EUR | -
+Kleines Schnitzel Wiener Art | 8,90 EUR | A, C
+Kleines Rumpsteak | 12,90 EUR | -
+Kleiner Grillteller | 8,90 EUR | -
+
+### Kalte & Warme Beilagen
+Bratkartoffeln | 4,90 EUR | -
+Ajvar / Majonnaise | 2,00 EUR | -
+Curryreis aus feinem Bali-Reis | 3,50 EUR | -
+Djuwetschreis nach Spezialrezept | 3,50 EUR | -
+Weiße Bohnen (Prebranac) | 5,50 EUR | -
+Pommes frites | 3,50 EUR | -
+Gemüse, frisch aus der Pfanne | 6,50 EUR | -
+Salzkartoffeln | 3,20 EUR | -
+Kroketten | 3,50 EUR | A, 1, 9, 13
+Kartoffelpüree | 3,50 EUR | A, G
+Folienkartoffel mit Sauerrahm oder Kräuterbutter | 6,50 EUR | -
+Schafskäse | 2,90 EUR | G, 1
+Kräuterbutter | 2,00 EUR | G
