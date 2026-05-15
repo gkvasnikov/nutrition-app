@@ -58,6 +58,13 @@ def data_static(filename):
     return send_from_directory(ROOT / "data", filename)
 
 
+@app.route("/api/config")
+def config():
+    return jsonify({
+        "gmaps_key": os.environ.get("GOOGLE_MAPS_API_KEY") or os.environ.get("GOOGLE_PLACES_API_KEY", ""),
+    })
+
+
 @app.route("/api/advice", methods=["POST"])
 def advice():
     d = request.get_json(force=True)

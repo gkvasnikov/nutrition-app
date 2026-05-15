@@ -593,7 +593,6 @@
   </div>
 </div>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6aHGubDwr6nqa-nNUADqXhSlRBAm-dpc&callback=onGMapsLoad" async defer></script>
 <script>
 const DATA_PATH = '../data/all_restaurants.json';
 const MAP_CENTER = [52.510, 13.400];
@@ -1149,7 +1148,7 @@ function scrollToCard(idx) {
 }
 
 // ---- Place modal ----
-const GMAPS_EMBED_KEY = 'AIzaSyD6aHGubDwr6nqa-nNUADqXhSlRBAm-dpc';
+let GMAPS_EMBED_KEY = '';
 
 function openPlaceModal(idx) {
   const r = restaurants[idx];
@@ -1194,6 +1193,17 @@ function smoothZoom(gmap, targetZoom, callback) {
   });
   setTimeout(() => gmap.setZoom(current + step), 80);
 }
+
+// Load Google Maps key from backend, then inject script dynamically
+fetch('/api/config')
+  .then(r => r.json())
+  .then(cfg => {
+    GMAPS_EMBED_KEY = cfg.gmaps_key;
+    const s = document.createElement('script');
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${cfg.gmaps_key}&callback=onGMapsLoad`;
+    s.async = true; s.defer = true;
+    document.head.appendChild(s);
+  });
 
 init();
 
