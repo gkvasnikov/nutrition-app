@@ -667,17 +667,15 @@
       </div>
       <div class="vegan-row">
         <label>
-          <input type="checkbox" id="toggle-gluten-free" disabled>
+          <input type="checkbox" id="toggle-gluten-free" onchange="onSlider()">
           Gluten-free only
         </label>
-        <span class="filter-soon">soon</span>
       </div>
       <div class="vegan-row">
         <label>
-          <input type="checkbox" id="toggle-diabetes" disabled>
+          <input type="checkbox" id="toggle-diabetes" onchange="onSlider()">
           Diabetes-friendly
         </label>
-        <span class="filter-soon">soon</span>
       </div>
 
       <div class="dist-row" id="dist-row">
@@ -862,16 +860,20 @@ function readConfig() {
   const fatMin  = g('s-fat-min'),  fatMax  = g('s-fat-max');
   const carbMin = g('s-carb-min'), carbMax = g('s-carb-max');
   const vegan = document.getElementById('toggle-vegan').checked;
+  const glutenFree = document.getElementById('toggle-gluten-free').checked;
+  const diabetesFriendly = document.getElementById('toggle-diabetes').checked;
   const distMax = g('s-dist');
   const confHigh = document.getElementById('cf-high').checked;
   const confMed  = document.getElementById('cf-med').checked;
   const confLow  = document.getElementById('cf-low').checked;
-  return { calMin, calMax, protMin, protMax, fatMin, fatMax, carbMin, carbMax, vegan, distMax,
-           confHigh, confMed, confLow };
+  return { calMin, calMax, protMin, protMax, fatMin, fatMax, carbMin, carbMax,
+           vegan, glutenFree, diabetesFriendly, distMax, confHigh, confMed, confLow };
 }
 
 function applyFilter(d, r, cfg) {
   if (cfg.vegan && !isVeganDish(d, r)) return false;
+  if (cfg.glutenFree && d.is_gluten_free !== true) return false;
+  if (cfg.diabetesFriendly && d.is_diabetic_friendly !== true) return false;
   if (d.calories == null) return false;
   const conf = (d.confidence || 'low').toLowerCase();
   const isHigh  = conf === 'high';
@@ -994,6 +996,8 @@ function applyMealConfig(cfg) {
   set('s-fat-min',  0);        set('s-fat-max',  macros.f);
   set('s-carb-min', 0);        set('s-carb-max', macros.c);
   document.getElementById('toggle-vegan').checked = false;
+  document.getElementById('toggle-gluten-free').checked = false;
+  document.getElementById('toggle-diabetes').checked = false;
   const GOAL_LABELS = { loss:'Weight loss', maintain:'Maintain', gain:'Muscle gain' };
   const MEAL_LABELS = { breakfast:'Breakfast', lunch:'Lunch', dinner:'Dinner' };
   const CFG_LABELS  = { high_protein:'High protein', high_carb:'High carb', balanced:'Balanced' };
@@ -1133,7 +1137,7 @@ function renderResults() {
   updateMarkers(matched);
 
   document.getElementById('status-bar').innerHTML = matched.length
-    ? `<b>${matched.length}</b> restaurants · ${cfg.calMin}–${cfg.calMax} kcal · P ${cfg.protMin}–${cfg.protMax}g · F ${cfg.fatMin}–${cfg.fatMax}g · C ${cfg.carbMin}–${cfg.carbMax}g${cfg.vegan ? ' · vegan' : ''}`
+    ? `<b>${matched.length}</b> restaurants · ${cfg.calMin}–${cfg.calMax} kcal · P ${cfg.protMin}–${cfg.protMax}g · F ${cfg.fatMin}–${cfg.fatMax}g · C ${cfg.carbMin}–${cfg.carbMax}g${cfg.vegan ? ' · vegan' : ''}${cfg.glutenFree ? ' · gluten-free' : ''}${cfg.diabetesFriendly ? ' · diabetes-friendly' : ''}`
     : `<span style="color:#dc2626">No matching dishes</span>`;
   updatePeekLabel(matched.length);
 
