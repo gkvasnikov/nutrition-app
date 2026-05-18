@@ -211,28 +211,28 @@
     .meal-tabs-row { display: flex; gap: 5px; margin-bottom: 6px; }
     .meal-tab {
       flex: 1; font-size: .77rem; font-weight: 500; padding: 8px 6px;
-      border-radius: var(--radius-xs); border: 1px solid var(--border);
+      border-radius: var(--radius-xs); border: none;
       background: var(--surface); color: var(--muted);
       cursor: pointer; transition: all .15s; text-align: center;
     }
-    .meal-tab:hover { color: var(--text); border-color: var(--border-med); }
-    .meal-tab.active { border-color: var(--accent); color: var(--accent); background: var(--accent-light); font-weight: 600; }
+    .meal-tab:hover { color: var(--text); }
+    .meal-tab.active { color: var(--accent); background: var(--accent-light); font-weight: 600; }
 
     .meal-cfg-row { display: flex; gap: 5px; margin-bottom: 12px; }
     .meal-cfg-btn {
       flex: 1; font-size: .72rem; font-weight: 500; padding: 7px 4px;
-      border-radius: var(--radius-xs); border: 1px solid var(--border);
+      border-radius: var(--radius-xs); border: none;
       background: var(--surface); color: var(--muted);
       cursor: pointer; transition: all .15s; text-align: center;
     }
-    .meal-cfg-btn:hover { color: var(--text); border-color: var(--border-med); }
-    .meal-cfg-btn.active { border-color: var(--accent); background: var(--accent-light); color: var(--accent); font-weight: 600; }
+    .meal-cfg-btn:hover { color: var(--text); }
+    .meal-cfg-btn.active { background: var(--accent-light); color: var(--accent); font-weight: 600; }
 
     /* ── Configurator ── */
     #configurator {
-      background: var(--surface); border: 1px solid var(--border);
+      background: var(--surface);
       border-radius: var(--radius); padding: 14px 16px;
-      margin-bottom: 12px; box-shadow: var(--shadow);
+      margin-bottom: 12px;
     }
     .cfg-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
     .cfg-preset-name { font-size: .78rem; font-weight: 500; color: var(--muted); }
