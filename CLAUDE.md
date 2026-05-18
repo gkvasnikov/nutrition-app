@@ -52,6 +52,9 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - [x] Граммовка порций (weight_grams_estimate) — выполнено (2026-05-15). enrichment/weight_estimator.py: Claude Batches API (claude-haiku-4-5, max_tokens=60), добавляет weight_grams_estimate ко всем блюдам. Запущен на all_restaurants.json: 28048/28050 блюд. Тоггл "на 100г" теперь работает для всех блюд. В режиме "на порцию" показывает ~Xг.
 - [x] Карточка блюда с AI Advisor — выполнено (2026-05-15). Клик на любое блюдо открывает модал: фото ресторана, название, КБЖУ, блок AI Advisor. Advisor подгружается в момент открытия (claude-haiku-4-5, ~1-2 сек): что за блюдо (краткое описание), рейтинг (Ограниченно/Нормально/Хорошо/Питательно) со шкалой, советы по нутриентам. Требует Flask-бэкенд: server.py.
 - [x] Editorial summary ресторанов — выполнено (2026-05-15). enrichment/fetch_editorial_summary.py: Google Places Details API (поле editorial_summary, language=ru — но Google возвращает только английские тексты). 154/495 ресторанов получили описание. Показывается курсивом под адресом в карточке ресторана. Бэкап: data/all_restaurants_backup_summary.json.
+- [x] Деплой на Railway — выполнено (2026-05-15). GitHub repo: gkvasnikov/nutrition-app. Flask-сервер (server.py + Procfile). Env vars: ANTHROPIC_API_KEY, GOOGLE_MAPS_API_KEY. Google Maps API ключ вынесен из HTML в /api/config endpoint. UI переведён на английский язык.
+- [x] Bottom sheet layout (мобильный) — выполнено (2026-05-18). Airbnb-стиль: карта на всю высоту экрана, поверх — bottom sheet. Peek-режим (110px): drag pill + счётчик ресторанов. Expand: свайп вверх или тап по handle → лист перекрывает карту, появляется плавающая кнопка "Map". Тап по кнопке или карте → возврат в peek. Desktop-лейаут не изменён.
+- [x] Фильтры Gluten-free / Diabetes-friendly — добавлены как заглушки (2026-05-18). Два чекбокса под "Plant-based only" с тегом "soon", disabled. Фильтрация не подключена — нужны данные в меню (поля gluten_free, glycemic_index или эвристика по ингредиентам).
 
 ## Заметки
 - На машине Python 3.9 (не 3.11+), синтаксис `X | None` не работает — используем `Optional[X]` из typing + `from __future__ import annotations`
@@ -86,6 +89,9 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - server.py (Flask): отдаёт статику frontend/ и data/, плюс POST /api/advice → claude-haiku-4-5 → {what, rating, advice}. load_dotenv нужен с override=True иначе ANTHROPIC_API_KEY не подхватывается. Зависимость: pip3 install flask.
 - editorial_summary: Google Places возвращает его только для ~30% заведений (популярные места). Параметр language=ru игнорируется — тексты всегда на английском.
 - weight_estimator.py: запускать на конкретном файле через --file, или без аргументов на all_restaurants.json. Batch ID хранится в enrichment/weight_{stem}_batch_id.txt, удаляется после завершения.
+- Bottom sheet: SHEET_PEEK_H = 110px. Состояния управляются через CSS-класс sheet-expanded на #list-panel. sheetExpand() / sheetPeek() — публичные JS-функции. Drag через touch events на #sheet-handle. #sheet-scroll (overflow-y: hidden в peek, auto в expanded).
+- Google Maps API ключ: Application restrictions = None (не ставить Website restrictions — ломает загрузку фото через <img> тег, т.к. браузер не всегда отправляет Referer для cross-origin изображений).
+- Railway: деплой автоматически при push в main. PORT выставляется Railway автоматически, server.py читает через os.environ.get("PORT", 8080).
 
 ## Инструкция для Claude
 После выполнения каждой задачи:
