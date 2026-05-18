@@ -336,6 +336,10 @@
     .card-title-link:hover { color: var(--accent); }
     .card-header-left .addr { font-size: .7rem; color: var(--muted); margin-top: 3px; }
     .card-summary { font-size: .7rem; color: var(--muted); margin-top: 5px; line-height: 1.45; font-style: italic; }
+    .card-hours { display: flex; align-items: center; gap: 5px; margin-top: 4px; font-size: .7rem; color: var(--muted); }
+    .open-tag { display: inline-flex; align-items: center; font-size: .62rem; font-weight: 700; padding: 1px 6px; border-radius: 20px; letter-spacing: .03em; flex-shrink: 0; }
+    .open-tag--open  { background: #dcfce7; color: #15803d; }
+    .open-tag--closed { background: #fee2e2; color: #b91c1c; }
     .map-btn {
       background: none; border: none; cursor: pointer;
       padding: 4px; border-radius: 7px; flex-shrink: 0;
@@ -1139,6 +1143,29 @@ function renderResults() {
 
 const PIN_SVG = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
 
+function getOpenStatus(oh) {
+  if (!oh || !oh.periods || !oh.periods.length) return null;
+  const berlinStr = new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' });
+  const berlin = new Date(berlinStr);
+  const jsDay = berlin.getDay(); // 0=Sun
+  const hhmm = berlin.getHours() * 100 + berlin.getMinutes();
+  let isOpen = false;
+  for (const p of oh.periods) {
+    const od = p.open.day, ot = parseInt(p.open.time, 10);
+    const cd = p.close ? p.close.day : od, ct = p.close ? parseInt(p.close.time, 10) : 2359;
+    if (od === cd) {
+      if (jsDay === od && hhmm >= ot && hhmm < ct) { isOpen = true; break; }
+    } else {
+      if (jsDay === od && hhmm >= ot) { isOpen = true; break; }
+      if (jsDay === cd && hhmm < ct)  { isOpen = true; break; }
+    }
+  }
+  const wdIdx = (jsDay + 6) % 7; // Mon=0 in weekday_text
+  const todayLine = oh.weekday_text ? oh.weekday_text[wdIdx] : null;
+  const hoursText = todayLine ? todayLine.replace(/^[^:]+:\s*/, '') : null;
+  return { isOpen, hoursText };
+}
+
 function renderCard({ r, dishes, dist, idx }) {
   const MAX = 5, expanded = expandedCards[idx], shown = expanded ? dishes : dishes.slice(0, MAX);
   const cuisine = formatCuisine(r.cuisine);
@@ -1153,6 +1180,14 @@ function renderCard({ r, dishes, dist, idx }) {
     ? `<span class="card-rating"><span class="star">★</span>${r.rating.toFixed(1)}<span class="reviews">(${(r.reviews_count||0).toLocaleString('ru')})</span></span>`
     : '';
 
+  const openStatus = getOpenStatus(r.opening_hours);
+  const hoursHtml = openStatus
+    ? `<div class="card-hours">
+         <span class="open-tag ${openStatus.isOpen ? 'open-tag--open' : 'open-tag--closed'}">${openStatus.isOpen ? 'Open now' : 'Closed'}</span>
+         ${openStatus.hoursText ? `<span>${esc(openStatus.hoursText)}</span>` : ''}
+       </div>`
+    : '';
+
   return `
     <div class="restaurant-card">
       ${photo}
@@ -1165,6 +1200,7 @@ function renderCard({ r, dishes, dist, idx }) {
               <button class="map-btn" onclick="panToMarker(${idx})" title="Показать на карте">${PIN_SVG}</button>
             </div>
             <div class="addr">${esc(r.address||'')}</div>
+            ${hoursHtml}
             ${r.editorial_summary ? `<div class="card-summary">${esc(r.editorial_summary)}</div>` : ''}
           </div>
           <div class="card-meta">${metaParts.join(' · ')}</div>
