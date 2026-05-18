@@ -170,9 +170,10 @@ def apply_batch_results(
     applied = errors = 0
     for result in client.messages.batches.results(batch_id):
         if result.result.type != "succeeded":
+            detail = getattr(result.result, "error", result.result.type)
             log.error(
-                "Batch %s request %s errored: %s",
-                batch_id, result.custom_id, result.result.error,
+                "Batch %s request %s %s: %s",
+                batch_id, result.custom_id, result.result.type, detail,
             )
             errors += 1
             continue
