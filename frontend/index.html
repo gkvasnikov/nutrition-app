@@ -64,8 +64,8 @@
 
     /* ── Layout ── */
     .layout { display: flex; height: calc(100vh - var(--header-h)); }
-    #map-panel { width: 44%; flex-shrink: 0; position: sticky; top: var(--header-h); height: calc(100vh - var(--header-h)); }
-    #map { width: 100%; height: 100%; }
+    #map-panel { width: 44%; flex-shrink: 0; position: sticky; top: var(--header-h); height: calc(100vh - var(--header-h)); padding: 24px 24px 24px 0; box-sizing: border-box; }
+    #map { width: 100%; height: 100%; border-radius: 14px; overflow: hidden; }
     #list-panel { flex: 1; overflow-y: auto; padding: 0 18px 60px; }
 
     /* ── Mobile: bottom-sheet layout ── */
@@ -1293,7 +1293,7 @@ function renderCard({ r, dishes, dist, idx }) {
     : '';
 
   const orderLink = (directionsLink || woltLink)
-    ? `<div class="card-meta-links">${directionsLink}${woltLink}</div>`
+    ? `<div class="card-meta-links">${woltLink}${directionsLink}</div>`
     : '';
 
   const photos = (r.photos && r.photos.length) ? r.photos : (r.photo_url ? [r.photo_url] : []);
