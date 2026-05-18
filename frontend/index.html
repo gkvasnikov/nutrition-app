@@ -399,9 +399,13 @@
     }
     .map-btn:hover { opacity: 1; background: var(--accent-light); color: var(--accent); }
     .card-meta { font-size: .7rem; color: var(--muted); text-align: right; flex-shrink: 0; line-height: 1.65; }
-    .delivery-link { display: block; margin-top: 5px; color: #d0d0d0; transition: color .15s; text-align: right; line-height: 1; }
+    .card-meta-links { display: flex; gap: 8px; justify-content: flex-end; align-items: center; margin-top: 5px; }
+    .delivery-link { display: inline-flex; align-items: center; color: #d0d0d0; transition: color .15s; line-height: 1; }
     .delivery-link:hover { color: #00C6ED; }
     .delivery-link svg { display: inline-block; }
+    .directions-link { display: inline-flex; align-items: center; gap: 3px; font-size: .68rem; font-weight: 500; color: #c0c0c0; text-decoration: none; transition: color .15s; white-space: nowrap; }
+    .directions-link:hover { color: #1a73e8; }
+    .directions-link svg { flex-shrink: 0; }
 
     .card-rating { display: inline-flex; align-items: center; gap: 3px; font-size: .75rem; font-weight: 600; color: #92400e; flex-shrink: 0; }
     .card-rating .star { color: #f59e0b; }
@@ -1277,8 +1281,19 @@ function renderCard({ r, dishes, dist, idx }) {
   const distText = dist != null ? (dist < 1000 ? dist+'м' : (dist/1000).toFixed(1)+' км') : '';
   const metaParts = [cuisine, distText, dishes.length + ' dishes'].filter(Boolean);
 
-  const orderLink = r.wolt_slug
+  const woltLink = r.wolt_slug
     ? `<a href="https://wolt.com/de/deu/berlin/restaurant/${r.wolt_slug}" target="_blank" rel="noopener" class="delivery-link" title="Order on Wolt" onclick="event.stopPropagation()"><svg width="38" height="15" aria-label="Wolt"><use href="#ic-wolt"/></svg></a>`
+    : '';
+
+  const mapsHref = r.google_place_id
+    ? `https://www.google.com/maps/dir/?api=1&destination_place_id=${r.google_place_id}`
+    : (r.lat && r.lon ? `https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lon}` : '');
+  const directionsLink = mapsHref
+    ? `<a href="${mapsHref}" target="_blank" rel="noopener" class="directions-link" title="Get directions" onclick="event.stopPropagation()"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Directions</a>`
+    : '';
+
+  const orderLink = (directionsLink || woltLink)
+    ? `<div class="card-meta-links">${directionsLink}${woltLink}</div>`
     : '';
 
   const photos = (r.photos && r.photos.length) ? r.photos : (r.photo_url ? [r.photo_url] : []);
