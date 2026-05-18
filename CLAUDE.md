@@ -55,6 +55,18 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - [x] Деплой на Railway — выполнено (2026-05-15). GitHub repo: gkvasnikov/nutrition-app. Flask-сервер (server.py + Procfile). Env vars: ANTHROPIC_API_KEY, GOOGLE_MAPS_API_KEY. Google Maps API ключ вынесен из HTML в /api/config endpoint. UI переведён на английский язык.
 - [x] Bottom sheet layout (мобильный) — выполнено (2026-05-18). Airbnb-стиль: карта на всю высоту экрана, поверх — bottom sheet. Peek-режим (110px): drag pill + счётчик ресторанов. Expand: свайп вверх или тап по handle → лист перекрывает карту, появляется плавающая кнопка "Map". Тап по кнопке или карте → возврат в peek. Desktop-лейаут не изменён.
 - [x] Фильтры Gluten-free / Diabetes-friendly — добавлены как заглушки (2026-05-18). Два чекбокса под "Plant-based only" с тегом "soon", disabled. Фильтрация не подключена — нужны данные в меню (поля gluten_free, glycemic_index или эвристика по ингредиентам).
+- [x] Google Places обогащение ресторанов (opening_hours, services) — выполнено (2026-05-18). enrichment/google_places_updater.py: Place Details API для 1430 ресторанов. 409 обогащено: opening_hours (244), price_level, dine_in/takeout/delivery, serves_vegetarian_food/breakfast/lunch/dinner, photos (369). Resume: пропускает уже имеющие opening_hours.
+- [x] Тег Open now / Closed + часы на карточке ресторана — выполнено (2026-05-18). Функция getOpenStatus() определяет статус по periods (Berlin timezone). Зелёный тег "Open" или красный "Closed" + текст часов сегодня. Формат: (jsDay + 6) % 7 переводит JS (0=Sun) в индекс weekday_text (0=Mon).
+- [x] Диетические флаги для блюд — выполнено (2026-05-18). enrichment/dietary_flags_estimator.py: Claude Batches API (claude-haiku-4-5), 31 батч по 1000. 30,710/30,730 блюд: is_vegan (33%), is_vegetarian (57%), is_gluten_free (27%), is_diabetic_friendly (38%), allergens (EU-14). Resume через dietary_flags_batch_ids.txt. Упал на батче 25 (MessageBatchExpiredResult) — возобновлён и завершён.
+- [x] Gluten-free и Diabetes-friendly фильтры активированы — выполнено (2026-05-18). Чекбоксы подключены к applyFilter(). Фильтрация по is_gluten_free/is_diabetic_friendly полям из данных. Тег "soon" убран.
+- [x] Desktop Airbnb-лейаут — выполнено (2026-05-18). Карта справа во фрейме с border-radius 14px, список слева. CSS flexbox order: list=1, map=2. Ширина карты 46%, список занимает остаток. Мобильный лейаут не затронут.
+- [x] Визуальный рестайл (белый фон, карточки #F4F4F4) — выполнено (2026-05-18). --bg: #ffffff, --surface: #F4F4F4. Убраны все box-shadow и border у карточек, конфигуратора, meal tabs, sort row separator. Внутри карточки блюд — белый фон.
+- [x] Граммовка блюда рядом с названием в модале — выполнено (2026-05-18). dish-modal-weight span в заголовке модала. Стиль: font-size 0.75rem, muted цвет, margin-left 8px.
+- [x] Сортировка по умолчанию — Nearest (2026-05-18). sortMode = 'dist'. Кнопка Low confidence убрана (confLow жёстко false в getFilters).
+- [x] Радиус по умолчанию 500м — выполнено (2026-05-18). Слайдер value="500".
+- [x] Центровка карты по геолокации при загрузке + радиус-круг — выполнено (2026-05-18). getLocation() при старте panTo на координаты пользователя, показывает #dist-row и radius circle сразу.
+- [x] Мобильный UX улучшения — выполнено (2026-05-18). Статус-строка и фильтры на разных строках. Блюда в вертикальный стек (dish-row flex-direction:column). Модал с 16px отступами по бокам (calc(100vw - 32px)). sheetPeek() вызывается при клике на маркер карты и на кнопку "Map".
+- [x] Слайдер thumb 24px — выполнено (2026-05-18). ::-webkit-slider-thumb и ::-moz-range-thumb width/height: 24px.
 
 ## Заметки
 - На машине Python 3.9 (не 3.11+), синтаксис `X | None` не работает — используем `Optional[X]` из typing + `from __future__ import annotations`
@@ -92,6 +104,11 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - Bottom sheet: SHEET_PEEK_H = 110px. Состояния управляются через CSS-класс sheet-expanded на #list-panel. sheetExpand() / sheetPeek() — публичные JS-функции. Drag через touch events на #sheet-handle. #sheet-scroll (overflow-y: hidden в peek, auto в expanded).
 - Google Maps API ключ: Application restrictions = None (не ставить Website restrictions — ломает загрузку фото через <img> тег, т.к. браузер не всегда отправляет Referer для cross-origin изображений).
 - Railway: деплой автоматически при push в main. PORT выставляется Railway автоматически, server.py читает через os.environ.get("PORT", 8080).
+- dietary_flags_estimator.py: custom_id формат r{r_idx}-{src}-i{i_idx} (src=w/s). dietary_flags_batch_ids.txt хранит все 31 ID, по одному в строке. Resume: пропускает блюда где уже есть is_vegan. is_diabetic_friendly=null если item.confidence=='low'.
+- MessageBatchExpiredResult не имеет атрибута .error — использовать getattr(result.result, "error", result.result.type) для обработки всех non-succeeded типов (errored, expired, canceled).
+- Ворктри-workflow: правки идут в worktree, но preview-сервер отдаёт файлы из основного проекта (/Users/george/Claude/Nutrition App/). Перед проверкой: cp worktree/frontend/index.html main/frontend/index.html.
+- getOpenStatus: weekday_text[idx] где idx = (jsDay + 6) % 7 переводит JS-день (0=Sun) в немецкий порядок (0=Mon). periods.open/close.day тоже 0=Sun — для ночных заведений (close.day != open.day) проверяем оба дня отдельно.
+- google_places_updater.py: _find_env() поднимается на 6 уровней вверх от ROOT — нужно т.к. ворктри вложен глубоко. Atomic save через .tmp → replace.
 
 ## Инструкция для Claude
 После выполнения каждой задачи:
