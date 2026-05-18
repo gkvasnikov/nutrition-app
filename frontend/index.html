@@ -507,24 +507,9 @@
       transition: background .12s, color .12s, box-shadow .12s;
       z-index: 1;
     }
-    .pill-marker::after {
-      content: '';
-      position: absolute;
-      bottom: -5px; left: 50%;
-      transform: translateX(-50%);
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-    }
     .pill-marker--match   { background: white; color: #111; }
-    .pill-marker--match::after { border-top: 5px solid white; }
     .pill-marker--highlight { background: #111; color: white; z-index: 10; box-shadow: 0 3px 14px rgba(0,0,0,.38); }
-    .pill-marker--highlight::after { border-top: 5px solid #111; }
-    .pill-marker--inactive {
-      width: 8px; height: 8px; padding: 0; font-size: 0;
-      border-radius: 50%; background: #d1d5db;
-      box-shadow: none; transform: translate(-50%, -50%);
-    }
-    .pill-marker--inactive::after { display: none; }
+    .pill-marker--inactive { display: none; }
 
     .lf-popup b { font-size: .88rem; }
     .lf-popup small { color: #64748b; font-size: .72rem; }
