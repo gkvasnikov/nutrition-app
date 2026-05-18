@@ -339,12 +339,45 @@
       background: var(--surface);
       border-radius: var(--radius); overflow: hidden;
       margin-bottom: 12px; scroll-margin-top: 10px;
+      display: flex; flex-direction: column;
     }
     .restaurant-card.highlighted { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-mid); }
 
+    .card-photo-wrap { position: relative; flex-shrink: 0; overflow: hidden; }
     .card-photo { width: 100%; height: 158px; object-fit: cover; display: block; background: var(--bg); }
 
-    .card-body { padding: 13px 15px; }
+    /* slider nav buttons */
+    .photo-nav {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      width: 30px; height: 30px; border-radius: 50%;
+      background: white; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,.22);
+      color: #222; font-size: 13px; font-weight: 700;
+      opacity: .92; transition: opacity .15s; z-index: 2;
+      line-height: 1; padding: 0;
+    }
+    .photo-nav:hover { opacity: 1; }
+    .photo-nav--prev { left: 8px; }
+    .photo-nav--next { right: 8px; }
+    .photo-dots {
+      position: absolute; bottom: 7px; left: 50%; transform: translateX(-50%);
+      display: flex; gap: 4px; pointer-events: none;
+    }
+    .photo-dot {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: rgba(255,255,255,.55); transition: background .2s;
+    }
+    .photo-dot.active { background: white; }
+
+    /* desktop: photo left */
+    @media (min-width: 681px) {
+      .restaurant-card { flex-direction: row; align-items: stretch; }
+      .card-photo-wrap { width: 210px; }
+      .card-photo-wrap .card-photo { height: 100%; min-height: 170px; }
+    }
+
+    .card-body { padding: 13px 15px; flex: 1; min-width: 0; }
     .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
     .card-header-left { flex: 1; min-width: 0; }
     .card-title-row { display: flex; align-items: center; gap: 6px; }
@@ -893,6 +926,18 @@ function esc(s) {
 // ---- State ----
 let restaurants = [], userLat = null, userLon = null;
 let expandedCards = {};
+let cardPhotoIdx = {};
+
+function photoNav(cardIdx, dir, total) {
+  cardPhotoIdx[cardIdx] = ((cardPhotoIdx[cardIdx] || 0) + dir + total) % total;
+  const wrap = document.getElementById(`photo-wrap-${cardIdx}`);
+  if (!wrap) return;
+  const imgs = wrap.querySelectorAll('.card-photo');
+  const dots = wrap.querySelectorAll('.photo-dot');
+  const cur = cardPhotoIdx[cardIdx];
+  imgs.forEach((img, i) => img.style.display = i === cur ? 'block' : 'none');
+  dots.forEach((d, i) => d.classList.toggle('active', i === cur));
+}
 let sortMode = 'dist';
 let map = null, markers = {}, radiusCircle = null;
 let infoWindow = null, currentMatchMap = {};
@@ -1234,9 +1279,17 @@ function renderCard({ r, dishes, dist, idx }) {
     ? `<a href="https://wolt.com/de/deu/berlin/restaurant/${r.wolt_slug}" target="_blank" rel="noopener" class="delivery-link" title="Order on Wolt" onclick="event.stopPropagation()"><svg width="38" height="15" aria-label="Wolt"><use href="#ic-wolt"/></svg></a>`
     : '';
 
-  const photo = r.photo_url
-    ? `<img class="card-photo" src="${esc(r.photo_url)}" alt="${esc(r.name)}" loading="lazy" onerror="this.style.display='none'">`
-    : '';
+  const photos = (r.photos && r.photos.length) ? r.photos : (r.photo_url ? [r.photo_url] : []);
+  const photoWrap = photos.length ? (() => {
+    const imgs = photos.map((url, i) =>
+      `<img class="card-photo" src="${esc(url)}" alt="${esc(r.name)}" loading="lazy" style="display:${i===0?'block':'none'}" onerror="this.style.display='none'">`
+    ).join('');
+    const navBtns = photos.length > 1 ? `
+      <button class="photo-nav photo-nav--prev" onclick="event.stopPropagation();photoNav(${idx},-1,${photos.length})" aria-label="Previous photo">&#8249;</button>
+      <button class="photo-nav photo-nav--next" onclick="event.stopPropagation();photoNav(${idx},1,${photos.length})" aria-label="Next photo">&#8250;</button>
+      <div class="photo-dots">${photos.map((_,i)=>`<span class="photo-dot${i===0?' active':''}"></span>`).join('')}</div>` : '';
+    return `<div class="card-photo-wrap" id="photo-wrap-${idx}">${imgs}${navBtns}</div>`;
+  })() : '';
 
   const rating = r.rating != null
     ? `<span class="card-rating"><span class="star">★</span>${r.rating.toFixed(1)}<span class="reviews">(${(r.reviews_count||0).toLocaleString('ru')})</span></span>`
@@ -1252,7 +1305,7 @@ function renderCard({ r, dishes, dist, idx }) {
 
   return `
     <div class="restaurant-card">
-      ${photo}
+      ${photoWrap}
       <div class="card-body">
         <div class="card-header">
           <div class="card-header-left">
