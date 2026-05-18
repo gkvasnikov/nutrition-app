@@ -1189,31 +1189,6 @@ function getLocation() {
 }
 
 // ---- Pill markers ----
-class PillMarker extends google.maps.OverlayView {
-  constructor(position, text, state, onClick) {
-    super();
-    this.position = position;
-    this._onClick = onClick;
-    this.el = document.createElement('div');
-    this.setState(text, state);
-    this.el.addEventListener('click', e => { e.stopPropagation(); this._onClick && this._onClick(); });
-  }
-  setState(text, state) {
-    this.el.className = `pill-marker pill-marker--${state}`;
-    this.el.textContent = text || '';
-  }
-  onAdd() { this.getPanes().overlayMouseTarget.appendChild(this.el); }
-  draw() {
-    const proj = this.getProjection();
-    if (!proj) return;
-    const pt = proj.fromLatLngToDivPixel(new google.maps.LatLng(this.position.lat, this.position.lng));
-    if (!pt) return;
-    this.el.style.left = `${pt.x}px`;
-    this.el.style.top = `${pt.y}px`;
-  }
-  onRemove() { if (this.el.parentNode) this.el.parentNode.removeChild(this.el); }
-}
-
 function markerText(idx) {
   const mi = currentMatchMap[idx];
   if (!mi) return '';
@@ -1222,6 +1197,32 @@ function markerText(idx) {
 
 // ---- Map ----
 function initMap() {
+  // Defined here so google.maps is already available
+  window.PillMarker = class extends google.maps.OverlayView {
+    constructor(position, text, state, onClick) {
+      super();
+      this.position = position;
+      this._onClick = onClick;
+      this.el = document.createElement('div');
+      this.setState(text, state);
+      this.el.addEventListener('click', e => { e.stopPropagation(); this._onClick && this._onClick(); });
+    }
+    setState(text, state) {
+      this.el.className = `pill-marker pill-marker--${state}`;
+      this.el.textContent = text || '';
+    }
+    onAdd() { this.getPanes().overlayMouseTarget.appendChild(this.el); }
+    draw() {
+      const proj = this.getProjection();
+      if (!proj) return;
+      const pt = proj.fromLatLngToDivPixel(new google.maps.LatLng(this.position.lat, this.position.lng));
+      if (!pt) return;
+      this.el.style.left = `${pt.x}px`;
+      this.el.style.top = `${pt.y}px`;
+    }
+    onRemove() { if (this.el.parentNode) this.el.parentNode.removeChild(this.el); }
+  };
+
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: MAP_CENTER[0], lng: MAP_CENTER[1] },
     zoom: 15, mapTypeControl: false, streetViewControl: false,
