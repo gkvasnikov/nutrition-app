@@ -1285,11 +1285,11 @@ function renderCard({ r, dishes, dist, idx }) {
     ? `<a href="https://wolt.com/de/deu/berlin/restaurant/${r.wolt_slug}" target="_blank" rel="noopener" class="delivery-link" title="Order on Wolt" onclick="event.stopPropagation()"><svg width="38" height="15" aria-label="Wolt"><use href="#ic-wolt"/></svg></a>`
     : '';
 
-  const mapsHref = r.google_place_id
-    ? `https://www.google.com/maps/dir/?api=1&destination_place_id=${r.google_place_id}`
-    : (r.lat && r.lon ? `https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lon}` : '');
+  const mapsHref = (r.lat && r.lon)
+    ? `https://www.google.com/maps/dir/?api=1&destination=${r.lat},${r.lon}`
+    : '';
   const directionsLink = mapsHref
-    ? `<a href="${mapsHref}" target="_blank" rel="noopener" class="directions-link" title="Get directions" onclick="event.stopPropagation()"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Directions</a>`
+    ? `<a href="${mapsHref}" target="_blank" rel="noopener" class="directions-link" title="Get directions" onclick="event.stopPropagation()"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11.293 1.293a1 1 0 011.414 0l10 10a1 1 0 010 1.414l-10 10a1 1 0 01-1.414 0l-10-10a1 1 0 010-1.414l10-10z"/><path d="M8.5 16v-5.5H14" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M11.5 7.5L14 10l-2.5 2.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></a>`
     : '';
 
   const orderLink = (directionsLink || woltLink)
