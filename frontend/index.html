@@ -361,6 +361,11 @@
     .photo-nav:hover { opacity: 1; }
     .photo-nav--prev { left: 8px; }
     .photo-nav--next { right: 8px; }
+    @media (min-width: 681px) {
+      .photo-nav { opacity: 0; }
+      .card-photo-wrap:hover .photo-nav { opacity: .92; }
+      .card-photo-wrap:hover .photo-nav:hover { opacity: 1; }
+    }
     .photo-dots {
       position: absolute; bottom: 7px; left: 50%; transform: translateX(-50%);
       display: flex; gap: 4px; pointer-events: none;
@@ -490,6 +495,37 @@
     .place-modal-close:hover { background: #fff; transform: scale(1.1); }
 
     /* Info window */
+    /* ── Pill map markers ── */
+    .pill-marker {
+      position: absolute;
+      transform: translate(-50%, calc(-100% - 6px));
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px; font-weight: 600;
+      white-space: nowrap; cursor: pointer; user-select: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,.22);
+      transition: background .12s, color .12s, box-shadow .12s;
+      z-index: 1;
+    }
+    .pill-marker::after {
+      content: '';
+      position: absolute;
+      bottom: -5px; left: 50%;
+      transform: translateX(-50%);
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+    }
+    .pill-marker--match   { background: white; color: #111; }
+    .pill-marker--match::after { border-top: 5px solid white; }
+    .pill-marker--highlight { background: #111; color: white; z-index: 10; box-shadow: 0 3px 14px rgba(0,0,0,.38); }
+    .pill-marker--highlight::after { border-top: 5px solid #111; }
+    .pill-marker--inactive {
+      width: 8px; height: 8px; padding: 0; font-size: 0;
+      border-radius: 50%; background: #d1d5db;
+      box-shadow: none; transform: translate(-50%, -50%);
+    }
+    .pill-marker--inactive::after { display: none; }
+
     .lf-popup b { font-size: .88rem; }
     .lf-popup small { color: #64748b; font-size: .72rem; }
     .lf-popup .dishes-count { color: var(--accent); font-weight: 700; font-size: .82rem; margin-top: 5px; }
@@ -1152,6 +1188,38 @@ function getLocation() {
   }, () => {});
 }
 
+// ---- Pill markers ----
+class PillMarker extends google.maps.OverlayView {
+  constructor(position, text, state, onClick) {
+    super();
+    this.position = position;
+    this._onClick = onClick;
+    this.el = document.createElement('div');
+    this.setState(text, state);
+    this.el.addEventListener('click', e => { e.stopPropagation(); this._onClick && this._onClick(); });
+  }
+  setState(text, state) {
+    this.el.className = `pill-marker pill-marker--${state}`;
+    this.el.textContent = text || '';
+  }
+  onAdd() { this.getPanes().overlayMouseTarget.appendChild(this.el); }
+  draw() {
+    const proj = this.getProjection();
+    if (!proj) return;
+    const pt = proj.fromLatLngToDivPixel(new google.maps.LatLng(this.position.lat, this.position.lng));
+    if (!pt) return;
+    this.el.style.left = `${pt.x}px`;
+    this.el.style.top = `${pt.y}px`;
+  }
+  onRemove() { if (this.el.parentNode) this.el.parentNode.removeChild(this.el); }
+}
+
+function markerText(idx) {
+  const mi = currentMatchMap[idx];
+  if (!mi) return '';
+  return mi.dishes.length === 1 ? '1 dish' : `${mi.dishes.length} dishes`;
+}
+
 // ---- Map ----
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -1163,20 +1231,13 @@ function initMap() {
   infoWindow = new google.maps.InfoWindow();
   restaurants.forEach((r, idx) => {
     if (!(r.wolt_menu?.length || r.site_menu?.length) || !r.lat || !r.lon) return;
-    const marker = new google.maps.Marker({
-      position: { lat: r.lat, lng: r.lon }, map: map, icon: markerIcon('idle'),
-    });
-    marker.addListener('click', () => { scrollToCard(idx); showInfoWindow(marker, r, idx); });
+    const marker = new PillMarker(
+      { lat: r.lat, lng: r.lon }, '', 'inactive',
+      () => { scrollToCard(idx); showInfoWindow(marker, r, idx); }
+    );
+    marker.setMap(map);
     markers[idx] = marker;
   });
-}
-
-function markerIcon(state, count) {
-  const base = { path: google.maps.SymbolPath.CIRCLE, strokeWeight: 1.5 };
-  if (state === 'match')     return { ...base, fillColor: '#1c7c4e', fillOpacity: .85, strokeColor: '#145c39', scale: 8 + Math.min(count||0, 30) * 0.12 };
-  if (state === 'inactive')  return { ...base, fillColor: '#d1d5db', fillOpacity: .35, strokeColor: '#9ca3af', strokeWeight: 1, scale: 5 };
-  if (state === 'highlight') return { ...base, fillColor: '#f59e0b', fillOpacity: 1,   strokeColor: '#d97706', strokeWeight: 2, scale: 12 };
-  return { ...base, fillColor: '#60a5fa', fillOpacity: .65, strokeColor: '#3b82f6', scale: 7 };
 }
 
 function makePopupContent(r, idx, matchInfo) {
@@ -1192,7 +1253,8 @@ function makePopupContent(r, idx, matchInfo) {
 
 function showInfoWindow(marker, r, idx) {
   infoWindow.setContent(makePopupContent(r, idx, currentMatchMap[idx]));
-  infoWindow.open(map, marker);
+  infoWindow.setPosition(marker.position);
+  infoWindow.open(map);
 }
 
 function updateMarkers(matched) {
@@ -1201,8 +1263,19 @@ function updateMarkers(matched) {
   Object.entries(markers).forEach(([idxStr, marker]) => {
     const idx = Number(idxStr);
     const mi = currentMatchMap[idx];
-    marker.setIcon(mi ? markerIcon('match', mi.dishes.length) : markerIcon('inactive'));
+    marker.setState(markerText(idx), mi ? 'match' : 'inactive');
   });
+}
+
+function highlightMarker(idx) {
+  const marker = markers[idx];
+  if (!marker) return;
+  marker.setState(markerText(idx), 'highlight');
+}
+function unhighlightMarker(idx) {
+  const marker = markers[idx];
+  if (!marker) return;
+  marker.setState(markerText(idx), currentMatchMap[idx] ? 'match' : 'inactive');
 }
 
 // ---- Results ----
@@ -1321,7 +1394,7 @@ function renderCard({ r, dishes, dist, idx }) {
     : '';
 
   return `
-    <div class="restaurant-card">
+    <div class="restaurant-card" onmouseenter="highlightMarker(${idx})" onmouseleave="unhighlightMarker(${idx})">
       ${photoWrap}
       <div class="card-body">
         <div class="card-header">
@@ -1472,11 +1545,10 @@ function panToMarker(idx) {
   if (!marker) return;
   if (isMobile()) sheetPeek();
   smoothZoom(map, 17, () => {
-    map.panTo(marker.getPosition());
-    marker.setIcon(markerIcon('highlight'));
+    map.panTo(new google.maps.LatLng(marker.position.lat, marker.position.lng));
+    marker.setState(markerText(idx), 'highlight');
     setTimeout(() => {
-      const mi = currentMatchMap[idx];
-      marker.setIcon(mi ? markerIcon('match', mi.dishes.length) : markerIcon('idle'));
+      marker.setState(markerText(idx), currentMatchMap[idx] ? 'match' : 'inactive');
     }, 2000);
     showInfoWindow(marker, restaurants[idx], idx);
   });
