@@ -702,7 +702,7 @@
 
       <div class="dist-row" id="dist-row">
         <span class="dist-label">Radius</span>
-        <input type="range" id="s-dist" min="100" max="5000" step="100" value="5000" oninput="onSlider()">
+        <input type="range" id="s-dist" min="100" max="5000" step="100" value="500" oninput="onSlider()">
         <span class="dist-val" id="v-dist">без огр.</span>
       </div>
     </div>
@@ -918,8 +918,8 @@ function applyDefaults(d) {
   set('s-fat-min',  d.fatMin);  set('s-fat-max',  d.fatMax);
   set('s-carb-min', d.carbMin); set('s-carb-max', d.carbMax);
   document.getElementById('toggle-vegan').checked = d.vegan;
-  document.getElementById('s-dist').value = 5000;
-  updateRadiusCircle(5000);
+  document.getElementById('s-dist').value = 500;
+  updateRadiusCircle(500);
   syncLabels();
 }
 
@@ -968,8 +968,8 @@ function resetConfig() {
   document.querySelectorAll('.meal-cfg-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('cfg-preset-label').innerHTML = '<span>Choose a configuration above</span>';
   applyDefaults(RESET_DEFAULTS);
-  document.getElementById('s-dist').value = 5000;
-  updateRadiusCircle(5000);
+  document.getElementById('s-dist').value = 500;
+  updateRadiusCircle(500);
   syncLabels();
   renderResults();
 }
