@@ -491,6 +491,11 @@
     .dish-modal-title {
       font-size: 1.18rem; font-weight: 700; line-height: 1.3;
       letter-spacing: -.02em; color: var(--text); margin-bottom: 14px;
+      display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    }
+    .dish-modal-weight {
+      font-size: .78rem; font-weight: 500; color: var(--muted);
+      letter-spacing: 0; flex-shrink: 0;
     }
     .dish-modal-macros {
       display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px;
@@ -1419,18 +1424,17 @@ function openDishModal(rowEl) {
   }
 
   document.getElementById('dish-modal-restaurant').textContent = rName;
-  document.getElementById('dish-modal-title').textContent = d.name;
+  const w = d.weight || null;
+  document.getElementById('dish-modal-title').innerHTML =
+    esc(d.name) + (w ? `<span class="dish-modal-weight">~${w} g</span>` : '');
 
   // Macros
-  const conf = 'medium';
-  const w = d.weight || null;
   const macrosEl = document.getElementById('dish-modal-macros');
   const parts = [];
   if (d.calories != null) parts.push(`<span class="macro macro-cal">${d.calories} kcal</span>`);
   if (d.protein  != null) parts.push(`<span class="macro macro-prot">P ${d.protein}g</span>`);
   if (d.fat      != null) parts.push(`<span class="macro macro-fat">F ${d.fat}g</span>`);
   if (d.carbs    != null) parts.push(`<span class="macro macro-carb">C ${d.carbs}g</span>`);
-  if (w          != null) parts.push(`<span class="macro" style="background:#f1f5f9;color:#64748b">~${w}г</span>`);
   if (d.price    != null) parts.push(`<span class="macro macro-price">€${d.price.toFixed(2)}</span>`);
   macrosEl.innerHTML = parts.join('');
 
