@@ -134,8 +134,9 @@
 
       .results-header {
         margin: 0 -14px; padding-left: 14px; padding-right: 14px;
-        background: #fff;
+        background: #fff; flex-wrap: wrap; gap: 6px;
       }
+      .results-header #status-bar { flex-basis: 100%; }
       .results-header-row2 {
         margin: 0 -14px; padding-left: 14px; padding-right: 14px;
         background: #fff;
@@ -328,7 +329,6 @@
     .results-header-row2 {
       display: flex; align-items: center; justify-content: space-between; gap: 8px;
       padding: 6px 18px 8px; margin: 0 -18px;
-      border-bottom: 0.5px solid rgba(0,0,0,.09);
     }
     .sort-label { font-size: .68rem; color: var(--muted); font-weight: 500; flex-shrink: 0; }
 
@@ -382,6 +382,13 @@
     .dish-name-text { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 1; }
     .dish-desc { color: var(--muted); font-size: .68rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .dish-macros { display: flex; gap: 4px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; align-items: flex-start; }
+
+    @media (max-width: 680px) {
+      .dish-row { flex-direction: column; gap: 4px; }
+      .dish-name-text { white-space: normal; overflow: visible; text-overflow: unset; }
+      .dish-desc { white-space: normal; overflow: visible; text-overflow: unset; }
+      .dish-macros { justify-content: flex-start; }
+    }
 
     /* Rounded pill macros */
     .macro { font-size: .62rem; font-weight: 600; padding: 2px 7px; border-radius: 20px; white-space: nowrap; }
@@ -463,6 +470,9 @@
       border-radius: 24px 24px 0 0; background: #fff;
       box-shadow: 0 -8px 60px rgba(0,0,0,.28);
       animation: dish-modal-in .28s cubic-bezier(.34,1.3,.64,1);
+    }
+    @media (max-width: 680px) {
+      .dish-modal-inner { width: calc(100vw - 32px); margin: 0 16px; border-radius: 20px 20px 0 0; }
     }
     @media (min-height: 600px) {
       .dish-modal-inner { border-radius: 24px; }
@@ -1364,6 +1374,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closePlaceMo
 function panToMarker(idx) {
   const marker = markers[idx];
   if (!marker) return;
+  if (isMobile()) sheetPeek();
   smoothZoom(map, 17, () => {
     map.panTo(marker.getPosition());
     marker.setIcon(markerIcon('highlight'));
