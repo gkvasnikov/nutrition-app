@@ -712,7 +712,6 @@
       <div class="conf-filter">
         <label class="cf-pill cf-high"><input type="checkbox" id="cf-high" checked onchange="onSlider()"><span>High</span></label>
         <label class="cf-pill cf-med"><input type="checkbox" id="cf-med" checked onchange="onSlider()"><span>Medium</span></label>
-        <label class="cf-pill cf-low"><input type="checkbox" id="cf-low" checked onchange="onSlider()"><span>Low</span></label>
       </div>
       <div class="unit-tabs">
         <button class="unit-tab active" id="tab-serving" onclick="setUnit(false)">per serving</button>
@@ -722,8 +721,8 @@
     <div class="results-header-row2">
       <span class="sort-label">Sort:</span>
       <div class="unit-tabs">
-        <button class="unit-tab active" id="sort-match" onclick="setSort('match')">Best match</button>
-        <button class="unit-tab" id="sort-dist" onclick="setSort('dist')">Nearest</button>
+        <button class="unit-tab" id="sort-match" onclick="setSort('match')">Best match</button>
+        <button class="unit-tab active" id="sort-dist" onclick="setSort('dist')">Nearest</button>
         <button class="unit-tab" id="sort-alpha" onclick="setSort('alpha')">A–Z</button>
       </div>
     </div>
@@ -862,7 +861,7 @@ function esc(s) {
 // ---- State ----
 let restaurants = [], userLat = null, userLon = null;
 let expandedCards = {};
-let sortMode = 'match';
+let sortMode = 'dist';
 let map = null, markers = {}, radiusCircle = null;
 let infoWindow = null, currentMatchMap = {};
 let debounceTimer = null;
@@ -887,9 +886,8 @@ function readConfig() {
   const distMax = g('s-dist');
   const confHigh = document.getElementById('cf-high').checked;
   const confMed  = document.getElementById('cf-med').checked;
-  const confLow  = document.getElementById('cf-low').checked;
   return { calMin, calMax, protMin, protMax, fatMin, fatMax, carbMin, carbMax,
-           vegan, glutenFree, diabetesFriendly, distMax, confHigh, confMed, confLow };
+           vegan, glutenFree, diabetesFriendly, distMax, confHigh, confMed, confLow: false };
 }
 
 function applyFilter(d, r, cfg) {
