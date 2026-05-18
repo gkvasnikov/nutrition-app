@@ -258,6 +258,13 @@
     }
     .vegan-row label { font-size: .76rem; cursor: pointer; display: flex; align-items: center; gap: 7px; color: var(--text-2); font-weight: 500; }
     .vegan-row input[type=checkbox] { width: 15px; height: 15px; accent-color: var(--accent); cursor: pointer; }
+    .vegan-row input[type=checkbox]:disabled { cursor: default; opacity: .45; }
+    .vegan-row label:has(input:disabled) { opacity: .55; cursor: default; }
+    .filter-soon {
+      margin-left: 6px; font-size: .6rem; font-weight: 600; letter-spacing: .04em;
+      text-transform: uppercase; color: var(--muted);
+      background: rgba(0,0,0,.06); border-radius: 4px; padding: 1px 5px;
+    }
 
     .dist-row {
       display: none; align-items: center; gap: 8px;
@@ -653,6 +660,20 @@
           <input type="checkbox" id="toggle-vegan" onchange="onSlider()">
           Plant-based only
         </label>
+      </div>
+      <div class="vegan-row">
+        <label>
+          <input type="checkbox" id="toggle-gluten-free" disabled>
+          Gluten-free only
+        </label>
+        <span class="filter-soon">soon</span>
+      </div>
+      <div class="vegan-row">
+        <label>
+          <input type="checkbox" id="toggle-diabetes" disabled>
+          Diabetes-friendly
+        </label>
+        <span class="filter-soon">soon</span>
       </div>
 
       <div class="dist-row" id="dist-row">
