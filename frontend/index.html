@@ -68,10 +68,106 @@
     #map { width: 100%; height: 100%; }
     #list-panel { flex: 1; overflow-y: auto; padding: 0 18px 60px; }
 
+    /* ── Mobile: bottom-sheet layout ── */
     @media (max-width: 680px) {
-      .layout { flex-direction: column; height: auto; }
-      #map-panel { width: 100%; height: 220px; position: relative; top: 0; }
-      #list-panel { padding: 0 14px 40px; }
+      html, body { height: 100%; overflow: hidden; }
+
+      .layout {
+        flex-direction: row;
+        height: calc(100dvh - var(--header-h));
+        position: relative;
+        overflow: hidden;
+      }
+
+      #map-panel {
+        position: absolute; inset: 0;
+        width: 100%; height: 100%; z-index: 1;
+      }
+
+      #map { width: 100%; height: 100%; }
+
+      #list-panel {
+        position: absolute; left: 0; right: 0; bottom: 0;
+        height: 100%; z-index: 10;
+        background: #fff;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 -4px 28px rgba(0,0,0,.15);
+        transform: translateY(calc(100% - 110px));
+        transition: transform .38s cubic-bezier(.25,.46,.45,.94);
+        overflow: hidden;
+        display: flex; flex-direction: column;
+        padding: 0;
+      }
+      #list-panel.sheet-expanded {
+        transform: translateY(0);
+      }
+      #list-panel.sheet-no-transition {
+        transition: none !important;
+      }
+
+      #sheet-handle {
+        flex-shrink: 0;
+        display: flex; flex-direction: column; align-items: center;
+        padding: 10px 16px 8px; gap: 6px;
+        cursor: grab; touch-action: none; user-select: none;
+        background: #fff; border-radius: 20px 20px 0 0;
+        border-bottom: 0.5px solid rgba(0,0,0,.06);
+      }
+      .sheet-pill {
+        width: 38px; height: 4px; border-radius: 2px;
+        background: rgba(0,0,0,.16);
+      }
+      #sheet-peek-label {
+        font-size: .8rem; font-weight: 600; color: var(--text);
+        letter-spacing: -.01em;
+        transition: opacity .18s;
+      }
+      #list-panel.sheet-expanded #sheet-peek-label {
+        opacity: 0; pointer-events: none;
+      }
+
+      #sheet-scroll {
+        flex: 1; overflow-y: hidden; overflow-x: hidden;
+        padding: 0 14px 80px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .results-header {
+        margin: 0 -14px; padding-left: 14px; padding-right: 14px;
+        background: #fff;
+      }
+      .results-header-row2 {
+        margin: 0 -14px; padding-left: 14px; padding-right: 14px;
+        background: #fff;
+      }
+    }
+
+    /* Floating Map button — mobile only, shown when sheet is expanded */
+    #map-float-btn { display: none; }
+    @media (max-width: 680px) {
+      #map-float-btn {
+        display: flex; align-items: center; gap: 7px;
+        position: fixed; bottom: 30px; left: 50%;
+        transform: translateX(-50%);
+        z-index: 30;
+        background: #1d1d1f; color: #fff;
+        border: none; border-radius: 26px;
+        padding: 13px 26px; font-size: .87rem; font-weight: 600;
+        cursor: pointer; letter-spacing: -.01em;
+        box-shadow: 0 6px 24px rgba(0,0,0,.4);
+        opacity: 0; pointer-events: none;
+        transition: opacity .22s;
+        white-space: nowrap;
+      }
+      #map-float-btn.visible {
+        opacity: 1; pointer-events: auto;
+      }
+    }
+
+    /* Desktop: hide sheet-only elements */
+    @media (min-width: 681px) {
+      #sheet-handle { display: none; }
+      #sheet-scroll { flex: 1; overflow-y: auto; padding: 0 18px 60px; }
     }
 
     /* ── Profile section ── */
@@ -457,7 +553,7 @@
   <span id="loc-status">Berlin Mitte</span>
   <div class="search-wrap">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    <input type="search" id="search-input" placeholder="Блюдо или ресторан…" oninput="onSearch()" autocomplete="off">
+    <input type="search" id="search-input" placeholder="Dish or restaurant…" oninput="onSearch()" autocomplete="off">
   </div>
 </header>
 
@@ -465,84 +561,89 @@
   <div id="map-panel"><div id="map"></div></div>
 
   <div id="list-panel">
+  <div id="sheet-handle">
+    <div class="sheet-pill"></div>
+    <div id="sheet-peek-label">Loading…</div>
+  </div>
+  <div id="sheet-scroll">
 
     <div class="profile-section">
       <div class="profile-row">
         <div class="toggle-group" id="gender-grp">
-          <button class="toggle-btn active" data-val="male" onclick="selectGender('male')">Мужчина</button>
-          <button class="toggle-btn" data-val="female" onclick="selectGender('female')">Женщина</button>
+          <button class="toggle-btn active" data-val="male" onclick="selectGender('male')">Male</button>
+          <button class="toggle-btn" data-val="female" onclick="selectGender('female')">Female</button>
         </div>
         <div class="toggle-group" id="goal-grp">
-          <button class="toggle-btn" data-val="loss" onclick="selectGoal('loss')">Похудение</button>
-          <button class="toggle-btn active" data-val="maintain" onclick="selectGoal('maintain')">Поддержание</button>
-          <button class="toggle-btn" data-val="gain" onclick="selectGoal('gain')">Набор массы</button>
+          <button class="toggle-btn" data-val="loss" onclick="selectGoal('loss')">Weight loss</button>
+          <button class="toggle-btn active" data-val="maintain" onclick="selectGoal('maintain')">Maintain</button>
+          <button class="toggle-btn" data-val="gain" onclick="selectGoal('gain')">Muscle gain</button>
         </div>
         <div class="daily-summary" id="daily-summary"></div>
       </div>
 
       <div class="meal-tabs-row" id="meal-tabs">
-        <button class="meal-tab" data-meal="breakfast" onclick="selectMeal('breakfast')">Завтрак</button>
-        <button class="meal-tab active" data-meal="lunch" onclick="selectMeal('lunch')">Обед</button>
-        <button class="meal-tab" data-meal="dinner" onclick="selectMeal('dinner')">Ужин</button>
+        <button class="meal-tab" data-meal="breakfast" onclick="selectMeal('breakfast')">Breakfast</button>
+        <button class="meal-tab active" data-meal="lunch" onclick="selectMeal('lunch')">Lunch</button>
+        <button class="meal-tab" data-meal="dinner" onclick="selectMeal('dinner')">Dinner</button>
       </div>
 
       <div class="meal-cfg-row" id="meal-cfgs">
-        <button class="meal-cfg-btn" data-cfg="high_protein" onclick="selectMealConfig('high_protein')">Высокобелковый</button>
-        <button class="meal-cfg-btn" data-cfg="high_carb" onclick="selectMealConfig('high_carb')">Высокоуглеводный</button>
-        <button class="meal-cfg-btn" data-cfg="balanced" onclick="selectMealConfig('balanced')">Сбалансированный</button>
+        <button class="meal-cfg-btn" data-cfg="high_protein" onclick="selectMealConfig('high_protein')">High protein</button>
+        <button class="meal-cfg-btn" data-cfg="high_carb" onclick="selectMealConfig('high_carb')">High carb</button>
+        <button class="meal-cfg-btn" data-cfg="balanced" onclick="selectMealConfig('balanced')">Balanced</button>
       </div>
     </div>
 
     <div id="configurator">
       <div class="cfg-header">
-        <div class="cfg-preset-name" id="cfg-preset-label"><span>Выбери конфигурацию выше</span></div>
-        <button class="reset-btn" onclick="resetConfig()">Сбросить</button>
+        <div class="cfg-preset-name" id="cfg-preset-label"><span>Choose a configuration above</span></div>
+        <button class="reset-btn" onclick="resetConfig()">Reset</button>
       </div>
 
       <div class="cfg-row">
-        <div class="cfg-label">Ккал</div>
+        <div class="cfg-label">Kcal</div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">от</span><span class="cfg-num" id="v-cal-min">0</span></div>
+          <div class="cfg-val-row"><span class="lbl">from</span><span class="cfg-num" id="v-cal-min">0</span></div>
           <input type="range" id="s-cal-min" min="0" max="1475" step="25" value="0" oninput="onSlider()">
         </div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">до</span><span class="cfg-num" id="v-cal-max">1500</span><span class="cfg-unit">ккал</span></div>
+          <div class="cfg-val-row"><span class="lbl">to</span><span class="cfg-num" id="v-cal-max">1500</span><span class="cfg-unit">kcal</span></div>
           <input type="range" id="s-cal-max" min="25" max="1500" step="25" value="1500" oninput="onSlider()">
         </div>
       </div>
 
       <div class="cfg-row">
-        <div class="cfg-label">Белок</div>
+        <div class="cfg-label">Protein</div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">от</span><span class="cfg-num" id="v-prot-min">0</span></div>
+          <div class="cfg-val-row"><span class="lbl">from</span><span class="cfg-num" id="v-prot-min">0</span></div>
           <input type="range" id="s-prot-min" min="0" max="199" step="1" value="0" oninput="onSlider()">
         </div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">до</span><span class="cfg-num" id="v-prot-max">200</span><span class="cfg-unit">г</span></div>
+          <div class="cfg-val-row"><span class="lbl">to</span><span class="cfg-num" id="v-prot-max">200</span><span class="cfg-unit">g</span></div>
           <input type="range" id="s-prot-max" min="1" max="200" step="1" value="200" oninput="onSlider()">
         </div>
       </div>
 
       <div class="cfg-row">
-        <div class="cfg-label">Жир</div>
+        <div class="cfg-label">Fat</div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">от</span><span class="cfg-num" id="v-fat-min">0</span></div>
+          <div class="cfg-val-row"><span class="lbl">from</span><span class="cfg-num" id="v-fat-min">0</span></div>
           <input type="range" id="s-fat-min" min="0" max="99" step="1" value="0" oninput="onSlider()">
         </div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">до</span><span class="cfg-num" id="v-fat-max">100</span><span class="cfg-unit">г</span></div>
+          <div class="cfg-val-row"><span class="lbl">to</span><span class="cfg-num" id="v-fat-max">100</span><span class="cfg-unit">g</span></div>
           <input type="range" id="s-fat-max" min="1" max="100" step="1" value="100" oninput="onSlider()">
         </div>
       </div>
 
       <div class="cfg-row">
-        <div class="cfg-label">Углев.</div>
+        <div class="cfg-label">Carbs</div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">от</span><span class="cfg-num" id="v-carb-min">0</span></div>
+          <div class="cfg-val-row"><span class="lbl">from</span><span class="cfg-num" id="v-carb-min">0</span></div>
           <input type="range" id="s-carb-min" min="0" max="195" step="5" value="0" oninput="onSlider()">
         </div>
         <div class="cfg-field">
-          <div class="cfg-val-row"><span class="lbl">до</span><span class="cfg-num" id="v-carb-max">200</span><span class="cfg-unit">г</span></div>
+          <div class="cfg-val-row"><span class="lbl">to</span><span class="cfg-num" id="v-carb-max">200</span><span class="cfg-unit">g</span></div>
           <input type="range" id="s-carb-max" min="5" max="200" step="5" value="200" oninput="onSlider()">
         </div>
       </div>
@@ -550,12 +651,12 @@
       <div class="vegan-row">
         <label>
           <input type="checkbox" id="toggle-vegan" onchange="onSlider()">
-          Только растительные блюда
+          Plant-based only
         </label>
       </div>
 
       <div class="dist-row" id="dist-row">
-        <span class="dist-label">Радиус</span>
+        <span class="dist-label">Radius</span>
         <input type="range" id="s-dist" min="100" max="5000" step="100" value="5000" oninput="onSlider()">
         <span class="dist-val" id="v-dist">без огр.</span>
       </div>
@@ -569,21 +670,28 @@
         <label class="cf-pill cf-low"><input type="checkbox" id="cf-low" checked onchange="onSlider()"><span>Low</span></label>
       </div>
       <div class="unit-tabs">
-        <button class="unit-tab active" id="tab-serving" onclick="setUnit(false)">на порцию</button>
-        <button class="unit-tab" id="tab-100g" onclick="setUnit(true)">на 100г</button>
+        <button class="unit-tab active" id="tab-serving" onclick="setUnit(false)">per serving</button>
+        <button class="unit-tab" id="tab-100g" onclick="setUnit(true)">per 100g</button>
       </div>
     </div>
     <div class="results-header-row2">
-      <span class="sort-label">Сортировка:</span>
+      <span class="sort-label">Sort:</span>
       <div class="unit-tabs">
-        <button class="unit-tab active" id="sort-match" onclick="setSort('match')">По соответствию</button>
-        <button class="unit-tab" id="sort-dist" onclick="setSort('dist')">По отдалённости</button>
+        <button class="unit-tab active" id="sort-match" onclick="setSort('match')">Best match</button>
+        <button class="unit-tab" id="sort-dist" onclick="setSort('dist')">Nearest</button>
         <button class="unit-tab" id="sort-alpha" onclick="setSort('alpha')">A–Z</button>
       </div>
     </div>
     <div id="results"></div>
-  </div>
-</div>
+  </div><!-- /sheet-scroll -->
+  </div><!-- /list-panel -->
+</div><!-- /layout -->
+
+<!-- Floating Map button (mobile) -->
+<button id="map-float-btn" onclick="sheetPeek()">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+  Map
+</button>
 
 <!-- Google Maps Place modal -->
 <div id="place-modal" onclick="closePlaceModal(event)">
@@ -779,7 +887,7 @@ function syncLabels() {
   document.getElementById('v-carb-min').textContent = g('s-carb-min');
   document.getElementById('v-carb-max').textContent = g('s-carb-max');
   const dist = Number(g('s-dist'));
-  document.getElementById('v-dist').textContent = dist >= 5000 ? 'без огр.' : dist >= 1000 ? (dist/1000).toFixed(1)+' км' : dist+' м';
+  document.getElementById('v-dist').textContent = dist >= 5000 ? 'no limit' : dist >= 1000 ? (dist/1000).toFixed(1)+' km' : dist+' m';
 }
 
 function updateRadiusCircle(distMax) {
@@ -811,7 +919,7 @@ function onSlider() {
 function resetConfig() {
   selectedMealConfig = null;
   document.querySelectorAll('.meal-cfg-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('cfg-preset-label').innerHTML = '<span>Выбери конфигурацию выше</span>';
+  document.getElementById('cfg-preset-label').innerHTML = '<span>Choose a configuration above</span>';
   applyDefaults(RESET_DEFAULTS);
   document.getElementById('s-dist').value = 5000;
   updateRadiusCircle(5000);
@@ -822,7 +930,7 @@ function resetConfig() {
 function updateDailySummary() {
   const t = DAILY_TARGETS[selectedGender][selectedGoal];
   document.getElementById('daily-summary').innerHTML =
-    `<b>${t.kcal}</b> ккал · Б <b>${t.p}</b>г · Ж <b>${t.f}</b>г · У <b>${t.c}</b>г`;
+    `<b>${t.kcal}</b> kcal · P <b>${t.p}</b>g · F <b>${t.f}</b>g · C <b>${t.c}</b>g`;
 }
 
 function selectGender(g) {
@@ -861,10 +969,10 @@ function applyMealConfig(cfg) {
   set('s-fat-min',  0);        set('s-fat-max',  macros.f);
   set('s-carb-min', 0);        set('s-carb-max', macros.c);
   document.getElementById('toggle-vegan').checked = false;
-  const GOAL_LABELS = { loss:'Похудение', maintain:'Поддержание', gain:'Набор массы' };
-  const MEAL_LABELS = { breakfast:'Завтрак', lunch:'Обед', dinner:'Ужин' };
-  const CFG_LABELS  = { high_protein:'Высокобелковый', high_carb:'Высокоуглеводный', balanced:'Сбалансированный' };
-  const gLabel = selectedGender === 'male' ? 'Мужчина' : 'Женщина';
+  const GOAL_LABELS = { loss:'Weight loss', maintain:'Maintain', gain:'Muscle gain' };
+  const MEAL_LABELS = { breakfast:'Breakfast', lunch:'Lunch', dinner:'Dinner' };
+  const CFG_LABELS  = { high_protein:'High protein', high_carb:'High carb', balanced:'Balanced' };
+  const gLabel = selectedGender === 'male' ? 'Male' : 'Female';
   document.getElementById('cfg-preset-label').innerHTML =
     `${gLabel} · ${GOAL_LABELS[selectedGoal]} · ${MEAL_LABELS[selectedMeal]} · <span>${CFG_LABELS[cfg]}</span>`;
   syncLabels();
@@ -880,7 +988,7 @@ async function init() {
     restaurants = await res.json();
   } catch(e) {
     document.getElementById('results').innerHTML =
-      `<div class="empty">Не удалось загрузить данные.<br>Запустите: <code>python3 -m http.server 8080</code></div>`;
+      `<div class="empty">Failed to load data.<br>Run: <code>python3 server.py</code></div>`;
     return;
   }
   updateDailySummary();
@@ -943,7 +1051,7 @@ function makePopupContent(r, idx, matchInfo) {
   let html = `<div class="lf-popup"><b>${esc(r.name)}</b>${rating}<br><small>${esc(r.address||'')}</small>`;
   if (cuisine) html += `<br><small style="color:#1d4ed8">${esc(cuisine)}</small>`;
   if (matchInfo) html +=
-    `<div class="dishes-count">${matchInfo.dishes.length} подходящих блюд</div>
+    `<div class="dishes-count">${matchInfo.dishes.length} matching dishes</div>
      <span class="scroll-link" onclick="scrollToCard(${idx})">Показать в списке</span>`;
   return html + '</div>';
 }
@@ -1000,8 +1108,9 @@ function renderResults() {
   updateMarkers(matched);
 
   document.getElementById('status-bar').innerHTML = matched.length
-    ? `<b>${matched.length}</b> ресторанов · ${cfg.calMin}–${cfg.calMax} ккал · Б ${cfg.protMin}–${cfg.protMax}г · Ж ${cfg.fatMin}–${cfg.fatMax}г · У ${cfg.carbMin}–${cfg.carbMax}г${cfg.vegan ? ' · веган' : ''}`
-    : `<span style="color:#dc2626">Нет подходящих блюд</span>`;
+    ? `<b>${matched.length}</b> restaurants · ${cfg.calMin}–${cfg.calMax} kcal · P ${cfg.protMin}–${cfg.protMax}g · F ${cfg.fatMin}–${cfg.fatMax}g · C ${cfg.carbMin}–${cfg.carbMax}g${cfg.vegan ? ' · vegan' : ''}`
+    : `<span style="color:#dc2626">No matching dishes</span>`;
+  updatePeekLabel(matched.length);
 
   document.getElementById('results').innerHTML = matched.length
     ? matched.map(m => renderCard(m)).join('') : '';
@@ -1013,7 +1122,7 @@ function renderCard({ r, dishes, dist, idx }) {
   const MAX = 5, expanded = expandedCards[idx], shown = expanded ? dishes : dishes.slice(0, MAX);
   const cuisine = formatCuisine(r.cuisine);
   const distText = dist != null ? (dist < 1000 ? dist+'м' : (dist/1000).toFixed(1)+' км') : '';
-  const metaParts = [cuisine, distText, dishes.length + ' блюд'].filter(Boolean);
+  const metaParts = [cuisine, distText, dishes.length + ' dishes'].filter(Boolean);
 
   const photo = r.photo_url
     ? `<img class="card-photo" src="${esc(r.photo_url)}" alt="${esc(r.name)}" loading="lazy" onerror="this.style.display='none'">`
@@ -1041,7 +1150,7 @@ function renderCard({ r, dishes, dist, idx }) {
         </div>
         <div class="dishes-list" id="card-${idx}">${shown.map(renderDish).join('')}</div>
         ${dishes.length > MAX && !expanded
-          ? `<div class="more-link" onclick="expandCard(${idx})">Ещё ${dishes.length-MAX} блюд</div>` : ''}
+          ? `<div class="more-link" onclick="expandCard(${idx})">${dishes.length-MAX} more dishes</div>` : ''}
       </div>
     </div>`;
 }
@@ -1101,10 +1210,10 @@ function renderDish(d) {
     }
   }
 
-  const cal  = cal_val  != null ? `<span class="macro macro-cal">${fmtMacro(cal_val,  ' ккал', conf)}</span>` : '';
-  const prot = prot_val != null ? `<span class="macro macro-prot">Б ${fmtMacro(prot_val, 'г', conf)}</span>` : '';
-  const fat  = fat_val  != null ? `<span class="macro macro-fat">Ж ${fmtMacro(fat_val,  'г', conf)}</span>` : '';
-  const carb = carb_val != null ? `<span class="macro macro-carb">У ${fmtMacro(carb_val, 'г', conf)}</span>` : '';
+  const cal  = cal_val  != null ? `<span class="macro macro-cal">${fmtMacro(cal_val,  ' kcal', conf)}</span>` : '';
+  const prot = prot_val != null ? `<span class="macro macro-prot">P ${fmtMacro(prot_val, 'g', conf)}</span>` : '';
+  const fat  = fat_val  != null ? `<span class="macro macro-fat">F ${fmtMacro(fat_val,  'g', conf)}</span>` : '';
+  const carb = carb_val != null ? `<span class="macro macro-carb">C ${fmtMacro(carb_val, 'g', conf)}</span>` : '';
 
   const srcLabel = SOURCE_LABELS[d.source];
   const srcTag = srcLabel ? `<span class="source-tag">${esc(srcLabel)}</span>` : '';
@@ -1239,10 +1348,10 @@ function openDishModal(rowEl) {
   const w = d.weight || null;
   const macrosEl = document.getElementById('dish-modal-macros');
   const parts = [];
-  if (d.calories != null) parts.push(`<span class="macro macro-cal">${d.calories} ккал</span>`);
-  if (d.protein  != null) parts.push(`<span class="macro macro-prot">Б ${d.protein}г</span>`);
-  if (d.fat      != null) parts.push(`<span class="macro macro-fat">Ж ${d.fat}г</span>`);
-  if (d.carbs    != null) parts.push(`<span class="macro macro-carb">У ${d.carbs}г</span>`);
+  if (d.calories != null) parts.push(`<span class="macro macro-cal">${d.calories} kcal</span>`);
+  if (d.protein  != null) parts.push(`<span class="macro macro-prot">P ${d.protein}g</span>`);
+  if (d.fat      != null) parts.push(`<span class="macro macro-fat">F ${d.fat}g</span>`);
+  if (d.carbs    != null) parts.push(`<span class="macro macro-carb">C ${d.carbs}g</span>`);
   if (w          != null) parts.push(`<span class="macro" style="background:#f1f5f9;color:#64748b">~${w}г</span>`);
   if (d.price    != null) parts.push(`<span class="macro macro-price">€${d.price.toFixed(2)}</span>`);
   macrosEl.innerHTML = parts.join('');
@@ -1251,7 +1360,7 @@ function openDishModal(rowEl) {
   document.getElementById('dish-advice-block').innerHTML = `
     <div class="advice-loading">
       <div class="advice-spinner"></div>
-      Анализирую блюдо…
+      Analyzing dish…
     </div>`;
 
   document.getElementById('dish-modal').classList.add('open');
@@ -1273,17 +1382,17 @@ function openDishModal(rowEl) {
 }
 
 const RATING_MAP = {
-  'Ограниченно': { idx: 1, cls: 'advice-rating-1' },
-  'Нормально':   { idx: 2, cls: 'advice-rating-2' },
-  'Хорошо':      { idx: 3, cls: 'advice-rating-3' },
-  'Питательно':  { idx: 4, cls: 'advice-rating-4' },
+  'Limited':    { idx: 1, cls: 'advice-rating-1' },
+  'Fair':       { idx: 2, cls: 'advice-rating-2' },
+  'Good':       { idx: 3, cls: 'advice-rating-3' },
+  'Nutritious': { idx: 4, cls: 'advice-rating-4' },
 };
-const RATING_LABELS = ['Ограниченно', 'Нормально', 'Хорошо', 'Питательно'];
+const RATING_LABELS = ['Limited', 'Fair', 'Good', 'Nutritious'];
 
 function renderAdvice(data) {
   const block = document.getElementById('dish-advice-block');
   if (!data || !data.rating) {
-    block.innerHTML = `<div class="advice-text" style="color:var(--muted)">Не удалось загрузить оценку.</div>`;
+    block.innerHTML = `<div class="advice-text" style="color:var(--muted)">Failed to load advice.</div>`;
     return;
   }
   const r = RATING_MAP[data.rating] || { idx: 2, cls: 'advice-rating-2' };
@@ -1306,7 +1415,7 @@ function renderAdvice(data) {
     ${whatHtml}
     <div class="advice-scale">${segs}</div>
     <div class="advice-labels">
-      <span>Ограниченно</span><span>Нормально</span><span>Хорошо</span><span>Питательно</span>
+      <span>Limited</span><span>Fair</span><span>Good</span><span>Nutritious</span>
     </div>
     <div class="advice-text">${esc(data.advice)}</div>`;
 }
@@ -1320,6 +1429,87 @@ function closeDishModal(e) {
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeDishModal({ target: document.getElementById('dish-modal') });
 });
+
+// ── Bottom Sheet (mobile) ──
+const SHEET_PEEK_H = 110;
+let sheetDragging = false;
+let sheetTouchStartY = 0;
+let sheetTouchStartTY = 0;
+
+function isMobile() { return window.innerWidth <= 680; }
+
+function sheetGetTY() {
+  const m = new DOMMatrix(window.getComputedStyle(document.getElementById('list-panel')).transform);
+  return m.m42;
+}
+
+function sheetPeek() {
+  if (!isMobile()) return;
+  const panel = document.getElementById('list-panel');
+  panel.classList.remove('sheet-no-transition', 'sheet-expanded');
+  document.getElementById('map-float-btn').classList.remove('visible');
+  document.getElementById('sheet-scroll').style.overflowY = 'hidden';
+}
+
+function sheetExpand() {
+  if (!isMobile()) return;
+  const panel = document.getElementById('list-panel');
+  panel.classList.remove('sheet-no-transition');
+  panel.classList.add('sheet-expanded');
+  document.getElementById('map-float-btn').classList.add('visible');
+  document.getElementById('sheet-scroll').style.overflowY = 'auto';
+}
+
+function updatePeekLabel(count) {
+  const el = document.getElementById('sheet-peek-label');
+  if (el) el.textContent = count ? `${count} restaurant${count === 1 ? '' : 's'}` : 'No matches';
+}
+
+function initBottomSheet() {
+  const handle = document.getElementById('sheet-handle');
+  const panel  = document.getElementById('list-panel');
+  const scroll = document.getElementById('sheet-scroll');
+  if (!handle || !panel) return;
+
+  // Tap handle when peeked → expand
+  handle.addEventListener('click', () => {
+    if (!isMobile()) return;
+    if (!panel.classList.contains('sheet-expanded')) sheetExpand();
+  });
+
+  // Drag handle
+  handle.addEventListener('touchstart', e => {
+    if (!isMobile()) return;
+    sheetDragging = true;
+    sheetTouchStartY  = e.touches[0].clientY;
+    sheetTouchStartTY = sheetGetTY();
+    panel.classList.add('sheet-no-transition');
+  }, { passive: true });
+
+  document.addEventListener('touchmove', e => {
+    if (!sheetDragging || !isMobile()) return;
+    const dy   = e.touches[0].clientY - sheetTouchStartY;
+    const h    = panel.offsetHeight;
+    const newY = Math.max(0, Math.min(h - SHEET_PEEK_H, sheetTouchStartTY + dy));
+    panel.style.transform = `translateY(${newY}px)`;
+  }, { passive: true });
+
+  document.addEventListener('touchend', () => {
+    if (!sheetDragging || !isMobile()) return;
+    sheetDragging = false;
+    const currentY = sheetGetTY();
+    const h = panel.offsetHeight;
+    if (currentY > (h - SHEET_PEEK_H) / 2) sheetPeek();
+    else sheetExpand();
+  });
+
+  // Tapping the map while sheet is expanded → peek
+  document.getElementById('map')?.addEventListener('click', () => {
+    if (isMobile() && panel.classList.contains('sheet-expanded')) sheetPeek();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initBottomSheet);
 </script>
 
 <!-- Dish modal -->
@@ -1336,7 +1526,7 @@ document.addEventListener('keydown', e => {
       <div class="dish-modal-macros" id="dish-modal-macros"></div>
       <div class="advice-block">
         <div id="dish-advice-block">
-          <div class="advice-loading"><div class="advice-spinner"></div>Анализирую блюдо…</div>
+          <div class="advice-loading"><div class="advice-spinner"></div>Analyzing dish…</div>
         </div>
       </div>
     </div>
