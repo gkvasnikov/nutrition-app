@@ -26,7 +26,7 @@ app = Flask(__name__, static_folder=None)
 PHOTO_CACHE_FILE = ROOT / "data" / "photo_cache.json"
 PHOTO_CACHE_LOCK = FileLock(str(PHOTO_CACHE_FILE) + ".lock")
 
-CSE_URL = "https://www.googleapis.com/customsearch/v1"
+PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
 
 
 def _load_cache() -> dict:
@@ -103,41 +103,41 @@ def dish_photo():
 
     if dish_name in cache:
         cached_url = cache[dish_name]
-        # Step 2: HEAD-check cached URL
+        # Step 2: HEAD-check cached URL (3s timeout)
         try:
             resp = http_requests.head(cached_url, timeout=3, allow_redirects=True)
             if resp.status_code == 200:
                 return jsonify({"url": cached_url})
         except Exception:
             pass
-        # URL is dead — remove from cache
+        # URL is dead — evict from cache, fall through to Pexels
         with PHOTO_CACHE_LOCK:
             cache = _load_cache()
             cache.pop(dish_name, None)
             _save_cache(cache)
 
-    # Step 3: Google Custom Search
-    cse_key = os.environ.get("GOOGLE_CSE_KEY", "")
-    cse_id  = os.environ.get("GOOGLE_CSE_ID", "")
-    if not cse_key or not cse_id:
+    # Step 3: search Pexels
+    pexels_key = os.environ.get("PEXELS_API_KEY", "")
+    if not pexels_key:
         return jsonify({"url": None})
 
     try:
-        resp = http_requests.get(CSE_URL, params={
-            "key":        cse_key,
-            "cx":         cse_id,
-            "q":          f"{dish_name} food dish",
-            "searchType": "image",
-            "num":        1,
-            "imgSize":    "large",
-            "safe":       "active",
-        }, timeout=8)
+        resp = http_requests.get(
+            PEXELS_SEARCH_URL,
+            headers={"Authorization": pexels_key},
+            params={
+                "query":       f"{dish_name} food",
+                "per_page":    1,
+                "orientation": "landscape",
+            },
+            timeout=8,
+        )
         resp.raise_for_status()
-        items = resp.json().get("items", [])
-        if not items:
+        photos = resp.json().get("photos", [])
+        if not photos:
             return jsonify({"url": None})
 
-        url = items[0].get("link", "")
+        url = photos[0].get("src", {}).get("large", "")
         if not _is_valid_url(url):
             return jsonify({"url": None})
 
