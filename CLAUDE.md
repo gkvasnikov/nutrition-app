@@ -67,8 +67,21 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - [x] Центровка карты по геолокации при загрузке + радиус-круг — выполнено (2026-05-18). getLocation() при старте panTo на координаты пользователя, показывает #dist-row и radius circle сразу.
 - [x] Мобильный UX улучшения — выполнено (2026-05-18). Статус-строка и фильтры на разных строках. Блюда в вертикальный стек (dish-row flex-direction:column). Модал с 16px отступами по бокам (calc(100vw - 32px)). sheetPeek() вызывается при клике на маркер карты и на кнопку "Map".
 - [x] Слайдер thumb 24px — выполнено (2026-05-18). ::-webkit-slider-thumb и ::-moz-range-thumb width/height: 24px.
+- [x] Kreuzberg North Patch (фаза 4) — сбор — выполнено (2026-05-19). scrapers/district_collector.py --incremental: bbox 52.490–52.513, 298 новых ресторанов в data/kreuzberg_north_patch/restaurants.json. Дедупликация против all_restaurants.json (1430 записей, проверка по google_place_id и place_id).
+- [x] Kreuzberg North Patch — Wolt scanning — выполнено (2026-05-19). scrapers/kreuzberg_north_patch/wolt_scanner.py: 115/298 найдено на Wolt, 7835 блюд. Кэш: data/kreuzberg_north_patch/.wolt_cache.json.
+- [x] Kreuzberg North Patch — Claude КБЖУ оценка — выполнено (2026-05-19). 7835/7835 блюд, confidence=medium, source=claude. Batch: msgbatch_01R2G8D8NimQ9K1CCdbjiHkb. Скрипт: python3 enrichment/kbju_estimator.py --file data/kreuzberg_north_patch/restaurants.json --force-confidence medium
+- [x] Kreuzberg North Patch — merge в all_restaurants.json — выполнено (2026-05-19). Добавлено 298 новых ресторанов. Итого: 1728 ресторанов. Бэкап: data/all_restaurants_backup_north_patch.json.
+- [x] Фотографии для всех ресторанов — выполнено (2026-05-18). enrichment/fetch_missing_photos.py: Google Places Details API (fields=photos), до 3 фото на ресторан. 262/266 ресторанов без фото получили фото. 4 не нашли (cafe, Funa Sushi, Freddy Price Burger's & Vegan, Bantabaa Kitchen UG). Поля photo_url (первое фото) и photos[] (до 3).
+- [x] Wolt-лого и Directions ссылка в карточке — выполнено (2026-05-18). Wolt-лого слева, иконка навигации справа в .card-meta-links. Google Maps URL: destination=LAT,LON. Порядок: woltLink + directionsLink.
+- [x] Отступы карты 24px — выполнено (2026-05-18). #map-panel: padding 24px сверху, справа, снизу (слева 0). border-radius 14px на #map.
+- [x] Слайдер фото — выполнено (2026-05-18). Стрелки prev/next + dots-индикатор. Фото слева на десктопе (card flex-direction:row, photo-wrap 210px), сверху на мобильном. Стрелки на десктопе показываются только при hover на фото.
+- [x] Pill-маркеры на карте — выполнено (2026-05-18). Белые bubble-маблы с текстом "N dishes" (OverlayView, PillMarker class). Hover на карточке → пин чёрный. Неактивные рестораны скрыты с карты (display:none). Без хвостика-стрелки. PillMarker определяется внутри initMap() (google.maps уже загружен).
 
 ## Заметки
+- fetch_missing_photos.py: фильтр — есть меню (wolt_menu или site_menu), нет photo_url и photos[], есть google_place_id. PAUSE=0.3s, checkpoint каждые 50 ресторанов. Cost ~$17/1000 запросов.
+- PillMarker (OverlayView): класс нужно объявлять внутри initMap(), иначе google.maps.OverlayView ещё не существует при загрузке скрипта — всё ломается без ошибок в консоли.
+- Google Maps Directions URL: destination=LAT,LON работает надёжнее, чем destination_place_id alone.
+- Photo slider: photos[] (до 3 URL) приоритет над photo_url. На десктопе стрелки скрыты, появляются при :hover на .card-photo-wrap через CSS.
 - На машине Python 3.9 (не 3.11+), синтаксис `X | None` не работает — используем `Optional[X]` из typing + `from __future__ import annotations`
 - OSM вернул 268 элементов из 268 — все именованные (безымянные пропускаются)
 - way/relation элементы используют поле `center` для координат
@@ -195,9 +208,35 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - [x] Google Places сбор — выполнено (2026-05-14). 414 ресторанов с photo_url. Скрипт: scrapers/wrangelkiez/google_places_collector.py
 - [x] Wolt scanning — выполнено (2026-05-14). 138/414 ресторанов с меню, 8765 блюд. Скрипт: scrapers/wrangelkiez/wolt_scanner.py
 - [x] Claude КБЖУ оценка — выполнено (2026-05-14). 8764/8765 блюд, confidence=medium, source=claude. Скрипт: python3 enrichment/kbju_estimator.py --file data/wrangelkiez/restaurants_wrangelkiez.json --force-confidence medium
-- [x] Merge districts — обновлено. all_restaurants.json = 1430 ресторанов
+- [x] Merge districts — обновлено. all_restaurants.json = 1728 ресторанов (+ 298 North Patch)
 
 ### Заметки
 - Wolt location формат: массив [lon, lat], не словарь — учесть при адаптации скриптов для других районов
 - Аллергены на Wolt: модал при клике на карточку блюда, но разметка закрытая — попытка не удалась, убрано из скрапера
 - 126 дубликатов при merge (Wrangelkiez пересекается с Kreuzberg bbox по восточной части)
+
+## Кройцберг North Patch (фаза 4)
+### Данные
+- Директория: data/kreuzberg_north_patch/
+- restaurants.json — 298 ресторанов (Friedrichshain area, 52.490–52.513)
+- .wolt_cache.json — кэш Wolt API
+
+### Bbox
+52.490, 13.400, 52.513, 13.460 (новая северная полоса)
+
+### Скрипты
+- scrapers/district_collector.py --incremental — сбор новых ресторанов
+- scrapers/kreuzberg_north_patch/wolt_scanner.py — Wolt меню
+- scrapers/kreuzberg_north_patch/ubereats_scanner.py — ПАУЗА (bot detection)
+
+### Статус задач
+- [x] Google Places сбор — выполнено (2026-05-19). 298 новых ресторанов.
+- [x] Wolt scanning — выполнено (2026-05-19). 115/298 найдено, 7835 блюд.
+- [ ] Uber Eats scanning — на паузе (setRobotEventsV1 bot detection, 307→404)
+- [x] Claude КБЖУ оценка — выполнено (2026-05-19). 7835/7835 блюд.
+- [x] Merge в all_restaurants.json — выполнено (2026-05-19). Итого 1728 ресторанов.
+- [ ] Dietary flags — в процессе (2026-05-19). 8 батчей отправлено.
+
+### Заметки
+- district_collector.py: suffix = data_file.stem.replace("restaurants","").strip("_") or "mitte" — файл restaurants.json даёт suffix="mitte". Batch ID файл: kbju_mitte_batch_id.txt (несмотря на north patch).
+- Uber Eats: pl параметр = base64(json.dumps(location)), но setRobotEventsV1 всё равно срабатывает. Скрипт: scrapers/kreuzberg_north_patch/ubereats_scanner.py
