@@ -69,13 +69,14 @@ def main() -> None:
         if (r.get("wolt_menu") or r.get("site_menu"))
         and not r.get("photo_url")
         and not r.get("photos")
-        and r.get("google_place_id")
+        and (r.get("google_place_id") or r.get("place_id"))
     ]
     print(f"Restaurants needing photos: {len(targets)}\n")
 
     done = errors = 0
     for n, (i, r) in enumerate(targets, 1):
-        urls = fetch_photos(r["google_place_id"])
+        pid = r.get("google_place_id") or r.get("place_id")
+        urls = fetch_photos(pid)
         if urls:
             restaurants[i]["photo_url"] = urls[0]
             if len(urls) > 1:
