@@ -1062,7 +1062,9 @@ function getLocation() {
         strokeColor: '#1d4ed8', strokeWeight: 2, scale: 8,
       },
     });
+    map.panTo({ lat: userLat, lng: userLon });
     document.getElementById('dist-row').classList.add('active');
+    updateRadiusCircle(readConfig().distMax);
     renderResults();
   }, () => {});
 }
