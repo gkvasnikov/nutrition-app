@@ -29,6 +29,7 @@
 
     html, body {
       height: 100%; overflow: hidden;
+      overscroll-behavior: none;
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
@@ -1208,7 +1209,7 @@ function getLocation() {
   if (!navigator.geolocation) return;
   navigator.geolocation.getCurrentPosition(pos => {
     userLat = pos.coords.latitude; userLon = pos.coords.longitude;
-    el.textContent = `${userLat.toFixed(4)}, ${userLon.toFixed(4)}`;
+    el.textContent = '';
     new google.maps.Marker({
       position: { lat: userLat, lng: userLon }, map: map,
       title: 'Вы здесь',
@@ -1564,7 +1565,6 @@ function openPlaceModal(idx) {
   const src = `https://www.google.com/maps/embed/v1/place?key=${GMAPS_EMBED_KEY}&q=place_id:${r.google_place_id}&language=de`;
   document.getElementById('place-iframe').src = src;
   document.getElementById('place-modal').classList.add('open');
-  document.body.style.overflow = 'hidden';
   panToMarker(idx);
 }
 
@@ -1572,7 +1572,6 @@ function closePlaceModal(e) {
   if (e && e.target !== document.getElementById('place-modal') && !e.target.classList.contains('place-modal-close')) return;
   document.getElementById('place-modal').classList.remove('open');
   document.getElementById('place-iframe').src = '';
-  document.body.style.overflow = '';
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closePlaceModal({ target: document.getElementById('place-modal') }); });
@@ -1673,7 +1672,6 @@ function openDishModal(rowEl) {
     </div>`;
 
   document.getElementById('dish-modal').classList.add('open');
-  document.body.style.overflow = 'hidden';
 
   // Fetch advice
   fetch('/api/advice', {
@@ -1732,7 +1730,6 @@ function renderAdvice(data) {
 function closeDishModal(e) {
   if (e && e.target !== document.getElementById('dish-modal') && !e.target.classList.contains('dish-modal-close')) return;
   document.getElementById('dish-modal').classList.remove('open');
-  document.body.style.overflow = '';
 }
 
 document.addEventListener('keydown', e => {
