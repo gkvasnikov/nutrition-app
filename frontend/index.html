@@ -30,6 +30,7 @@
     html, body {
       height: 100%; overflow: hidden;
       overscroll-behavior: none;
+      max-width: 100%;
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
@@ -75,12 +76,15 @@
     /* ── Mobile: bottom-sheet layout ── */
     @media (max-width: 680px) {
       html, body { height: 100%; overflow: hidden; }
+      /* prevent any child from causing horizontal scroll */
+      *, *::before, *::after { max-width: 100%; }
 
       /* Header fixed at top — reliable on all iOS/Android browsers */
       header {
         position: fixed;
         top: 0; left: 0; right: 0;
         z-index: 1000;
+        overflow: hidden;
       }
 
       /* Layout fills full screen below the header */
@@ -145,6 +149,7 @@
         flex: 1; overflow-y: hidden; overflow-x: hidden;
         padding: 0 14px 80px;
         -webkit-overflow-scrolling: touch;
+        max-width: 100%;
       }
 
       .results-header {
