@@ -119,7 +119,7 @@ def dish_photo():
     # Step 3: search Pexels
     pexels_key = os.environ.get("PEXELS_API_KEY", "")
     if not pexels_key:
-        return jsonify({"url": None})
+        return jsonify({"url": None, "error": "no_key"})
 
     try:
         resp = http_requests.get(
@@ -135,11 +135,11 @@ def dish_photo():
         resp.raise_for_status()
         photos = resp.json().get("photos", [])
         if not photos:
-            return jsonify({"url": None})
+            return jsonify({"url": None, "error": "no_photos"})
 
         url = photos[0].get("src", {}).get("large", "")
         if not _is_valid_url(url):
-            return jsonify({"url": None})
+            return jsonify({"url": None, "error": "invalid_url"})
 
         # Step 5: save to cache
         with PHOTO_CACHE_LOCK:
@@ -149,8 +149,8 @@ def dish_photo():
 
         return jsonify({"url": url})
 
-    except Exception:
-        return jsonify({"url": None})
+    except Exception as e:
+        return jsonify({"url": None, "error": str(e)})
 
 
 @app.route("/api/advice", methods=["POST"])
