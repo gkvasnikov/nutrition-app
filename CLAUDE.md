@@ -76,6 +76,14 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - [x] Отступы карты 24px — выполнено (2026-05-18). #map-panel: padding 24px сверху, справа, снизу (слева 0). border-radius 14px на #map.
 - [x] Слайдер фото — выполнено (2026-05-18). Стрелки prev/next + dots-индикатор. Фото слева на десктопе (card flex-direction:row, photo-wrap 210px), сверху на мобильном. Стрелки на десктопе показываются только при hover на фото.
 - [x] Pill-маркеры на карте — выполнено (2026-05-18). Белые bubble-маблы с текстом "N dishes" (OverlayView, PillMarker class). Hover на карточке → пин чёрный. Неактивные рестораны скрыты с карты (display:none). Без хвостика-стрелки. PillMarker определяется внутри initMap() (google.maps уже загружен).
+- [x] Kreuzberg North Patch (фаза 4) — dietary flags — выполнено (2026-05-19). 7835/7835 блюд с is_vegan/is_vegetarian/is_gluten_free/is_diabetic_friendly/allergens. Merge в all_restaurants.json: итого 1728 ресторанов.
+- [x] Фотографии для North Patch ресторанов — выполнено (2026-05-19). enrichment/fetch_missing_photos.py: исправлен баг (фильтр добавлен для place_id, не только google_place_id). 114/115 ресторанов с меню получили фото.
+- [x] GET /api/dish-photo endpoint — выполнено (2026-05-19). server.py: поиск фото блюда по названию через Pexels API (PEXELS_API_KEY), кэширование в data/photo_cache.json (filelock, HEAD-валидация, eviction). Фронтенд: в модале блюда async-заменяет фото ресторана на фото блюда. Зависимости: requests, filelock добавлены в requirements.txt.
+- [x] Стилистика цен и фильтров — выполнено (2026-05-19). Цены без фона и рамки, просто чёрный текст. Три чекбокса (Plant-based / Gluten-free / Diabetes-friendly) на одной строке.
+- [x] Мобильный лейаут — полное исправление (2026-05-19). header: position:fixed; .layout: position:fixed; #map-panel: padding:0, z-index:1; #map: border-radius:0 на мобильном. Клик по маркеру вызывает sheetExpand(). Кнопка Map: исправлен баг — panel.style.transform сбрасывается в sheetPeek()/sheetExpand() иначе inline-стиль после drag перебивал CSS-классы. Sheet в expanded убирает border-radius.
+- [x] Кастомные кнопки карты — выполнено (2026-05-19). +/− (zoom) и locate-me (crosshair SVG). Стандартный зум Google Maps отключён. На десктопе: top-right, 16px от границы карты (right:32px top:28px с учётом padding панели). На мобильном: right:10px bottom:130px (над peek-листом). locateMe(): panTo userLat/userLon + zoom 16.
+- [x] Убраны координаты у логотипа — выполнено (2026-05-19). loc-status больше не обновляется текстом с геолокацией.
+- [x] Скролл страницы — исправлено (2026-05-19). html/body: overflow:hidden глобально + overscroll-behavior:none (iOS bounce). Все document.body.style.overflow JS-вызовы убраны — CSS управляет всегда. Десктоп: убран position:relative на #map-panel (перебивал sticky), добавлен overflow:hidden глобально.
 
 ## Заметки
 - fetch_missing_photos.py: фильтр — есть меню (wolt_menu или site_menu), нет photo_url и photos[], есть google_place_id. PAUSE=0.3s, checkpoint каждые 50 ресторанов. Cost ~$17/1000 запросов.
@@ -122,6 +130,11 @@ Python 3.11+, Playwright, requests, fuzzywuzzy (матчинг)
 - Ворктри-workflow: правки идут в worktree, но preview-сервер отдаёт файлы из основного проекта (/Users/george/Claude/Nutrition App/). Перед проверкой: cp worktree/frontend/index.html main/frontend/index.html.
 - getOpenStatus: weekday_text[idx] где idx = (jsDay + 6) % 7 переводит JS-день (0=Sun) в немецкий порядок (0=Mon). periods.open/close.day тоже 0=Sun — для ночных заведений (close.day != open.day) проверяем оба дня отдельно.
 - google_places_updater.py: _find_env() поднимается на 6 уровней вверх от ROOT — нужно т.к. ворктри вложен глубоко. Atomic save через .tmp → replace.
+- fetch_missing_photos.py: поддерживает оба поля — google_place_id (Mitte/Kreuzberg) и place_id (North Patch, Wrangelkiez). Фильтр: `r.get("google_place_id") or r.get("place_id")`.
+- Pexels API: Authorization header (не query param). Endpoint: https://api.pexels.com/v1/search. Params: query="{name} food", per_page=1, orientation=landscape. Ключ: PEXELS_API_KEY в .env и Railway vars.
+- Bottom sheet drag bug: panel.style.transform (inline) имеет приоритет над CSS-классами. После drag нужно сбрасывать panel.style.transform = '' в sheetPeek() и sheetExpand() перед изменением классов.
+- iOS Safari scroll: overflow:hidden на body недостаточно — нужен overscroll-behavior:none на html,body. document.body.style.overflow = '' при закрытии модалов сбрасывал CSS-правило — убран.
+- position:sticky создаёт containing block для position:absolute детей — не нужен дополнительный position:relative на #map-panel.
 
 ## Инструкция для Claude
 После выполнения каждой задачи:
