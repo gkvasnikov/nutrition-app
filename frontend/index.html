@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Nutrition Finder — Berlin Mitte</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -163,7 +163,7 @@
     @media (max-width: 680px) {
       #map-float-btn {
         display: flex; align-items: center; gap: 7px;
-        position: fixed; bottom: 30px; left: 50%;
+        position: fixed; bottom: calc(30px + env(safe-area-inset-bottom)); left: 50%;
         transform: translateX(-50%);
         z-index: 30;
         background: #1d1d1f; color: #fff;
