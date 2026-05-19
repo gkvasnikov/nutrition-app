@@ -1576,7 +1576,7 @@ function openDishModal(rowEl) {
   const rCuisine = card?.querySelector('.card-meta')?.textContent?.trim() || '';
   const rPhoto = card?.querySelector('.card-photo')?.src || null;
 
-  // Image
+  // Image — show restaurant photo immediately, then try to replace with dish photo
   const imgEl = document.getElementById('dish-modal-img');
   const imgWrap = document.getElementById('dish-modal-img-wrap');
   if (rPhoto) {
@@ -1587,6 +1587,17 @@ function openDishModal(rowEl) {
     imgEl.style.display = 'none';
     imgWrap.style.display = 'flex';
   }
+  // Async: fetch dish-specific photo and replace if found
+  fetch(`/api/dish-photo?name=${encodeURIComponent(d.name)}`)
+    .then(r => r.json())
+    .then(data => {
+      if (data.url) {
+        imgEl.src = data.url;
+        imgEl.style.display = 'block';
+        imgWrap.style.display = 'none';
+      }
+    })
+    .catch(() => {});
 
   document.getElementById('dish-modal-restaurant').textContent = rName;
   const w = d.weight || null;
