@@ -72,20 +72,30 @@
     @media (max-width: 680px) {
       html, body { height: 100%; overflow: hidden; }
 
+      /* Header fixed at top — reliable on all iOS/Android browsers */
+      header {
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        z-index: 1000;
+      }
+
+      /* Layout fills full screen below the header */
       .layout {
-        flex-direction: row;
-        height: calc(100dvh - var(--header-h));
-        position: relative;
+        position: fixed;
+        top: var(--header-h); left: 0; right: 0; bottom: 0;
         overflow: hidden;
       }
 
+      /* Map fills the entire layout area, no padding/radius */
       #map-panel {
         position: absolute; inset: 0;
-        width: 100%; height: 100%; z-index: 1;
+        width: 100%; height: 100%;
+        padding: 0;
+        z-index: 1;
       }
+      #map { width: 100%; height: 100%; border-radius: 0; }
 
-      #map { width: 100%; height: 100%; }
-
+      /* Bottom sheet */
       #list-panel {
         position: absolute; left: 0; right: 0; bottom: 0;
         height: 100%; z-index: 10;
@@ -1215,7 +1225,7 @@ function initMap() {
     if (!(r.wolt_menu?.length || r.site_menu?.length) || !r.lat || !r.lon) return;
     const marker = new PillMarker(
       { lat: r.lat, lng: r.lon }, '', 'inactive',
-      () => { scrollToCard(idx); showInfoWindow(marker, r, idx); }
+      () => { if (isMobile()) sheetExpand(); scrollToCard(idx); showInfoWindow(marker, r, idx); }
     );
     marker.setMap(map);
     markers[idx] = marker;
