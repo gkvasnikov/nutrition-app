@@ -638,16 +638,37 @@
     .advice-rating-3 { background: #dcfce7; color: #15803d; }
     .advice-rating-4 { background: #dbeafe; color: #1d4ed8; }
 
-    .fit-score-row {
-      display: flex; align-items: baseline; gap: 12px; margin: 10px 0 12px;
+    /* Fit Score scale */
+    .fit-scale-wrap {
+      position: relative;
+      padding: 24px 0 20px;
+      margin: 8px 0 14px;
     }
-    .fit-score-num {
-      font-size: 2.4rem; font-weight: 800; line-height: 1; letter-spacing: -.04em;
+    .fit-scale-pct {
+      position: absolute; top: 0;
+      transform: translateX(-50%);
+      font-size: 1.1rem; font-weight: 800; line-height: 1;
+      letter-spacing: -.03em; white-space: nowrap;
     }
-    .fit-score-num.score-poor      { color: #dc2626; }
-    .fit-score-num.score-fair      { color: #d97706; }
-    .fit-score-num.score-good      { color: #16a34a; }
-    .fit-score-num.score-excellent { color: #15803d; }
+    .fit-scale-track {
+      height: 7px; border-radius: 4px;
+      background: linear-gradient(to right,
+        #ef4444 0%, #f97316 20%, #eab308 40%, #84cc16 60%, #22c55e 76%, #15803d 100%);
+      position: relative;
+    }
+    .fit-scale-dot {
+      position: absolute; top: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px; height: 16px; border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 1px 6px rgba(0,0,0,.24);
+    }
+    .fit-scale-sublabel {
+      position: absolute; bottom: 0;
+      transform: translateX(-50%);
+      font-size: .72rem; font-weight: 700;
+      white-space: nowrap;
+    }
     .advice-what {
       font-size: .78rem; color: #6b7280; font-style: italic;
       margin-bottom: 10px; line-height: 1.4;
@@ -1701,11 +1722,11 @@ function renderAdvice(data) {
     return;
   }
 
-  const score = Math.max(0, Math.min(100, Math.round(data.score)));
-  const scoreCls  = score <= 40 ? 'score-poor' : score <= 65 ? 'score-fair' : score <= 85 ? 'score-good' : 'score-excellent';
-  const labelCls  = score <= 40 ? 'advice-rating-1' : score <= 65 ? 'advice-rating-2' : score <= 85 ? 'advice-rating-3' : 'advice-rating-4';
-  const label     = data.label || (score <= 40 ? 'Poor' : score <= 65 ? 'Fair' : score <= 85 ? 'Good' : 'Excellent');
-  const whatHtml  = data.what ? `<div class="advice-what">${esc(data.what)}</div>` : '';
+  const score    = Math.max(0, Math.min(100, Math.round(data.score)));
+  const label    = data.label || (score <= 40 ? 'Poor' : score <= 65 ? 'Fair' : score <= 85 ? 'Good' : 'Excellent');
+  const dotColor = score <= 40 ? '#ef4444' : score <= 65 ? '#d97706' : score <= 85 ? '#16a34a' : '#15803d';
+  const pct      = Math.max(5, Math.min(95, score)); // clamp so labels don't overflow edges
+  const whatHtml = data.what ? `<div class="advice-what">${esc(data.what)}</div>` : '';
 
   block.innerHTML = `
     <div class="advice-header">
@@ -1715,9 +1736,12 @@ function renderAdvice(data) {
       </div>
     </div>
     ${whatHtml}
-    <div class="fit-score-row">
-      <span class="fit-score-num ${scoreCls}">${score}%</span>
-      <span class="advice-rating ${labelCls}">${esc(label)}</span>
+    <div class="fit-scale-wrap">
+      <div class="fit-scale-pct" style="left:${pct}%;color:${dotColor}">${score}%</div>
+      <div class="fit-scale-track">
+        <div class="fit-scale-dot" style="left:${pct}%;border:3px solid ${dotColor}"></div>
+      </div>
+      <div class="fit-scale-sublabel" style="left:${pct}%;color:${dotColor}">${esc(label)}</div>
     </div>
     <div class="advice-text">${esc(data.advice)}</div>`;
 }
