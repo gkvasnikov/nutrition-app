@@ -27,10 +27,13 @@
       --header-h: 58px;
     }
 
+    html, body {
+      height: 100%; overflow: hidden;
+    }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
       background: var(--bg); color: var(--text);
-      min-height: 100vh; -webkit-font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased;
     }
 
     /* ── Header ── */
@@ -176,11 +179,10 @@
       }
     }
 
-    /* Map controls */
-    #map-panel { position: relative; }
+    /* Map controls — desktop: top-right, 16px inside map border */
     #map-controls {
       position: absolute;
-      right: 12px; bottom: 24px;
+      right: 32px; top: 28px;   /* panel padding: 16px right + 16px inside; 12px top + 16px inside */
       display: flex; flex-direction: column; gap: 6px;
       z-index: 5;
     }
@@ -198,7 +200,7 @@
     .map-ctrl-btn:active { background: #f0f0f0; }
     .map-ctrl-locate { margin-top: 4px; }
     @media (max-width: 680px) {
-      #map-controls { right: 10px; bottom: 130px; }
+      #map-controls { right: 10px; top: auto; bottom: 130px; }
     }
 
     /* Desktop: Airbnb-style — list left, framed map right */
