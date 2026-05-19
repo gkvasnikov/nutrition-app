@@ -1710,6 +1710,7 @@ function sheetGetTY() {
 function sheetPeek() {
   if (!isMobile()) return;
   const panel = document.getElementById('list-panel');
+  panel.style.transform = '';  // clear drag inline style so CSS class takes over
   panel.classList.remove('sheet-no-transition', 'sheet-expanded');
   document.getElementById('map-float-btn').classList.remove('visible');
   document.getElementById('sheet-scroll').style.overflowY = 'hidden';
@@ -1718,6 +1719,7 @@ function sheetPeek() {
 function sheetExpand() {
   if (!isMobile()) return;
   const panel = document.getElementById('list-panel');
+  panel.style.transform = '';  // clear drag inline style so CSS class takes over
   panel.classList.remove('sheet-no-transition');
   panel.classList.add('sheet-expanded');
   document.getElementById('map-float-btn').classList.add('visible');
