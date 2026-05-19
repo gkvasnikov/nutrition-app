@@ -49,22 +49,29 @@ def _is_valid_url(url: str) -> bool:
 
 SYSTEM = (
     "You are a nutrition advisor for a Berlin restaurant discovery app. "
-    "Given a dish name, optional description, and nutritional data, return three things in English:\n"
-    "1. what — one short sentence explaining what this dish is (use your food knowledge; "
-    "if the name is in another language like Turkish or German, explain it clearly in English). "
-    "Keep it under 15 words.\n"
-    "2. rating — one word from: Limited, Fair, Good, Nutritious\n"
-    "3. advice — 2-3 sentences specific to the actual nutrients shown.\n"
+    "Given a dish and the user's nutrition goals (or none if not set), return JSON with:\n"
+    "1. score — integer 0–100: how well this dish fits the user's goals "
+    "(if no goals: rate overall nutritional quality)\n"
+    "2. label — exactly one word matching the score: "
+    "Poor (0–40), Fair (41–65), Good (66–85), Excellent (86–100)\n"
+    "3. what — one short English sentence (≤15 words) explaining what this dish is; "
+    "translate foreign names (Turkish, German, etc.) into plain English\n"
+    "4. advice — 2–3 sentences explaining the score: what fits the goals and what doesn't\n"
     "Return ONLY valid JSON: "
-    '{"what": "<text>", "rating": "...", "advice": "<text>"}'
+    '{"score": <0-100>, "label": "Poor|Fair|Good|Excellent", "what": "<text>", "advice": "<text>"}'
 )
 
-RATING_RULES = """
-Rating guide (choose the most fitting):
-- Nutritious: protein > 25g AND reasonable calories (< 700 kcal)
-- Good: protein > 15g OR well-balanced macros
-- Fair: average restaurant dish
-- Limited: very high fat/calories with low protein, or very small portion
+SCORING_GUIDE = """
+Scoring rules (start at 100, deduct, clamp 0–100):
+- Calories below range minimum: −20 pts
+- Calories above range maximum: −20 pts
+- Protein below minimum goal: −25 pts (proportional to shortfall)
+- Fat above maximum goal: −20 pts (proportional to excess)
+- Carbs above maximum goal: −15 pts (proportional to excess)
+- If no user goals set: score overall nutritional quality
+  (high protein + reasonable calories = higher score;
+   very high fat+calories with low protein = lower score)
+- label MUST match score band: Poor 0–40, Fair 41–65, Good 66–85, Excellent 86–100
 """
 
 
@@ -164,12 +171,33 @@ def advice():
     fat        = d.get("fat")
     carbs      = d.get("carbs")
     weight     = d.get("weight")
-
-    def fmt(v, unit="г"):
-        return f"{v}{unit}" if v is not None else "н/д"
-
     description = d.get("description", "")
+
+    # User filter goals (None = not set / default range)
+    cal_min  = d.get("cal_min")
+    cal_max  = d.get("cal_max")
+    prot_min = d.get("prot_min")
+    fat_max  = d.get("fat_max")
+    carb_max = d.get("carb_max")
+
+    def fmt(v, unit="g"):
+        return f"{v}{unit}" if v is not None else "n/a"
+
+    # Build goals line
+    has_goals = any(x is not None for x in [cal_min, cal_max, prot_min, fat_max, carb_max])
+    if has_goals:
+        goal_parts = []
+        if cal_min is not None: goal_parts.append(f"calories ≥ {cal_min} kcal")
+        if cal_max is not None: goal_parts.append(f"calories ≤ {cal_max} kcal")
+        if prot_min is not None: goal_parts.append(f"protein ≥ {prot_min}g")
+        if fat_max  is not None: goal_parts.append(f"fat ≤ {fat_max}g")
+        if carb_max is not None: goal_parts.append(f"carbs ≤ {carb_max}g")
+        goals_line = "User's meal goal: " + ", ".join(goal_parts)
+    else:
+        goals_line = "User's meal goal: none set — score overall nutritional quality"
+
     prompt = (
+        f"{goals_line}\n\n"
         f"Dish: {name}\n"
         + (f"Description: {description}\n" if description else "")
         + f"Restaurant: {restaurant}" + (f" ({cuisine} cuisine)" if cuisine else "") + "\n"
@@ -178,13 +206,13 @@ def advice():
         f"  Protein:  {fmt(protein)}\n"
         f"  Fat:      {fmt(fat)}\n"
         f"  Carbs:    {fmt(carbs)}\n"
-        f"\n{RATING_RULES}"
+        f"\n{SCORING_GUIDE}"
     )
 
     client = anthropic.Anthropic()
     msg = client.messages.create(
         model="claude-haiku-4-5",
-        max_tokens=200,
+        max_tokens=220,
         system=SYSTEM,
         messages=[{"role": "user", "content": prompt}],
     )

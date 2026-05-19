@@ -638,21 +638,16 @@
     .advice-rating-3 { background: #dcfce7; color: #15803d; }
     .advice-rating-4 { background: #dbeafe; color: #1d4ed8; }
 
-    .advice-scale {
-      display: flex; gap: 3px; margin-bottom: 10px;
+    .fit-score-row {
+      display: flex; align-items: baseline; gap: 12px; margin: 10px 0 12px;
     }
-    .advice-scale-seg {
-      flex: 1; height: 4px; border-radius: 2px; background: #e5e7eb;
-      transition: background .3s;
+    .fit-score-num {
+      font-size: 2.4rem; font-weight: 800; line-height: 1; letter-spacing: -.04em;
     }
-    .advice-scale-seg.active-1 { background: #ef4444; }
-    .advice-scale-seg.active-2 { background: #eab308; }
-    .advice-scale-seg.active-3 { background: #22c55e; }
-    .advice-scale-seg.active-4 { background: #3b82f6; }
-    .advice-labels {
-      display: flex; justify-content: space-between;
-      font-size: .6rem; color: var(--muted); margin-bottom: 12px;
-    }
+    .fit-score-num.score-poor      { color: #dc2626; }
+    .fit-score-num.score-fair      { color: #d97706; }
+    .fit-score-num.score-good      { color: #16a34a; }
+    .fit-score-num.score-excellent { color: #15803d; }
     .advice-what {
       font-size: .78rem; color: #6b7280; font-style: italic;
       margin-bottom: 10px; line-height: 1.4;
@@ -1673,14 +1668,25 @@ function openDishModal(rowEl) {
 
   document.getElementById('dish-modal').classList.add('open');
 
+  // Read current filter goals — send null if slider is at its default (full range)
+  const cfg = readConfig();
+  const goals = {
+    cal_min:  cfg.calMin  > 0    ? cfg.calMin  : null,
+    cal_max:  cfg.calMax  < 1500 ? cfg.calMax  : null,
+    prot_min: cfg.protMin > 0    ? cfg.protMin : null,
+    fat_max:  cfg.fatMax  < 100  ? cfg.fatMax  : null,
+    carb_max: cfg.carbMax < 200  ? cfg.carbMax : null,
+  };
+
   // Fetch advice
   fetch('/api/advice', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      name: d.name, restaurant: rName, cuisine: rCuisine,
+      name: d.name, description: d.description || '',
+      restaurant: rName, cuisine: rCuisine,
       calories: d.calories, protein: d.protein, fat: d.fat, carbs: d.carbs,
-      weight: w
+      weight: w, ...goals
     })
   })
   .then(r => r.json())
@@ -1688,28 +1694,18 @@ function openDishModal(rowEl) {
   .catch(() => renderAdvice(null));
 }
 
-const RATING_MAP = {
-  'Limited':    { idx: 1, cls: 'advice-rating-1' },
-  'Fair':       { idx: 2, cls: 'advice-rating-2' },
-  'Good':       { idx: 3, cls: 'advice-rating-3' },
-  'Nutritious': { idx: 4, cls: 'advice-rating-4' },
-};
-const RATING_LABELS = ['Limited', 'Fair', 'Good', 'Nutritious'];
-
 function renderAdvice(data) {
   const block = document.getElementById('dish-advice-block');
-  if (!data || !data.rating) {
+  if (!data || data.score == null) {
     block.innerHTML = `<div class="advice-text" style="color:var(--muted)">Failed to load advice.</div>`;
     return;
   }
-  const r = RATING_MAP[data.rating] || { idx: 2, cls: 'advice-rating-2' };
-  const segs = RATING_LABELS.map((_, i) =>
-    `<div class="advice-scale-seg${i < r.idx ? ' active-' + r.idx : ''}"></div>`
-  ).join('');
 
-  const whatHtml = data.what
-    ? `<div class="advice-what">${esc(data.what)}</div>`
-    : '';
+  const score = Math.max(0, Math.min(100, Math.round(data.score)));
+  const scoreCls  = score <= 40 ? 'score-poor' : score <= 65 ? 'score-fair' : score <= 85 ? 'score-good' : 'score-excellent';
+  const labelCls  = score <= 40 ? 'advice-rating-1' : score <= 65 ? 'advice-rating-2' : score <= 85 ? 'advice-rating-3' : 'advice-rating-4';
+  const label     = data.label || (score <= 40 ? 'Poor' : score <= 65 ? 'Fair' : score <= 85 ? 'Good' : 'Excellent');
+  const whatHtml  = data.what ? `<div class="advice-what">${esc(data.what)}</div>` : '';
 
   block.innerHTML = `
     <div class="advice-header">
@@ -1717,12 +1713,11 @@ function renderAdvice(data) {
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         AI Advisor
       </div>
-      <span class="advice-rating ${r.cls}">${data.rating}</span>
     </div>
     ${whatHtml}
-    <div class="advice-scale">${segs}</div>
-    <div class="advice-labels">
-      <span>Limited</span><span>Fair</span><span>Good</span><span>Nutritious</span>
+    <div class="fit-score-row">
+      <span class="fit-score-num ${scoreCls}">${score}%</span>
+      <span class="advice-rating ${labelCls}">${esc(label)}</span>
     </div>
     <div class="advice-text">${esc(data.advice)}</div>`;
 }
