@@ -76,16 +76,19 @@
     /* ── Mobile: bottom-sheet layout ── */
     @media (max-width: 680px) {
       html, body { height: 100%; overflow: hidden; }
-      /* prevent any child from causing horizontal scroll */
-      *, *::before, *::after { max-width: 100%; }
+      /* Kill horizontal scroll at the root — strongest available method */
+      html { overflow-x: clip; }
 
-      /* Header fixed at top — reliable on all iOS/Android browsers */
+      /* Header fixed at top */
       header {
         position: fixed;
         top: 0; left: 0; right: 0;
         z-index: 1000;
         overflow: hidden;
       }
+
+      /* Hide "Berlin Mitte" location status in header */
+      #loc-status { display: none; }
 
       /* Layout fills full screen below the header */
       .layout {
@@ -160,6 +163,19 @@
       .results-header-row2 {
         margin: 0 -14px; padding-left: 14px; padding-right: 14px;
         background: #fff;
+      }
+
+      /* Prevent daily-summary from widening the page */
+      .daily-summary {
+        white-space: normal;
+        max-width: calc(100vw - 28px);
+        overflow: hidden;
+      }
+
+      /* Safe area: extend sheet background into iPhone home-indicator zone
+         so there's no gap, and scroll content isn't hidden behind nav bar */
+      #list-panel {
+        padding-bottom: env(safe-area-inset-bottom);
       }
     }
 
