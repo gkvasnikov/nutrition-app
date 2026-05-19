@@ -176,6 +176,31 @@
       }
     }
 
+    /* Map controls */
+    #map-panel { position: relative; }
+    #map-controls {
+      position: absolute;
+      right: 12px; bottom: 24px;
+      display: flex; flex-direction: column; gap: 6px;
+      z-index: 5;
+    }
+    .map-ctrl-btn {
+      width: 36px; height: 36px;
+      background: #fff;
+      border: none; border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.18);
+      font-size: 1.3rem; font-weight: 400; line-height: 1;
+      color: #1d1d1f;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background .15s;
+    }
+    .map-ctrl-btn:active { background: #f0f0f0; }
+    .map-ctrl-locate { margin-top: 4px; }
+    @media (max-width: 680px) {
+      #map-controls { right: 10px; bottom: 130px; }
+    }
+
     /* Desktop: Airbnb-style — list left, framed map right */
     @media (min-width: 681px) {
       #map-panel {
@@ -693,7 +718,16 @@
 </header>
 
 <div class="layout">
-  <div id="map-panel"><div id="map"></div></div>
+  <div id="map-panel">
+    <div id="map"></div>
+    <div id="map-controls">
+      <button class="map-ctrl-btn" onclick="map.setZoom(map.getZoom()+1)" title="Zoom in">+</button>
+      <button class="map-ctrl-btn" onclick="map.setZoom(map.getZoom()-1)" title="Zoom out">−</button>
+      <button class="map-ctrl-btn map-ctrl-locate" onclick="locateMe()" title="My location">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>
+      </button>
+    </div>
+  </div>
 
   <div id="list-panel">
   <div id="sheet-handle">
@@ -1158,6 +1192,15 @@ async function init() {
 
 function startApp() { initMap(); renderResults(); getLocation(); }
 
+function locateMe() {
+  if (userLat != null) {
+    map.panTo({ lat: userLat, lng: userLon });
+    map.setZoom(16);
+  } else {
+    getLocation();
+  }
+}
+
 function getLocation() {
   const el = document.getElementById('loc-status');
   if (!navigator.geolocation) return;
@@ -1218,8 +1261,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: MAP_CENTER[0], lng: MAP_CENTER[1] },
     zoom: 15, mapTypeControl: false, streetViewControl: false,
-    fullscreenControl: false,
-    zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_CENTER },
+    fullscreenControl: false, zoomControl: false,
   });
   infoWindow = new google.maps.InfoWindow();
   restaurants.forEach((r, idx) => {
