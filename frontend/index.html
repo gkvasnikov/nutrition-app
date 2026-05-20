@@ -1559,13 +1559,6 @@ function renderDish(d) {
   const conf = d.confidence || 'low';
   const price = d.price != null && d.price > 0 ? `<span class="macro macro-price">€${d.price.toFixed(2)}</span>` : '';
 
-  const score = d._score != null ? d._score : null;
-  const scoreCls = score == null ? '' :
-    score >= 86 ? 'excellent' : score >= 66 ? 'good' : score >= 40 ? 'fair' : 'poor';
-  const scorePill = score != null
-    ? `<span class="macro macro-score-${scoreCls}">${score}%</span>`
-    : '';
-
   const weight = d.weight_grams_estimate || d.serving_g || null;
   const has100g = weight != null && d.calories != null;
   let cal_val, prot_val, fat_val, carb_val, unit_label;
@@ -1613,7 +1606,7 @@ function renderDish(d) {
         </div>
         ${d.description ? `<div class="dish-desc">${esc(d.description)}</div>` : ''}
       </div>
-      <div class="dish-macros">${scorePill}${cal}${prot}${fat}${carb}${unit_label}${price}</div>
+      <div class="dish-macros">${cal}${prot}${fat}${carb}${unit_label}${price}</div>
     </div>`;
 }
 
