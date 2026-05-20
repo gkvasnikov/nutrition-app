@@ -104,12 +104,16 @@ def scrape_menu(page: Page, slug: str) -> list[dict]:
             name_el = card.query_selector("[data-test-id='horizontal-item-card-header']")
             desc_el = card.query_selector("p")
             price_el = card.query_selector("[data-test-id='horizontal-item-card-price']")
+            img_el = card.query_selector("img")
 
             name = name_el.inner_text().strip() if name_el else ""
             desc = desc_el.inner_text().strip() if desc_el else ""
             price_raw = price_el.get_attribute("aria-label") or price_el.inner_text() if price_el else ""
             price = _parse_price(price_raw)
             weight = _extract_weight(name + " " + desc)
+            image_url = ""
+            if img_el:
+                image_url = img_el.get_attribute("src") or img_el.get_attribute("data-src") or ""
 
             if name:
                 items.append({
@@ -117,6 +121,7 @@ def scrape_menu(page: Page, slug: str) -> list[dict]:
                     "description": desc,
                     "price": price,
                     "weight": weight,
+                    "image_url": image_url,
                 })
         except Exception as exc:
             logging.error("Card parse error for %s: %s", slug, exc)

@@ -407,8 +407,8 @@
     }
     .restaurant-card.highlighted { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-mid); }
 
-    .card-photo-wrap { position: relative; flex-shrink: 0; overflow: hidden; }
-    .card-photo { width: 100%; height: 158px; object-fit: cover; display: block; background: var(--bg); }
+    .card-photo-wrap { position: relative; flex-shrink: 0; overflow: hidden; width: 68px; height: 68px; border-radius: 10px; }
+    .card-photo { width: 100%; height: 68px; object-fit: cover; display: block; background: var(--bg); }
 
     /* slider nav buttons */
     .photo-nav {
@@ -439,15 +439,14 @@
     }
     .photo-dot.active { background: white; }
 
-    /* desktop: photo left */
+    /* desktop: photo square in header */
     @media (min-width: 681px) {
-      .restaurant-card { flex-direction: row; align-items: stretch; }
-      .card-photo-wrap { width: 210px; }
-      .card-photo-wrap .card-photo { height: 100%; min-height: 170px; }
+      .card-photo-wrap { width: 80px; height: 80px; border-radius: 12px; }
+      .card-photo-wrap .card-photo { height: 80px; }
     }
 
     .card-body { padding: 13px 15px; flex: 1; min-width: 0; }
-    .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+    .card-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
     .card-header-left { flex: 1; min-width: 0; }
     .card-title-row { display: flex; align-items: center; gap: 6px; }
     .card-header-left h2 { font-size: .93rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.25; }
@@ -1504,9 +1503,9 @@ function renderCard({ r, dishes: rawDishes, dist, idx, cfg }) {
 
   return `
     <div class="restaurant-card" onmouseenter="highlightMarker(${idx})" onmouseleave="unhighlightMarker(${idx})">
-      ${photoWrap}
       <div class="card-body">
         <div class="card-header">
+          ${photoWrap}
           <div class="card-header-left">
             <div class="card-title-row">
               <h2 class="card-title-link" onclick="${r.google_place_id ? `openPlaceModal(${idx})` : `panToMarker(${idx})`}">${esc(r.name)}</h2>
@@ -1593,7 +1592,8 @@ function renderDish(d) {
     name: d.name, description: d.description || '',
     calories: d.calories, protein: d.protein, fat: d.fat, carbs: d.carbs,
     weight: d.weight_grams_estimate || d.serving_g || null,
-    price: d.price || null
+    price: d.price || null,
+    image_url: d.image_url || null
   }));
 
   return `
@@ -1697,28 +1697,35 @@ function openDishModal(rowEl) {
   const rCuisine = card?.querySelector('.card-meta')?.textContent?.trim() || '';
   const rPhoto = card?.querySelector('.card-photo')?.src || null;
 
-  // Image — show restaurant photo immediately, then try to replace with dish photo
+  // Image — use Wolt dish photo if available, else restaurant photo + Pexels fallback
   const imgEl = document.getElementById('dish-modal-img');
   const imgWrap = document.getElementById('dish-modal-img-wrap');
-  if (rPhoto) {
-    imgEl.src = rPhoto;
+  if (d.image_url) {
+    // Wolt dish photo: show immediately, no Pexels needed
+    imgEl.src = d.image_url;
     imgEl.style.display = 'block';
     imgWrap.style.display = 'none';
   } else {
-    imgEl.style.display = 'none';
-    imgWrap.style.display = 'flex';
+    // Show restaurant photo immediately, then try Pexels
+    if (rPhoto) {
+      imgEl.src = rPhoto;
+      imgEl.style.display = 'block';
+      imgWrap.style.display = 'none';
+    } else {
+      imgEl.style.display = 'none';
+      imgWrap.style.display = 'flex';
+    }
+    fetch(`/api/dish-photo?name=${encodeURIComponent(d.name)}`)
+      .then(r => r.json())
+      .then(data => {
+        if (data.url) {
+          imgEl.src = data.url;
+          imgEl.style.display = 'block';
+          imgWrap.style.display = 'none';
+        }
+      })
+      .catch(() => {});
   }
-  // Async: fetch dish-specific photo and replace if found
-  fetch(`/api/dish-photo?name=${encodeURIComponent(d.name)}`)
-    .then(r => r.json())
-    .then(data => {
-      if (data.url) {
-        imgEl.src = data.url;
-        imgEl.style.display = 'block';
-        imgWrap.style.display = 'none';
-      }
-    })
-    .catch(() => {});
 
   document.getElementById('dish-modal-restaurant').textContent = rName;
   const w = d.weight || null;
