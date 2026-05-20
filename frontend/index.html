@@ -150,18 +150,18 @@
 
       #sheet-scroll {
         flex: 1; overflow-y: hidden; overflow-x: hidden;
-        padding: 0 14px 80px;
+        padding: 0 14px 120px;
         -webkit-overflow-scrolling: touch;
-        max-width: 100%;
+        overscroll-behavior: none;
       }
 
       .results-header {
-        margin: 0 -14px; padding-left: 14px; padding-right: 14px;
+        margin: 0; padding-left: 0; padding-right: 0;
         background: #fff; flex-wrap: wrap; gap: 6px;
       }
       .results-header #status-bar { flex-basis: 100%; }
       .results-header-row2 {
-        margin: 0 -14px; padding-left: 14px; padding-right: 14px;
+        margin: 0; padding-left: 0; padding-right: 0;
         background: #fff;
       }
 
@@ -172,10 +172,13 @@
         overflow: hidden;
       }
 
-      /* Safe area: extend sheet background into iPhone home-indicator zone
-         so there's no gap, and scroll content isn't hidden behind nav bar */
-      #list-panel {
-        padding-bottom: env(safe-area-inset-bottom);
+      /* Make bottom of panel transparent so the map shows behind the Safari toolbar
+         instead of the white sheet background leaking into browser chrome */
+      #list-panel { background: transparent; }
+      #sheet-handle { background: #fff; }
+      #sheet-scroll {
+        background: #fff;
+        margin-bottom: 90px; /* leaves 90px transparent zone at panel bottom → map visible behind toolbar */
       }
     }
 
@@ -184,7 +187,7 @@
     @media (max-width: 680px) {
       #map-float-btn {
         display: flex; align-items: center; gap: 7px;
-        position: fixed; bottom: calc(30px + env(safe-area-inset-bottom)); left: 50%;
+        position: fixed; bottom: 84px; left: 50%;
         transform: translateX(-50%);
         z-index: 30;
         background: #1d1d1f; color: #fff;
@@ -252,7 +255,7 @@
     .profile-section { padding-top: 16px; margin-bottom: 10px; }
     .profile-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
 
-    .toggle-group { display: flex; background: rgba(0,0,0,.06); border-radius: 10px; padding: 2px; gap: 2px; }
+    .toggle-group { display: flex; background: rgba(0,0,0,.06); border-radius: 10px; padding: 2px; gap: 2px; flex-wrap: wrap; }
     .toggle-btn {
       font-size: .74rem; font-weight: 500; padding: 5px 13px; border-radius: 8px;
       border: none; background: transparent; color: var(--muted);
@@ -503,6 +506,10 @@
     .macro-fat   { background: #fffbeb; color: #b45309; }
     .macro-carb  { background: #f0fdf4; color: #166534; }
     .macro-price { background: none; color: #111; font-weight: 500; }
+    .macro-score-excellent { background: #d1fae5; color: #065f46; }
+    .macro-score-good      { background: #dcfce7; color: #15803d; }
+    .macro-score-fair      { background: #fef9c3; color: #a16207; }
+    .macro-score-poor      { background: #fee2e2; color: #b91c1c; }
     .unit-note { font-size: .6rem; color: var(--muted); align-self: center; white-space: nowrap; }
 
     /* Confidence dot */
@@ -1075,6 +1082,43 @@ function applyFilter(d, r, cfg) {
       && carb >= cfg.carbMin && carb <= cfg.carbMax;
 }
 
+// Механический рейтинг соответствия блюда активным фильтрам (0–100 или null если фильтры не заданы)
+function dishFitScore(d, cfg) {
+  const filters = [];
+  const cal  = d.calories  ?? 0;
+  const prot = d.protein   ?? 0;
+  const fat  = d.fat       ?? 0;
+  const carb = d.carbs     ?? 0;
+
+  // Calories: 100 в центре диапазона, 0 на краях
+  if (cfg.calMin > 0 || cfg.calMax < 1500) {
+    const range  = cfg.calMax - cfg.calMin;
+    const center = (cfg.calMin + cfg.calMax) / 2;
+    const s = range > 0 ? Math.max(0, 100 - 100 * Math.abs(cal - center) / (range / 2)) : 100;
+    filters.push({ w: 3, s });
+  }
+
+  // Protein: 0% на уровне минимума, 100% при 2× минимума и выше
+  if (cfg.protMin > 0) {
+    const s = Math.min(100, Math.max(0, 100 * (prot - cfg.protMin) / Math.max(cfg.protMin, 1)));
+    filters.push({ w: 2, s });
+  }
+
+  // Fat: ниже — лучше. 100% при fat=0, 0% при fat=fatMax
+  if (cfg.fatMax < 100) {
+    filters.push({ w: 2, s: Math.max(0, 100 - 100 * fat / cfg.fatMax) });
+  }
+
+  // Carbs: ниже — лучше. 100% при carb=0, 0% при carb=carbMax
+  if (cfg.carbMax < 200) {
+    filters.push({ w: 2, s: Math.max(0, 100 - 100 * carb / cfg.carbMax) });
+  }
+
+  if (!filters.length) return null;
+  const totalW = filters.reduce((a, f) => a + f.w, 0);
+  return Math.round(filters.reduce((a, f) => a + f.w * f.s, 0) / totalW);
+}
+
 function applyDefaults(d) {
   const set = (id, val) => { document.getElementById(id).value = val; };
   set('s-cal-min',  d.calMin);  set('s-cal-max',  d.calMax);
@@ -1374,7 +1418,7 @@ function renderResults() {
   updatePeekLabel(matched.length);
 
   document.getElementById('results').innerHTML = matched.length
-    ? matched.map(m => renderCard(m)).join('') : '';
+    ? matched.map(m => renderCard({ ...m, cfg })).join('') : '';
 }
 
 const PIN_SVG = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
@@ -1402,7 +1446,18 @@ function getOpenStatus(oh) {
   return { isOpen, hoursText };
 }
 
-function renderCard({ r, dishes, dist, idx }) {
+function renderCard({ r, dishes: rawDishes, dist, idx, cfg }) {
+  // Сортировать блюда по fit score если активны какие-либо фильтры
+  const hasFilters = cfg && (
+    cfg.calMin > 0 || cfg.calMax < 1500 ||
+    cfg.protMin > 0 || cfg.fatMax < 100 || cfg.carbMax < 200
+  );
+  const dishes = hasFilters
+    ? [...rawDishes]
+        .map(d => ({ ...d, _score: dishFitScore(d, cfg) }))
+        .sort((a, b) => (b._score ?? 0) - (a._score ?? 0))
+    : rawDishes;
+
   const MAX = 5, expanded = expandedCards[idx], shown = expanded ? dishes : dishes.slice(0, MAX);
   const cuisine = formatCuisine(r.cuisine);
   const distText = dist != null ? (dist < 1000 ? dist+'м' : (dist/1000).toFixed(1)+' км') : '';
@@ -1464,7 +1519,7 @@ function renderCard({ r, dishes, dist, idx }) {
           </div>
           <div class="card-meta">${metaParts.join(' · ')}${orderLink}</div>
         </div>
-        <div class="dishes-list" id="card-${idx}">${shown.map(renderDish).join('')}</div>
+        <div class="dishes-list" id="card-${idx}">${shown.map(d => renderDish(d)).join('')}</div>
         ${dishes.length > MAX && !expanded
           ? `<div class="more-link" onclick="expandCard(${idx})">${dishes.length-MAX} more dishes</div>` : ''}
       </div>
@@ -1503,6 +1558,13 @@ function onSearch() {
 function renderDish(d) {
   const conf = d.confidence || 'low';
   const price = d.price != null && d.price > 0 ? `<span class="macro macro-price">€${d.price.toFixed(2)}</span>` : '';
+
+  const score = d._score != null ? d._score : null;
+  const scoreCls = score == null ? '' :
+    score >= 86 ? 'excellent' : score >= 66 ? 'good' : score >= 40 ? 'fair' : 'poor';
+  const scorePill = score != null
+    ? `<span class="macro macro-score-${scoreCls}">${score}%</span>`
+    : '';
 
   const weight = d.weight_grams_estimate || d.serving_g || null;
   const has100g = weight != null && d.calories != null;
@@ -1551,7 +1613,7 @@ function renderDish(d) {
         </div>
         ${d.description ? `<div class="dish-desc">${esc(d.description)}</div>` : ''}
       </div>
-      <div class="dish-macros">${cal}${prot}${fat}${carb}${unit_label}${price}</div>
+      <div class="dish-macros">${scorePill}${cal}${prot}${fat}${carb}${unit_label}${price}</div>
     </div>`;
 }
 
